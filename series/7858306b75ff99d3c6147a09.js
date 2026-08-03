@@ -1,0 +1,1 @@
+window.GALLERY_SERIES_CACHE=window.GALLERY_SERIES_CACHE||{};window.GALLERY_SERIES_CACHE["204"]=window.GALLERY_SERIES_CACHE["204"]||{};window.GALLERY_SERIES_CACHE["204"]["2023"]=[{"date":"2023-03-31","value":290.4188},{"date":"2023-06-30","value":176.3413},{"date":"2023-09-30","value":367.2645},{"date":"2023-12-31","value":216.7901}];

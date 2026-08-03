@@ -1,0 +1,1 @@
+window.GALLERY_SERIES_CACHE=window.GALLERY_SERIES_CACHE||{};window.GALLERY_SERIES_CACHE["269"]=window.GALLERY_SERIES_CACHE["269"]||{};window.GALLERY_SERIES_CACHE["269"]["2010"]=[{"date":"2010-03-31","value":89125.0},{"date":"2010-06-30","value":190200.0},{"date":"2010-09-30","value":297992.9},{"date":"2010-12-31","value":419253.3}];

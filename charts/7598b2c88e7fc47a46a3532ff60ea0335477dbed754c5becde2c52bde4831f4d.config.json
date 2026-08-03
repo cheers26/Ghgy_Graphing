@@ -1,0 +1,78 @@
+{
+  "access_level": "public",
+  "base_end_date": "2026-06-30",
+  "base_start_date": "2010-01-01",
+  "chart_id": "10",
+  "chart_mode": "timeseries",
+  "domain": "未分类",
+  "end_date": "2026-06-30",
+  "end_mode": "fixed",
+  "indicator_ids": [
+    "276",
+    "282"
+  ],
+  "left_axis": {
+    "max": 55,
+    "min": -45,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": 58,
+    "min": 44,
+    "reverse": false
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "axis": "left",
+      "chart_type": "line",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "indicator_id": "282",
+      "label": "",
+      "ma_days": 1,
+      "series_key": "series-0",
+      "shift_days": 0,
+      "start_date": "1995-08-31",
+      "instance_id": "series-0",
+      "anchor_date": "1995-08-31"
+    },
+    {
+      "axis": "right",
+      "chart_type": "line",
+      "end_date": "2026-06-29",
+      "end_mode": "latest",
+      "indicator_id": "276",
+      "label": "",
+      "ma_days": 1,
+      "series_key": "series-1",
+      "shift_days": 0,
+      "start_date": "2009-11-27",
+      "instance_id": "series-1"
+    }
+  ],
+  "start_date": "2010-01-01",
+  "status": "published",
+  "title": "出口总值(美元计价):当月同比（春节平滑处理） vs 全球制造业PMI",
+  "date_tick_interval": "auto",
+  "left2_axis": {
+    "min": null,
+    "max": null
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null
+  },
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "series-0",
+    "reference_anchor_date": "1995-08-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}

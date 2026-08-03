@@ -1,0 +1,89 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-07-17",
+  "base_start_date": "2021-07-16",
+  "chart_id": "8",
+  "chart_mode": "timeseries",
+  "date_tick_interval": "6m",
+  "domain": "未分类",
+  "end_date": "2026-07-17",
+  "end_mode": "fixed",
+  "indicator_ids": [
+    "237",
+    "238"
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": 5,
+    "min": -1,
+    "reverse": false
+  },
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": 5,
+    "min": -1,
+    "reverse": false
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-07-17",
+      "end_mode": "latest",
+      "indicator_id": "237",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "series_key": "series-0",
+      "shift_days": 0,
+      "start_date": "2021-10-01",
+      "instance_id": "series-0",
+      "anchor_date": "2021-10-01"
+    },
+    {
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-07-17",
+      "end_mode": "latest",
+      "indicator_id": "238",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "series_key": "series-1",
+      "shift_days": 0,
+      "start_date": "2002-01-04",
+      "instance_id": "series-1"
+    }
+  ],
+  "start_date": "2021-07-16",
+  "status": "published",
+  "title": "中美同业拆借利差1年期 vs 中美国债利差1年期",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "series-0",
+    "reference_anchor_date": "2021-10-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}

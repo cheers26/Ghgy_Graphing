@@ -1,0 +1,69 @@
+{
+  "chart_id": "9",
+  "chart_mode": "timeseries",
+  "indicator_ids": [
+    "240",
+    "276"
+  ],
+  "title": "全球制造业PMI vs 全球短端利率同差（18国）",
+  "domain": "未分类",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-07-07",
+  "start_date": "2010-01-01",
+  "end_date": "2027-07-07",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": 40,
+    "max": 60,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -4,
+    "max": 7,
+    "reverse": true
+  },
+  "series": [
+    {
+      "series_key": "series-0",
+      "indicator_id": "276",
+      "axis": "left",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2009-01-01",
+      "end_date": "2026-06-29",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "series-0",
+      "anchor_date": "2009-01-01"
+    },
+    {
+      "series_key": "series-1",
+      "indicator_id": "240",
+      "axis": "right",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 365,
+      "start_date": "2007-06-22",
+      "end_date": "2026-07-07",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "series-1"
+    }
+  ],
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "series-0",
+    "reference_anchor_date": "2009-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}

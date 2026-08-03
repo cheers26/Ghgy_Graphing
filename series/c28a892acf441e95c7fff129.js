@@ -1,0 +1,1 @@
+window.GALLERY_SERIES_CACHE=window.GALLERY_SERIES_CACHE||{};window.GALLERY_SERIES_CACHE["291"]=window.GALLERY_SERIES_CACHE["291"]||{};window.GALLERY_SERIES_CACHE["291"]["2022"]=[{"date":"2022-03-31","value":4.1},{"date":"2022-06-30","value":2.4},{"date":"2022-09-30","value":2.5},{"date":"2022-12-31","value":1.2}];

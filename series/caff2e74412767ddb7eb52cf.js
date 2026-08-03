@@ -1,0 +1,1 @@
+window.GALLERY_SERIES_CACHE=window.GALLERY_SERIES_CACHE||{};window.GALLERY_SERIES_CACHE["65"]=window.GALLERY_SERIES_CACHE["65"]||{};window.GALLERY_SERIES_CACHE["65"]["2021"]=[{"date":"2021-12-31","value":5.1}];

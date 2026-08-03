@@ -1,0 +1,1 @@
+window.GALLERY_SERIES_CACHE=window.GALLERY_SERIES_CACHE||{};window.GALLERY_SERIES_CACHE["31"]=window.GALLERY_SERIES_CACHE["31"]||{};window.GALLERY_SERIES_CACHE["31"]["1992"]=[{"date":"1992-02-29","value":-1.4}];

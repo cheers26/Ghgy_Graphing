@@ -1,0 +1,123 @@
+{
+  "chart_id": "0",
+  "chart_mode": "timeseries",
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "18",
+    "16",
+    "28",
+    "31"
+  ],
+  "title": "M1(货币):同比 vs M2(货币和准货币):同比 vs 中国:产量:汽车:累计同比 vs 中国:产量:集成电路:当月同比",
+  "domain": "商品",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-06-30",
+  "start_date": "2010-01-01",
+  "end_date": "2026-06-30",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "series_key": "series-0",
+      "indicator_id": "16",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1979-01-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "series-0",
+      "anchor_date": "1979-01-31"
+    },
+    {
+      "series_key": "series-1",
+      "indicator_id": "18",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1991-12-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "series-1"
+    },
+    {
+      "series_key": "series-2",
+      "indicator_id": "28",
+      "axis": "left2",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1989-02-28",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "series-2"
+    },
+    {
+      "series_key": "series-3",
+      "indicator_id": "31",
+      "axis": "right2",
+      "chart_type": "line",
+      "color": "#9467bd",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1992-02-29",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "series-3"
+    }
+  ],
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "series-0",
+    "reference_anchor_date": "1979-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}

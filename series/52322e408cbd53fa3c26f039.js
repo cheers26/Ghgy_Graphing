@@ -1,0 +1,1 @@
+window.GALLERY_SERIES_CACHE=window.GALLERY_SERIES_CACHE||{};window.GALLERY_SERIES_CACHE["204"]=window.GALLERY_SERIES_CACHE["204"]||{};window.GALLERY_SERIES_CACHE["204"]["2018"]=[{"date":"2018-03-31","value":84.7974},{"date":"2018-06-30","value":152.771},{"date":"2018-09-30","value":240.5451},{"date":"2018-12-31","value":178.1157}];

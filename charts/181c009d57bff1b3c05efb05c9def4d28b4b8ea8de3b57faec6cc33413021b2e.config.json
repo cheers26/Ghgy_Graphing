@@ -1,0 +1,69 @@
+{
+  "chart_id": "11",
+  "chart_mode": "timeseries",
+  "indicator_ids": [
+    "142",
+    "166"
+  ],
+  "title": "期货官方价:LME3个月铜 vs LME:铜:投资基金多头持仓:总计:持仓量",
+  "domain": "未分类",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2018-01-01",
+  "base_end_date": "2026-07-17",
+  "start_date": "2018-01-01",
+  "end_date": "2026-07-17",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "series_key": "series-0",
+      "indicator_id": "166",
+      "axis": "left",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2026-07-15",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "series-0",
+      "anchor_date": "2010-01-01"
+    },
+    {
+      "series_key": "series-1",
+      "indicator_id": "142",
+      "axis": "right",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2026-07-10",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "series-1"
+    }
+  ],
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "series-0",
+    "reference_anchor_date": "2010-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}

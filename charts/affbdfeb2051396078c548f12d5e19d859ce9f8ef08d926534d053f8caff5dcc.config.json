@@ -1,0 +1,90 @@
+{
+  "chart_id": "5",
+  "chart_mode": "timeseries",
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "205",
+    "248"
+  ],
+  "title": "期货收盘价(活跃):COMEX黄金 vs 美国:国债实际收益率:10年",
+  "domain": "宏观",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2025-01-01",
+  "base_end_date": "2026-07-24",
+  "start_date": "2025-01-01",
+  "end_date": "2026-07-24",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": 3000,
+    "max": 5500,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 1.6,
+    "max": 2.4,
+    "reverse": true
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "series_key": "series-0",
+      "indicator_id": "205",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1990-01-03",
+      "end_date": "2026-07-24",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "series-0",
+      "anchor_date": "1990-01-03"
+    },
+    {
+      "series_key": "series-1",
+      "indicator_id": "248",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2003-01-02",
+      "end_date": "2026-07-15",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "series-1"
+    }
+  ],
+  "preview_renderer": "plotly",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "series-0",
+    "reference_anchor_date": "1990-01-03",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}
