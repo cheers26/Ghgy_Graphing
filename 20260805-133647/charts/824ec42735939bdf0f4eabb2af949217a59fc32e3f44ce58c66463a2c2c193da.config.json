@@ -1,0 +1,97 @@
+{
+  "chart_id": "PC-1C6603ED53C5E50A3FAC",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1785814148140-5496ebe790cdc8",
+    "reference_anchor_date": "2015-11-25",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "3m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-DBB9B0978E38C27047F7",
+    "PI-B581ABCA105E4FF83666"
+  ],
+  "indicator_combo_signature": "DUAL::PI-DBB9B0978E38C27047F7|PI-B581ABCA105E4FF83666",
+  "title": "期货收盘价(连续):WTI原油:NYMEX vs 美国:国债收益率:10年",
+  "domain": "宏观",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2022-07-30",
+  "base_end_date": "2026-07-31",
+  "start_date": "2022-07-30",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": 50,
+    "max": 120,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 3,
+    "max": 5,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785814148140-5496ebe790cdc8",
+      "series_key": "SI-1785814148140-5496ebe790cdc8",
+      "indicator_id": "PI-DBB9B0978E38C27047F7",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2015-11-25",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "2015-11-25",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785814230429-0d1b4f0e79ec5",
+      "series_key": "SI-1785814230429-0d1b4f0e79ec5",
+      "indicator_id": "PI-B581ABCA105E4FF83666",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1953-04-30",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ]
+}

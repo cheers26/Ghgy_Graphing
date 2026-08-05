@@ -1,0 +1,72 @@
+{
+  "chart_id": "PC-06D73FCFA8AE4ED954CB",
+  "chart_mode": "timeseries",
+  "indicator_ids": [
+    "PI-918CB91AD5215D0410FE",
+    "PI-B62431B51906F191DB1B"
+  ],
+  "indicator_combo_signature": "DUAL::PI-918CB91AD5215D0410FE|PI-B62431B51906F191DB1B",
+  "title": "期货收盘价(电子盘):LME3个月铜 vs 中国:城镇储户问卷调查:占未来房价预期比重:\"上涨\"",
+  "domain": "未分类",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2015-01-01",
+  "base_end_date": "2026-07-15",
+  "start_date": "2015-01-01",
+  "end_date": "2026-07-15",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "series_key": "S-1784516042120-20cdb2663646e",
+      "indicator_id": "PI-918CB91AD5215D0410FE",
+      "axis": "left",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2026-07-15",
+      "end_mode": "latest",
+      "label": "",
+      "color": "#0000ff",
+      "instance_id": "S-1784516042120-20cdb2663646e",
+      "anchor_date": "2010-01-01"
+    },
+    {
+      "series_key": "S-1784516049326-65df5e114715e8",
+      "indicator_id": "PI-B62431B51906F191DB1B",
+      "axis": "right",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2025-12-31",
+      "end_mode": "latest",
+      "label": "",
+      "color": "#ff0000",
+      "instance_id": "S-1784516049326-65df5e114715e8"
+    }
+  ],
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1784516042120-20cdb2663646e",
+    "reference_anchor_date": "2010-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}

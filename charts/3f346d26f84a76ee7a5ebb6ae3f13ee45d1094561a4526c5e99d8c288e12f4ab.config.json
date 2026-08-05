@@ -1,0 +1,90 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-07-17",
+  "base_start_date": "2021-07-16",
+  "chart_id": "PC-FCA065D415C6BCDB37B4",
+  "chart_mode": "timeseries",
+  "date_tick_interval": "6m",
+  "domain": "未分类",
+  "end_date": "2026-07-17",
+  "end_mode": "fixed",
+  "indicator_combo_signature": "DUAL::PI-0CDE5FC691B4080ED328|PI-2D6F08FAAD941CD4181E",
+  "indicator_ids": [
+    "PI-0CDE5FC691B4080ED328",
+    "PI-2D6F08FAAD941CD4181E"
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": 5,
+    "min": -1,
+    "reverse": false
+  },
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": 5,
+    "min": -1,
+    "reverse": false
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-07-17",
+      "end_mode": "latest",
+      "indicator_id": "PI-0CDE5FC691B4080ED328",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "series_key": "S-1785220558978-c4681647f57b",
+      "shift_days": 0,
+      "start_date": "2021-10-01",
+      "instance_id": "S-1785220558978-c4681647f57b",
+      "anchor_date": "2021-10-01"
+    },
+    {
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-07-17",
+      "end_mode": "latest",
+      "indicator_id": "PI-2D6F08FAAD941CD4181E",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "series_key": "S-1785220558978-c332ab1f71bab8",
+      "shift_days": 0,
+      "start_date": "2002-01-04",
+      "instance_id": "S-1785220558978-c332ab1f71bab8"
+    }
+  ],
+  "start_date": "2021-07-16",
+  "status": "published",
+  "title": "中美同业拆借利差1年期 vs 中美国债利差1年期",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1785220558978-c4681647f57b",
+    "reference_anchor_date": "2021-10-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}

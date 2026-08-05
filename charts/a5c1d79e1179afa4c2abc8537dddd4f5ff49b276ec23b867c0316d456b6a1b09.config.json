@@ -1,0 +1,115 @@
+{
+  "chart_id": "PC-9E23A9B426CFB53D9AB2",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1785822179497-02880051dd5538",
+    "reference_anchor_date": "1990-01-03",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "2m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-E1974C05075E0988DAD0",
+    "PI-1812CFBA9C7052B83487",
+    "PI-9D0EFE466C1AD86C76A6"
+  ],
+  "indicator_combo_signature": "PI-E1974C05075E0988DAD0|PI-1812CFBA9C7052B83487|PI-9D0EFE466C1AD86C76A6",
+  "title": "花旗经济意外指数:欧元区 vs 花旗经济意外指数:美国 vs 花旗经济意外指数:中国",
+  "domain": "宏观",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2024-07-29",
+  "base_end_date": "2026-07-30",
+  "start_date": "2024-07-29",
+  "end_date": "2026-07-30",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": -80,
+    "max": 100,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -80,
+    "max": 100,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": -80,
+    "max": 100,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785822179497-02880051dd5538",
+      "series_key": "SI-1785822179497-02880051dd5538",
+      "indicator_id": "PI-9D0EFE466C1AD86C76A6",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#26890b",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2003-01-01",
+      "end_date": "2026-07-30",
+      "end_mode": "latest",
+      "anchor_date": "1990-01-03",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785822180289-e5a4ea262598e",
+      "series_key": "SI-1785822180289-e5a4ea262598e",
+      "indicator_id": "PI-E1974C05075E0988DAD0",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2003-01-01",
+      "end_date": "2026-07-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785822186239-b7b7f3922c4ed8",
+      "series_key": "SI-1785822186239-b7b7f3922c4ed8",
+      "indicator_id": "PI-1812CFBA9C7052B83487",
+      "axis": "left2",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2004-01-01",
+      "end_date": "2026-07-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ]
+}
