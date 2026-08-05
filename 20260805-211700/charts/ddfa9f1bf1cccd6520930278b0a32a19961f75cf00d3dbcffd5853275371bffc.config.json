@@ -1,0 +1,97 @@
+{
+  "chart_id": "PC-5C15BCDA02550E4D24F3",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1785829952800-1be11e73017248",
+    "reference_anchor_date": "1976-06-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-EB446D17874912FCB562",
+    "PI-2DD659DC37822BD22600"
+  ],
+  "indicator_combo_signature": "DUAL::PI-EB446D17874912FCB562|PI-2DD659DC37822BD22600",
+  "title": "美国:国债收益率:2年 vs 期货收盘价(活跃合约):COMEX黄金",
+  "domain": "宏观",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2024-07-30",
+  "base_end_date": "2026-07-31",
+  "start_date": "2024-07-30",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": true
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785829952800-1be11e73017248",
+      "series_key": "SI-1785829952800-1be11e73017248",
+      "indicator_id": "PI-EB446D17874912FCB562",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1976-06-01",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "1976-06-01",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785829980980-196dfc66fb49b8",
+      "series_key": "SI-1785829980980-196dfc66fb49b8",
+      "indicator_id": "PI-2DD659DC37822BD22600",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1990-01-03",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ]
+}

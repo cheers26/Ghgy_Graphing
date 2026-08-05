@@ -1,0 +1,97 @@
+{
+  "chart_id": "PC-FFB6692FF08BA5001F0B",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1785830714285-0f2bbd43e1b428",
+    "reference_anchor_date": "1962-01-02",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-D63D203C2C85D2526DE0",
+    "PI-34B859476B062622EB24"
+  ],
+  "indicator_combo_signature": "DUAL::PI-D63D203C2C85D2526DE0|PI-34B859476B062622EB24",
+  "title": "美国:国债收益率:1年 vs 美国:国债收益率:10年",
+  "domain": "宏观",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2026-01-01",
+  "base_end_date": "2026-08-03",
+  "start_date": "2026-01-01",
+  "end_date": "2026-08-03",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785830714285-0f2bbd43e1b428",
+      "series_key": "SI-1785830714285-0f2bbd43e1b428",
+      "indicator_id": "PI-D63D203C2C85D2526DE0",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1962-01-02",
+      "end_date": "2026-08-03",
+      "end_mode": "latest",
+      "anchor_date": "1962-01-02",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785830730185-db490fb4205db",
+      "series_key": "SI-1785830730185-db490fb4205db",
+      "indicator_id": "PI-34B859476B062622EB24",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1962-01-02",
+      "end_date": "2026-08-03",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ]
+}

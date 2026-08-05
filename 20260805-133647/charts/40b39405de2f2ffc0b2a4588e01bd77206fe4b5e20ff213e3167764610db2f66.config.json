@@ -1,0 +1,97 @@
+{
+  "chart_id": "PC-71D01E6AB0583BC24CE3",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1784193144007-a5069cb34aa808",
+    "reference_anchor_date": "2000-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-8015FF18E2F2515CDBAB",
+    "PI-FF8D533EDBF04885971E"
+  ],
+  "indicator_combo_signature": "DUAL::PI-8015FF18E2F2515CDBAB|PI-FF8D533EDBF04885971E",
+  "title": "美国制造业PMIvs新订单/自有库存",
+  "domain": "制造业",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2000-01-01",
+  "base_end_date": "2026-06-30",
+  "start_date": "2000-01-01",
+  "end_date": "2026-08-29",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "S-1784193144007-a5069cb34aa808",
+      "series_key": "S-1784193144007-a5069cb34aa808",
+      "indicator_id": "PI-FF8D533EDBF04885971E",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2000-01-01",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "2000-01-01",
+      "label": ""
+    },
+    {
+      "instance_id": "S-1784193162565-ec407b8337c36",
+      "series_key": "S-1784193162565-ec407b8337c36",
+      "indicator_id": "PI-8015FF18E2F2515CDBAB",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 60,
+      "start_date": "2000-01-01",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ]
+}

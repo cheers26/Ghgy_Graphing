@@ -1,0 +1,117 @@
+{
+  "chart_id": "PC-2236223E939111D3FF85",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1785907099033-040caef61c4ef8",
+    "reference_anchor_date": "2010-06-04",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-BC19A105BBAB74E20E8F",
+    "PI-EFB34D1C4C2928D5A7B7"
+  ],
+  "indicator_combo_signature": "DUAL::PI-BC19A105BBAB74E20E8F|PI-EFB34D1C4C2928D5A7B7",
+  "title": "美国:ISM:制造业PMI:新订单 vs 美国:ISM:制造业PMI:自有库存",
+  "domain": "油",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2016-07-30",
+  "base_end_date": "2026-07-31",
+  "start_date": "2016-07-30",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785907099033-040caef61c4ef8",
+      "series_key": "SI-1785907099033-040caef61c4ef8",
+      "indicator_id": "PI-BC19A105BBAB74E20E8F",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1948-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "2010-06-04",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785907125090-2c63b454618e7",
+      "series_key": "SI-1785907125090-2c63b454618e7",
+      "indicator_id": "PI-EFB34D1C4C2928D5A7B7",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1948-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ]
+}
