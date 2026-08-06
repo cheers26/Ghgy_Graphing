@@ -1,0 +1,107 @@
+{
+  "chart_id": "PC-7B1B539D5354E6FAAB36",
+  "chart_mode": "seasonal",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1785984265258-dd22dd15869c4",
+    "reference_anchor_date": "1976-06-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-55EC2F3C4BB671D7CD0B"
+  ],
+  "indicator_combo_signature": "PI-55EC2F3C4BB671D7CD0B",
+  "title": "期货成交量(活跃):NYMEX RBOB汽油",
+  "domain": "油",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2021-08-03",
+  "base_end_date": "2026-08-05",
+  "start_date": "2021-08-03",
+  "end_date": "2026-08-05",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2022
+  ],
+  "seasonal_highlight_years": [
+    2026
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021
+  ],
+  "seasonal_show_average": true,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5.0,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5.0,
+  "seasonal_colors": {
+    "2022": "#23cf17",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": 60000,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785984265258-dd22dd15869c4",
+      "series_key": "SI-1785984265258-dd22dd15869c4",
+      "indicator_id": "PI-55EC2F3C4BB671D7CD0B",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 20,
+      "shift_days": 0,
+      "start_date": "2021-03-03",
+      "end_date": "2026-08-05",
+      "end_mode": "latest",
+      "anchor_date": "1976-06-01",
+      "label": ""
+    }
+  ],
+  "visual_profile": "research_readable_v1",
+  "visual_profile_version": "V1.55",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "categories": [
+    "油"
+  ]
+}
