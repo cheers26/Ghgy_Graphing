@@ -1,0 +1,97 @@
+{
+  "chart_id": "PC-73CBA5563227F816B716",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1785650717859-2e9e1dbda0cda",
+    "reference_anchor_date": "1997-08-07",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-019438674EFC15A56A03",
+    "PI-F5060D2AEF53B863A5D0"
+  ],
+  "indicator_combo_signature": "DUAL::PI-019438674EFC15A56A03|PI-F5060D2AEF53B863A5D0",
+  "title": "德国-美国2年期利差 vs 欧元兑美元",
+  "domain": "汇率",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2020-01-01",
+  "base_end_date": "2026-07-31",
+  "start_date": "2020-01-01",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "S-1785650717859-2e9e1dbda0cda",
+      "series_key": "S-1785650717859-2e9e1dbda0cda",
+      "indicator_id": "PI-019438674EFC15A56A03",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1997-08-07",
+      "end_date": "2026-07-24",
+      "end_mode": "latest",
+      "anchor_date": "1997-08-07",
+      "label": ""
+    },
+    {
+      "instance_id": "S-1785650717859-9e9bcf527a4b18",
+      "series_key": "S-1785650717859-9e9bcf527a4b18",
+      "indicator_id": "PI-F5060D2AEF53B863A5D0",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1975-01-02",
+      "end_date": "2026-07-15",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ]
+}

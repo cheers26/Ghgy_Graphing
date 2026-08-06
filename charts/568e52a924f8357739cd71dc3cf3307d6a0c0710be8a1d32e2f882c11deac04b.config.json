@@ -1,0 +1,72 @@
+{
+  "chart_id": "PC-D023FE93DA27900600C7",
+  "chart_mode": "timeseries",
+  "indicator_ids": [
+    "PI-F197D24A65563EED797F",
+    "PI-D77CC6B6AC6220A01056"
+  ],
+  "indicator_combo_signature": "DUAL::PI-F197D24A65563EED797F|PI-D77CC6B6AC6220A01056",
+  "title": "美国铝和有色金属新订单同比vs韩国出口金额同比",
+  "domain": "商品",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-06-30",
+  "start_date": "2010-01-01",
+  "end_date": "2026-08-29",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -30,
+    "max": 90,
+    "reverse": false
+  },
+  "series": [
+    {
+      "series_key": "S-1784193851841-00f68a9856b3e",
+      "indicator_id": "PI-F197D24A65563EED797F",
+      "axis": "left",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 60,
+      "start_date": "2010-01-01",
+      "end_date": "2026-05-31",
+      "end_mode": "latest",
+      "label": "",
+      "color": "#0000ff",
+      "instance_id": "S-1784193851841-00f68a9856b3e",
+      "anchor_date": "2010-01-01"
+    },
+    {
+      "series_key": "S-1784193851841-943cda5cc15f5",
+      "indicator_id": "PI-D77CC6B6AC6220A01056",
+      "axis": "right",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "label": "",
+      "color": "#ff0000",
+      "instance_id": "S-1784193851841-943cda5cc15f5"
+    }
+  ],
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1784193851841-00f68a9856b3e",
+    "reference_anchor_date": "2010-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "chart_id": "PC-C65ABD9A15220374B30A",
+  "chart_mode": "timeseries",
+  "indicator_ids": [
+    "PI-11F8F0507772A73B2F6F",
+    "PI-4C64213F4807EC1BE8DF"
+  ],
+  "indicator_combo_signature": "DUAL::PI-11F8F0507772A73B2F6F|PI-4C64213F4807EC1BE8DF",
+  "title": "期货官方价:LME3个月铜 vs LME:铜:投资基金多头持仓:总计:持仓量",
+  "domain": "未分类",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2018-01-01",
+  "base_end_date": "2026-07-17",
+  "start_date": "2018-01-01",
+  "end_date": "2026-07-17",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "series_key": "S-1784517456486-08e635f982f9",
+      "indicator_id": "PI-4C64213F4807EC1BE8DF",
+      "axis": "left",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2026-07-15",
+      "end_mode": "latest",
+      "label": "",
+      "color": "#0000ff",
+      "instance_id": "S-1784517456486-08e635f982f9",
+      "anchor_date": "2010-01-01"
+    },
+    {
+      "series_key": "S-1784517494273-975604b3ea28c8",
+      "indicator_id": "PI-11F8F0507772A73B2F6F",
+      "axis": "right",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2026-07-10",
+      "end_mode": "latest",
+      "label": "",
+      "color": "#ff0000",
+      "instance_id": "S-1784517494273-975604b3ea28c8"
+    }
+  ],
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1784517456486-08e635f982f9",
+    "reference_anchor_date": "2010-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}
