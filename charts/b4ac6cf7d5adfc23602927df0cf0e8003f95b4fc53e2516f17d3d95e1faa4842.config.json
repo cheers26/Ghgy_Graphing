@@ -1,0 +1,125 @@
+{
+  "chart_id": "PC-320D6092651D5D60321A",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786327486400-c8d03f0b7ab1",
+    "reference_anchor_date": "1980-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "6m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-6C0D7A69942CB8818903",
+    "PI-8FF33CAD55D4AC7E2FA2",
+    "PI-FB03D5B1E2D504332F53"
+  ],
+  "indicator_combo_signature": "PI-6C0D7A69942CB8818903|PI-8FF33CAD55D4AC7E2FA2|PI-FB03D5B1E2D504332F53",
+  "title": "沪深300指数 vs M1(货币):同比 vs M2(货币和准货币):同比",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-08-07",
+  "start_date": "2010-01-01",
+  "end_date": "2026-08-07",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -5,
+    "max": 25,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": -5,
+    "max": 25,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": -5,
+    "max": 25,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786327486400-c8d03f0b7ab1",
+      "series_key": "SI-1786327486400-c8d03f0b7ab1",
+      "indicator_id": "PI-FB03D5B1E2D504332F53",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2002-01-04",
+      "end_date": "2026-08-07",
+      "end_mode": "latest",
+      "anchor_date": "1980-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786327650831-108acdcac9c488",
+      "series_key": "SI-1786327650831-108acdcac9c488",
+      "indicator_id": "PI-8FF33CAD55D4AC7E2FA2",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1979-01-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786328156849-59a2625604f87",
+      "series_key": "SI-1786328156849-59a2625604f87",
+      "indicator_id": "PI-6C0D7A69942CB8818903",
+      "axis": "right2",
+      "chart_type": "line",
+      "color": "#9467bd",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1991-12-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他",
+    "市场",
+    "宏观"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 20,
+    "date_tick_font_size": 15
+  }
+}
