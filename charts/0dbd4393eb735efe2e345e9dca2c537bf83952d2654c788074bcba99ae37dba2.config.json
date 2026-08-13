@@ -1,0 +1,105 @@
+{
+  "chart_id": "PC-DB59255F8845DD0FEAB9",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786416121547-0dd38ba1930d6",
+    "reference_anchor_date": "2014-07-28",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-E1CE68EB5D8C96B0C314",
+    "PI-EBB640F426A74F304C33"
+  ],
+  "indicator_combo_signature": "DUAL::PI-E1CE68EB5D8C96B0C314|PI-EBB640F426A74F304C33",
+  "title": "LME铜基金多头净持仓 vs 中国:制造业PMI",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2015-01-01",
+  "base_end_date": "2026-07-31",
+  "start_date": "2015-01-01",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": -20000,
+    "max": 110000,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 47,
+    "max": 53,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786416121547-0dd38ba1930d6",
+      "series_key": "SI-1786416121547-0dd38ba1930d6",
+      "indicator_id": "PI-E1CE68EB5D8C96B0C314",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2014-07-28",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "2014-07-28",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786416128822-ec056b24048ac8",
+      "series_key": "SI-1786416128822-ec056b24048ac8",
+      "indicator_id": "PI-EBB640F426A74F304C33",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2005-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

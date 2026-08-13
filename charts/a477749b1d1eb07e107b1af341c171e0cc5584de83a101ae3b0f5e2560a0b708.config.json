@@ -1,0 +1,105 @@
+{
+  "chart_id": "PC-1416437BB280ABFF546A",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786585795982-b1897780147b3",
+    "reference_anchor_date": "1952-11-30",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "6m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-FF6E666DDB4199EF1269",
+    "PI-26352236C4CD6484465A"
+  ],
+  "indicator_combo_signature": "DUAL::PI-FF6E666DDB4199EF1269|PI-26352236C4CD6484465A",
+  "title": "美国:密歇根大学消费者信心指数 vs 美国:PCE物价指数:当月同比",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "1960-01-01",
+  "base_end_date": "2026-07-31",
+  "start_date": "1960-01-01",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -2,
+    "max": 10,
+    "reverse": true
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786585795982-b1897780147b3",
+      "series_key": "SI-1786585795982-b1897780147b3",
+      "indicator_id": "PI-FF6E666DDB4199EF1269",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1952-11-30",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "1952-11-30",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786586175212-4a871f71487f9",
+      "series_key": "SI-1786586175212-4a871f71487f9",
+      "indicator_id": "PI-26352236C4CD6484465A",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 15
+  }
+}
