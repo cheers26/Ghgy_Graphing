@@ -1,0 +1,107 @@
+{
+  "chart_id": "PC-B35BE9F73E3FA317C5DA",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786331293314-ae4ef81bb95608",
+    "reference_anchor_date": "1980-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "6m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-79A43C5A98BEE3048299",
+    "PI-E1974C05075E0988DAD0"
+  ],
+  "indicator_combo_signature": "DUAL::PI-79A43C5A98BEE3048299|PI-E1974C05075E0988DAD0",
+  "title": "花旗经济意外指数:美国 vs 制造业PMI:原材料库存",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2016-08-06",
+  "base_end_date": "2026-08-07",
+  "start_date": "2016-08-06",
+  "end_date": "2026-09-26",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": 50,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 46,
+    "max": 50,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786331293314-ae4ef81bb95608",
+      "series_key": "SI-1786331293314-ae4ef81bb95608",
+      "indicator_id": "PI-E1974C05075E0988DAD0",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2003-01-01",
+      "end_date": "2026-08-06",
+      "end_mode": "latest",
+      "anchor_date": "1980-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786331446655-8c47ded2d6c28",
+      "series_key": "SI-1786331446655-8c47ded2d6c28",
+      "indicator_id": "PI-79A43C5A98BEE3048299",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 50,
+      "start_date": "2005-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他",
+    "市场",
+    "宏观"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 20,
+    "date_tick_font_size": 15
+  }
+}
