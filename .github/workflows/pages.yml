@@ -1,0 +1,76 @@
+name: Deploy GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify deployed release
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_SHA: ${{ github.sha }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.request
+
+          release_id = json.load(open("LATEST_RELEASE.json", encoding="utf-8"))["release_id"]
+          base = os.environ["PAGE_URL"].rstrip("/") + "/"
+          cache_key = os.environ["EXPECTED_SHA"][:16]
+          targets = {
+              "fixed_index": base + "?task14=" + cache_key,
+              "release_index": base + release_id + "/?task14=" + cache_key,
+              "fixed_release": base + "LATEST_RELEASE.json?task14=" + cache_key,
+              "date_release": base + release_id + "/RELEASE.json?task14=" + cache_key,
+          }
+          last_error = ""
+          for attempt in range(18):
+              try:
+                  for label, url in targets.items():
+                      request = urllib.request.Request(
+                          url, headers={"User-Agent": "ghgy-task14-pages-smoke"}
+                      )
+                      with urllib.request.urlopen(request, timeout=20) as response:
+                          body = response.read()
+                          if response.status != 200:
+                              raise RuntimeError(f"{label} HTTP {response.status}")
+                      if label in {"fixed_release", "date_release"}:
+                          payload = json.loads(body.decode("utf-8"))
+                          if payload.get("release_id") != release_id:
+                              raise RuntimeError(
+                                  f"{label} release_id={payload.get('release_id')}"
+                              )
+                  print(f"verified release {release_id}: " + ", ".join(targets))
+                  break
+              except Exception as exc:
+                  last_error = str(exc)
+                  if attempt == 17:
+                      raise SystemExit(
+                          f"deployed release verification failed: {last_error}"
+                      )
+                  time.sleep(10)
+          PY

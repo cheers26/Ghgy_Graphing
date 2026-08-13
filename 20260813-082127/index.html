@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <base href="../">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>国海工业研究图库</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="app.css?v=0c6bc031f848">
+  
+</head>
+<body class="public-readonly">
+  <header class="topbar">
+    <div><h1>国海工业研究图库</h1><p>数据管道 · 指标工厂 · 画图工作台 · 研究图库 · 组合图库 · 组合排版与导出</p></div>
+    <div class="system-status"><span id="systemStats">正在读取数据库…</span><span class="public-source-link">客户只读版</span></div>
+  </header>
+  <nav class="main-nav" aria-label="主导航">
+    <button data-view="gallery" class="nav-button active">研究图库（内置）</button>
+    <button data-view="my-gallery" class="nav-button">我的图库</button>
+    <button data-view="manual" class="nav-button">使用手册</button>
+    <button data-view="workbench" class="nav-button">临时试画</button>
+    <button data-view="factory" class="nav-button">草稿指标工厂</button>
+    
+    
+    <button data-view="compositionLibrary" class="nav-button">组合图库</button>
+    <button data-view="showcase" class="nav-button">组合排版与导出 <span id="showcaseCount">0</span></button>
+    
+  </nav>
+  <div class="public-mode-note">客户浏览版：可以搜索、筛选、放大、导出、临时试画，并在“草稿指标工厂”构建本机草稿指标。草稿只保存在当前浏览器，不能作为永久存储；清除网站数据、使用无痕模式或更换浏览器、设备时可能丢失。需要长期保留，请导出完整工作包并另行备份。客户草稿不会修改内置正式指标、正式图表或网站公开数据。</div>
+
+  <main>
+    <section id="customerWorkspacePanel" class="customer-workspace-panel panel" hidden aria-labelledby="customerWorkspaceHeading">
+      <div class="customer-workspace-heading">
+        <div><strong id="customerWorkspaceHeading">客户本机工作包</strong><span>正式公开内容为只读；指标、图片、文字和版式草稿只保存在本机浏览器</span></div>
+        <div class="customer-workspace-actions">
+          <button id="workspaceExport" class="primary" type="button">导出完整工作包</button>
+          <label class="workspace-file-button secondary">导入并预览工作包<input id="workspaceImportFile" type="file" accept=".zip,application/zip" multiple></label>
+          <button id="workspaceMergeRestore" class="secondary" type="button" disabled>合并恢复</button>
+          <button id="workspaceReplaceRestore" class="danger-button" type="button" disabled>清空后恢复</button>
+          <button id="workspacePersistStorage" class="text-button" type="button">提高浏览器保存稳定性</button>
+        </div>
+      </div>
+      <div id="customerStorageStatus" class="customer-storage-status" role="status">正在检查浏览器存储…</div>
+      <div id="customerWorkspaceStatus" class="customer-workspace-status" role="status" aria-live="polite">导入会先完成解析、校验和预览，不会立即写入。</div>
+      <p class="customer-storage-warning">无痕模式、清除网站数据、切换域名或更换设备会丢失未导出的草稿；请定期导出完整工作包。图片/PDF/数据成品导出与本工作包入口相互独立。</p>
+    </section>
+    <section id="galleryView" class="view active wb-contract gallery-organizer-v2">
+      <div>
+        <header class="gallery-search-toolbar-v4 panel" aria-label="图库搜索与筛选入口">
+          <label class="gallery-search-box-v4" for="gallerySearch"><span>搜索</span><input id="gallerySearch" type="search" placeholder="搜索图片名称或分类标签…" autocomplete="off"><small>支持名称与三大分类组合搜索</small></label>
+          <button id="galleryFilterToggle" class="wb-contract__button" type="button" aria-controls="galleryFilterDrawer" aria-expanded="false">筛选</button>
+        </header>
+        <header class="gallery-statbar-v2 panel" aria-label="图库统计">
+          <div><small>全部图片</small><strong id="galleryTotalCount">0</strong></div>
+          <div><small>筛选结果</small><strong id="galleryResultCount">0</strong></div>
+          <div><small>已选图片</small><strong id="gallerySelectedCount">0</strong></div>
+          <button id="openSuggestionReview" class="wb-contract__button" type="button">待补分类 <span id="pendingSuggestionCount" class="gallery-count-badge-v2">0</span></button>
+          <button id="openShowcase" class="wb-contract__button wb-contract__button--primary" type="button">查看已选</button>
+        </header>
+        <div class="gallery-layout-v2">
+        <div id="galleryFilterBackdrop" class="gallery-filter-backdrop-v2" hidden></div>
+        <aside id="galleryFilterDrawer" class="gallery-filter-drawer-v2 panel" hidden aria-label="图库分类筛选" aria-hidden="true">
+        <div class="gallery-filter-heading-v2"><div><strong>筛选</strong><span>同维度 OR · 不同维度 AND</span></div><button id="galleryFilterClose" class="wb-contract__button" type="button" aria-label="关闭筛选">×</button></div>
+        <details id="galleryKindFilter" class="gallery-dimension-group-v2 gallery-standard-filter-v3" data-gallery-control="galleryKind"><summary><span>图表类型</span><strong id="galleryKindSummary" data-gallery-control-summary>全部</strong></summary><div class="gallery-filter-control-actions-v3"><button type="button" class="wb-contract__button" data-gallery-select-all="galleryKind">全选</button><button type="button" class="wb-contract__button" data-gallery-clear-control="galleryKind">清空</button></div><div class="gallery-dimension-options-v2" data-gallery-control-options></div></details>
+        <select id="galleryKind" multiple hidden aria-hidden="true" tabindex="-1"><option value="single">单序列</option><option value="dual">双轴图</option><option value="triple">三轴图</option><option value="quad">四轴图</option><option value="multi">多序列单轴</option><option value="seasonal">季节性图</option><option value="seasonal_cny">季节性图（春节对齐）</option></select>
+        <details id="galleryAccessFilter" class="gallery-dimension-group-v2 gallery-standard-filter-v3" data-gallery-control="galleryAccess"><summary><span>公开权限</span><strong id="galleryAccessSummary" data-gallery-control-summary>全部</strong></summary><div class="gallery-filter-control-actions-v3"><button type="button" class="wb-contract__button" data-gallery-select-all="galleryAccess">全选</button><button type="button" class="wb-contract__button" data-gallery-clear-control="galleryAccess">清空</button></div><div class="gallery-dimension-options-v2" data-gallery-control-options></div></details>
+        <select id="galleryAccess" multiple hidden aria-hidden="true" tabindex="-1"><option value="public">公开交互及数据</option><option value="chart_only">只公开图表</option><option value="private">仅本地</option><option value="restricted">待确认授权</option><option value="browser_local">当前浏览器草稿</option></select>
+        <select id="galleryDomain" hidden aria-hidden="true">
+          <option value="">全部板块</option>
+          <option value="宏观">宏观</option><option value="铜">铜</option><option value="铝">铝</option>
+          <option value="锡">锡</option><option value="碳酸锂">碳酸锂</option><option value="汇率">汇率</option>
+          <option value="利率">利率</option><option value="其他">其他</option>
+        </select>
+        <div id="galleryDimensionFilters" class="gallery-dimension-filters-v2"></div>
+        <div class="gallery-filter-footer-v2"><span id="galleryCount" class="sidebar-result-count-v154"></span><button id="galleryClearFilters" class="wb-contract__button" type="button">清除筛选</button><button id="galleryFilterApply" class="wb-contract__button wb-contract__button--primary" type="button">查看结果</button></div>
+        </aside>
+        <div class="gallery-content-v2"><div id="galleryGrid" class="gallery-grid"></div><div id="galleryPager" class="gallery-pager"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <dialog id="galleryOrganizationDialog" class="wb-contract wb-contract__dialog gallery-organization-dialog-v2">
+      <form method="dialog" class="wb-contract__dialog-shell">
+        <header class="gallery-dialog-header-v2"><div><small>图片组织信息</small><h2 id="galleryOrganizationTitle">编辑分类</h2></div><button value="cancel" class="wb-contract__button" aria-label="关闭">×</button></header>
+        <div class="gallery-dialog-body-v2"><p>展开维度后多选；收起时仍显示已选分类。保存只改变图库组织信息，不重绘图片。</p><div id="galleryOrganizationFields"></div><div id="galleryOrganizationMessage" role="status"></div></div>
+        <footer class="wb-contract__drawer-footer"><button value="cancel" class="wb-contract__button">取消</button><button id="saveGalleryOrganization" value="default" class="wb-contract__button wb-contract__button--primary">保存分类</button></footer>
+      </form>
+    </dialog>
+
+    <dialog id="classificationSuggestionDialog" class="wb-contract wb-contract__dialog suggestion-dialog-v2">
+      <form method="dialog" class="wb-contract__dialog-shell">
+        <header class="gallery-dialog-header-v2"><div><small>人工确认队列</small><h2>待补分类</h2></div><button value="cancel" class="wb-contract__button" aria-label="关闭">×</button></header>
+        <div class="gallery-dialog-body-v2"><p>数据频率根据图片所用指标生成建议，均不会未经确认落库。</p><div id="classificationSuggestionList" class="suggestion-list-v2"></div><div id="classificationSuggestionMessage" role="status"></div></div>
+        <footer class="wb-contract__drawer-footer"><button value="cancel" class="wb-contract__button">关闭</button><button id="ignoreSuggestions" value="default" class="wb-contract__button">忽略所选</button><button id="acceptSuggestions" value="default" class="wb-contract__button wb-contract__button--primary">确认所选</button></footer>
+      </form>
+    </dialog>
+
+    <section id="workbenchView" class="view">
+      <div class="workspace">
+        <aside class="library panel">
+          <div class="section-heading"><div><strong>指标库</strong><span id="resultCount"></span><span id="workbenchSelectionStats">当前已选 0 个序列</span></div><button id="clearSelection" class="text-button">清空</button></div>
+          <input id="search" type="search" placeholder="搜索指标业务名称…" autocomplete="off">
+          <div class="filter-row"><select id="domainFilter"><option value="">全部领域</option></select><select id="frequencyFilter"><option value="">全部频率</option></select></div>
+          <div id="indicatorList" class="indicator-list"></div>
+          <button id="indicatorMore" class="secondary indicator-more" hidden>加载更多指标</button>
+        </aside>
+
+        <section class="canvas-column">
+          <section class="control-panel panel">
+            <div class="field"><label for="chartTitle">图表名称</label><input id="chartTitle" value="未命名图表"></div>
+            <div class="field"><label for="chartMode">图表模板</label><select id="chartMode"><option value="timeseries">普通时间序列</option><option value="seasonal">季节性图（1月1日—12月31日）</option><option value="seasonal_cny">季节性图（春节对齐）</option></select></div>
+            <div class="date-controls">
+              <div class="field"><label for="startDate">默认开始日期</label><input id="startDate" type="date"></div>
+              <div class="field"><label for="endDate">默认结束日期</label><input id="endDate" type="date"></div>
+              <div class="field"><label for="endMode">默认结束方式</label><select id="endMode"><option value="latest">画到最新数据</option><option value="common">共同最新日期</option><option value="fixed">固定日期</option></select></div>
+              <div class="field"><label for="dateTickInterval">日期标注间隔</label><select id="dateTickInterval"><option value="auto">自动</option><option value="1m">每1个月</option><option value="2m">每2个月</option><option value="3m">每3个月</option><option value="6m">每半年</option><option value="1y">每1年</option><option value="2y">每2年</option><option value="5y">每5年</option></select></div>
+            </div>
+            <div class="preset-row"><span>快捷范围</span><button data-years="1">1年</button><button data-years="2">2年</button><button data-years="3">3年</button><button data-years="5">5年</button><button data-years="10">10年</button><button data-years="all">全部</button><span id="effectiveRangeNote" class="effective-range-note"></span></div>
+            <div class="direction-controls" aria-label="坐标轴方向">
+              <span class="direction-label">轴方向</span>
+              <label class="axis-direction-toggle left-direction"><input id="leftReverse" type="checkbox"><span>左轴1逆序</span></label>
+              <label class="axis-direction-toggle left2-direction"><input id="left2Reverse" type="checkbox"><span>左轴2逆序</span></label>
+              <label class="axis-direction-toggle right-direction"><input id="rightReverse" type="checkbox"><span>右轴1逆序</span></label>
+              <label class="axis-direction-toggle right2-direction"><input id="right2Reverse" type="checkbox"><span>右轴2逆序</span></label>
+              <label class="compact-select">序列关系<select id="barMode"><option value="group">并列（保留各自坐标轴）</option><option value="shared">共用轴（统一到左轴1）</option></select></label>
+              <span class="direction-help">双轴可多线共轴；三、四轴模式每条线必须独占一根轴。</span>
+            </div>
+            <details class="display-style-panel-v154">
+              <summary><span><strong>图表文字样式</strong><small>研究可读版默认：图例 26、数字 23、日期 23</small></span><span id="displayStyleSummary">26 / 23 / 23px</span></summary>
+              <div class="display-style-controls-v154">
+                <label>图例字号<input id="legendFontSize" type="number" min="8" max="28" step="1" value="26"></label>
+                <label>坐标轴数字<input id="axisTickFontSize" type="number" min="8" max="28" step="1" value="23"></label>
+                <label>日期字号<input id="dateTickFontSize" type="number" min="8" max="28" step="1" value="23"></label>
+                <div class="display-style-presets-v154"><span>快捷样式</span><button type="button" data-font-preset="compact">紧凑</button><button type="button" data-font-preset="standard">标准</button><button type="button" data-font-preset="large">研究大字</button><button id="resetDisplayStyle" class="text-button" type="button">恢复研究默认</button></div>
+              </div>
+            </details>
+            <div id="seasonalControls" class="seasonal-controls" hidden>
+              <label>季节性形式<select id="seasonalStyle"><option value="lines">逐年线</option><option value="band">统计区间带</option></select></label>
+              <label><span id="seasonalPlotYearLabel">绘图年份（可跳跃多选）</span><select id="seasonalYears" multiple size="6"></select></label>
+              <label id="seasonalHighlightWrap" hidden>区间带上叠加的年份线<select id="seasonalHighlightYears" multiple size="6"></select></label>
+              <div class="seasonal-stat-sample" aria-label="统计样本设置">
+                <strong class="seasonal-stat-heading">统计样本</strong>
+                <label>模式<select id="seasonalStatMode"><option id="seasonalStatAutoOption" value="auto">自动（绘图年份剔除当年）</option><option value="custom">自定义年份</option></select></label>
+                <label class="seasonal-stat-years"><span id="seasonalStatYearLabel">统计年份（可跳跃多选）</span><select id="seasonalStatYears" multiple size="6"></select></label>
+                <button id="seasonalStatReset" class="secondary" type="button">恢复默认</button>
+                <span id="seasonalStatStatus" class="seasonal-stat-status" role="status"></span>
+              </div>
+              <div id="seasonalStats" class="seasonal-stats">
+                <div class="seasonal-basic-stats"><label><input id="seasonalShowAverage" type="checkbox" checked>平均线</label><label><input id="seasonalShowMedian" type="checkbox" checked>中位数线</label></div>
+                <div class="seasonal-extreme-styles" aria-label="最大最小值线样式">
+                  <div id="seasonalMaxStyle" class="seasonal-extreme-style"><label class="seasonal-stat-toggle"><input id="seasonalShowMax" type="checkbox">最大值线</label><label>最大值颜色<input id="seasonalMaxColor" type="color" value="#b91c1c" disabled></label><label>最大值粗细<input id="seasonalMaxLineWidth" type="number" min="0.5" max="8" step="0.1" value="5" disabled></label></div>
+                  <div id="seasonalMinStyle" class="seasonal-extreme-style"><label class="seasonal-stat-toggle"><input id="seasonalShowMin" type="checkbox">最小值线</label><label>最小值颜色<input id="seasonalMinColor" type="color" value="#1d4ed8" disabled></label><label>最小值粗细<input id="seasonalMinLineWidth" type="number" min="0.5" max="8" step="0.1" value="5" disabled></label></div>
+                </div>
+              </div>
+              <div class="seasonal-color-block"><span>年份线颜色</span><div id="seasonalColorControls" class="seasonal-color-controls"></div></div>
+              <span id="seasonalHelp" class="seasonal-help">绘图年份默认近5年，按住 Command 可选择不连续年份；统计样本独立控制参考线和统计带。</span>
+            </div>
+          </section>
+
+          <details id="timeAlignmentPanel" class="time-alignment-panel panel">
+            <summary><span><strong>参考时间轴错位叠加</strong><small>以参考序列的真实日历为横轴，将对比序列按期间进度映射到该日历</small></span><span id="timeAlignmentSummary">正常真实日期</span></summary>
+            <div class="time-alignment-body">
+              <div class="time-alignment-mode-row">
+                <label>横轴模式<select id="timeAlignmentMode"><option value="calendar">正常真实日期</option><option value="reference_overlay_v2">参考时间轴错位叠加</option></select></label>
+                <p id="timeAlignmentHelp">至少需要两个序列；可先使用“复制对比”建立第二个独立实例。</p>
+              </div>
+              <div id="referenceOverlayControls" class="reference-overlay-controls" hidden>
+                <label>参考序列<select id="referenceSeriesSelect"></select></label>
+                <label>参考锚点日期<input id="referenceAnchorDate" type="date"></label>
+                <label>对齐粒度<select id="alignmentGranularity"><option value="auto">自动</option><option value="day">日</option><option value="week">周</option><option value="month">月</option><option value="quarter">季</option><option value="year">年</option></select></label>
+                <p>默认横轴范围由参考序列的真实有效区间决定；对比序列超出该区间的映射部分不显示。</p>
+              </div>
+              <div id="timeAnchorCards" class="time-anchor-cards"></div>
+            </div>
+          </details>
+
+          <section class="chart-panel panel"><div id="emptyState">从左侧选择指标后即可画图。</div><div id="chart"></div><img id="canonicalChartImage" hidden alt="最后一次成功保存的规范图表"></section>
+
+          <section class="selected-panel panel">
+            <div class="section-heading"><strong>已选序列</strong><span>每条线可独立设置 MA、颜色、线型和粗细；双轴可多线共轴，三、四轴每线独占一轴</span></div>
+            <div id="selectedSeries" class="selected-series"></div>
+            <div id="axisSuggestion" class="axis-suggestion" hidden></div>
+          </section>
+
+          <section class="axis-panel panel">
+            <div class="axis-panel-heading">
+              <div><strong>坐标轴范围与显示单位</strong><span>左一 / 右一为内侧轴，左二 / 右二为外侧轴；仅显示已分配序列的坐标轴</span></div>
+              <span class="axis-geometry-hint"><i class="axis-dot left-dot"></i>左二　<i class="axis-dot left-inner-dot"></i>左一　｜　绘图区　｜　<i class="axis-dot right-inner-dot"></i>右一　<i class="axis-dot right-dot"></i>右二</span>
+            </div>
+            <div class="axis-range-grid">
+              <div class="axis-block left-axis">
+                <div class="axis-title"><span>左轴 1</span><small>blue · 内侧</small></div>
+                <div class="axis-fields"><label>最小值<input id="leftMin" inputmode="decimal" placeholder="自动"></label><label>最大值<input id="leftMax" inputmode="decimal" placeholder="自动"></label></div>
+                <div class="axis-unit-fields"><label>显示单位<select id="leftDisplayUnitMode"><option value="auto">自动（指标原单位）</option><option value="custom">自定义文字</option><option value="hidden">无单位</option></select></label><label id="leftDisplayUnitLabelWrap" hidden>自定义文字<input id="leftDisplayUnitLabel" maxlength="80" placeholder="例如：万吨"></label></div>
+              </div>
+              <div class="axis-block left2-axis">
+                <div class="axis-title"><span>左轴 2</span><small>green · 外侧</small></div>
+                <div class="axis-fields"><label>最小值<input id="left2Min" inputmode="decimal" placeholder="自动"></label><label>最大值<input id="left2Max" inputmode="decimal" placeholder="自动"></label></div>
+                <div class="axis-unit-fields"><label>显示单位<select id="left2DisplayUnitMode"><option value="auto">自动（指标原单位）</option><option value="custom">自定义文字</option><option value="hidden">无单位</option></select></label><label id="left2DisplayUnitLabelWrap" hidden>自定义文字<input id="left2DisplayUnitLabel" maxlength="80" placeholder="例如：万吨"></label></div>
+              </div>
+              <div class="axis-block right-axis">
+                <div class="axis-title"><span>右轴 1</span><small>red · 内侧</small></div>
+                <div class="axis-fields"><label>最小值<input id="rightMin" inputmode="decimal" placeholder="自动"></label><label>最大值<input id="rightMax" inputmode="decimal" placeholder="自动"></label></div>
+                <div class="axis-unit-fields"><label>显示单位<select id="rightDisplayUnitMode"><option value="auto">自动（指标原单位）</option><option value="custom">自定义文字</option><option value="hidden">无单位</option></select></label><label id="rightDisplayUnitLabelWrap" hidden>自定义文字<input id="rightDisplayUnitLabel" maxlength="80" placeholder="例如：万吨"></label></div>
+              </div>
+              <div class="axis-block right2-axis">
+                <div class="axis-title"><span>右轴 2</span><small>purple · 外侧</small></div>
+                <div class="axis-fields"><label>最小值<input id="right2Min" inputmode="decimal" placeholder="自动"></label><label>最大值<input id="right2Max" inputmode="decimal" placeholder="自动"></label></div>
+                <div class="axis-unit-fields"><label>显示单位<select id="right2DisplayUnitMode"><option value="auto">自动（指标原单位）</option><option value="custom">自定义文字</option><option value="hidden">无单位</option></select></label><label id="right2DisplayUnitLabelWrap" hidden>自定义文字<input id="right2DisplayUnitLabel" maxlength="80" placeholder="例如：万吨"></label></div>
+              </div>
+            </div>
+            <p class="axis-unit-notice">自定义单位只修改图片上的显示文字，不换算、不缩放任何数据；数据包仍保留指标原始单位。</p>
+            <div class="publish-block">
+              <section class="workbench-classification-editor-v2 wb-contract" aria-labelledby="workbenchClassificationHeading">
+                <header><div><strong id="workbenchClassificationHeading">图片分类</strong><span>与研究图库一致；展开三个维度后多选</span></div><button id="saveWorkbenchClassifications" class="wb-contract__button" type="button">单独保存分类</button></header>
+                <div id="workbenchClassificationFields" class="workbench-classification-fields-v2"></div>
+                <p id="workbenchClassificationStatus" role="status">分类独立保存，不进入图形参数，不生成图片版本。</p>
+              </section>
+              <div class="workbench-legacy-category-controls-v2" hidden aria-hidden="true">
+                <details id="chartCategoryDropdown"><summary><span>兼容分类</span><strong id="chartCategorySummary">其他</strong></summary><input id="chartCategorySearch"><div id="chartCategoryOptions"></div></details>
+                <select id="chartDomain"><option value="宏观">宏观</option><option value="铜">铜</option><option value="铝">铝</option><option value="锡">锡</option><option value="碳酸锂">碳酸锂</option><option value="汇率">汇率</option><option value="利率">利率</option><option value="其他" selected>其他</option></select>
+                <datalist id="domainOptions"></datalist><input id="newDomainName"><button id="addDomain" type="button">兼容新增</button>
+              </div>
+              <label>保存状态<select id="chartStatus"><option value="published" selected>正式发布</option><option value="draft">草稿</option></select></label>
+              <label>公开权限<select id="accessLevel"><option value="private">仅本地</option><option value="chart_only">只公开图表</option><option value="public" selected>公开交互及数据</option><option value="restricted">待确认授权</option></select></label>
+              <label class="chart-note-input">图片简易说明<textarea id="chartNote" rows="3" maxlength="4000" placeholder="可在这里录入研究说明；保存后仍可在图库卡片继续修改。"></textarea></label>
+              <div class="draft-export-block">
+                <label>导出草稿内容<select id="draftExportMode"><option value="image">仅图片</option><option value="note_bottom">图片＋文字（下方）</option><option value="note_right">图片＋文字（右侧）</option></select></label>
+                <label class="draft-label-last"><input id="draftLabelLast" type="checkbox"><span>标注末值</span></label>
+                <button id="exportDraft" class="secondary" type="button">导出草稿</button>
+              </div>
+              <button id="saveChart" class="primary">保存为本机草稿</button>
+            </div>
+          </section>
+          <div id="message" role="status"></div>
+        </section>
+      </div>
+    </section>
+
+    <section id="factoryView" class="view">
+      <div class="factory-layout">
+        <section class="factory-form panel">
+          <div class="section-heading"><strong>构建本机草稿指标</strong><span>仅保存在当前浏览器，可继续用于临时试画</span></div>
+          <div class="factory-fields">
+            <label>指标名称<input id="derivedName" placeholder="例如：铜金比"></label>
+            <label>基础变形<select id="derivedOperation"><option value="level" selected>原值</option><option value="yoy">同比（%）</option><option value="mom">环比（%）</option><option value="qoq">季比（%）</option><option value="change">较上期变化</option><option value="difference">差值 A-B</option><option value="ratio">比值 A/B</option><option value="sum">求和 A+B+…</option><option value="product">乘积 A×B×…</option><option value="custom">自定义公式</option></select></label>
+            <label>单位<input id="derivedUnit" placeholder="例如：%、点、倍"></label>
+            <label>所属板块<input id="derivedDomain" list="domainOptions" value="派生指标"></label>
+          </div>
+          <section class="factory-picker" aria-label="搜索并加入公式指标">
+            <label>搜索原始或派生指标<input id="derivedIndicatorSearch" type="search" placeholder="输入指标业务名称或板块，例如：CPI、铜…" autocomplete="off"></label>
+            <div id="derivedSearchResults" class="factory-search-results"></div>
+          </section>
+          <div class="section-heading formula-input-heading"><strong>公式输入</strong><span>每个输入可先做向后 MA；月频输入也可选择春节平滑，再执行日期归位、同比等数值变形</span></div>
+          <div id="derivedInputs" class="derived-inputs"></div>
+          <label class="formula-field">自定义公式<textarea id="derivedExpression" rows="4" placeholder="例如：(A-B)/C*100 + log(D)，变量名见上方公式输入"></textarea><span>允许括号、+ − × ÷、幂和常用数学函数；多指标按共同日期对齐。每个输入按“原始有效观测 → MA → 日期归位 → 数值变形 → 滞后 → 补值”的顺序参与公式。</span></label>
+          <section class="derived-alignment-controls" aria-labelledby="derivedAlignmentHeading">
+            <div class="derived-alignment-heading">
+              <strong id="derivedAlignmentHeading">数据对齐与输出频率</strong>
+              <span>每个输入独立设置；只向前使用已出现的值，不使用未来值回填。</span>
+            </div>
+            <div class="derived-alignment-options">
+              <div class="derived-fill-bulk" aria-label="批量设置输入补值方式">
+                <button id="derivedEnableAllFfill" class="text-button" type="button">全部输入启用普通 ffill</button>
+                <button id="derivedDisableAllFfill" class="text-button" type="button">全部输入关闭填充</button>
+              </div>
+              <label class="derived-switch"><input id="derivedTrim" type="checkbox"><span>计算后裁剪回最低频率</span></label>
+              <label id="derivedTrimAnchorField" class="derived-trim-anchor" hidden>裁剪锚点<select id="derivedTrimAnchor"></select></label>
+            </div>
+            <div id="derivedAlignmentHint" class="derived-alignment-hint" role="status">各输入默认保留原始日期且不填充，按共同日期精确交集计算。</div>
+          </section>
+          <details id="derivedAuditPanel" class="derived-audit-panel" hidden>
+            <summary><span><strong>最近5条数据核对</strong><small>只读 · 最近 5 个实际可计算观测</small></span><span id="derivedAuditStatus" role="status">等待完整配置</span></summary>
+            <div class="derived-audit-body">
+              <div id="derivedAuditMeta" class="derived-audit-meta"></div>
+              <div id="derivedAuditInputs" class="derived-audit-input-meta"></div>
+              <div id="derivedAuditNotice" class="derived-audit-notice" role="status"></div>
+              <div id="derivedAuditTableWrap" class="derived-audit-table-scroll" hidden>
+                <table class="derived-audit-table">
+                  <thead id="derivedAuditTableHead"></thead>
+                  <tbody id="derivedAuditTableBody"></tbody>
+                </table>
+              </div>
+            </div>
+          </details>
+          <div class="factory-actions"><button id="saveDerived" class="primary">生成本机草稿指标</button><span id="derivedMessage"></span></div>
+        </section>
+        <section class="factory-list panel"><div class="section-heading"><strong>正式指标与本机草稿</strong><span id="derivedCount">0 个</span></div><div id="derivedList"></div></section>
+      </div>
+    </section>
+
+    
+
+    
+
+    <section id="compositionLibraryView" class="view wb-contract composition-research-hub-v5">
+      <section id="showcaseLibraryPane" class="showcase-library-v4">
+        <header class="showcase-library-toolbar-v4 panel">
+          <div><small>长期跟踪与观看</small><h2>组合图库</h2><p>把一组图片作为一个研究主题持续跟踪；打开查看不更新时间，图片和文件夹文字彼此独立。</p></div>
+          <div class="showcase-library-actions-v4"><button id="showcaseLibraryActive" class="wb-contract__button wb-contract__button--primary" type="button">全部组合</button><button id="showcaseLibraryTrash" class="wb-contract__button" type="button">回收箱</button><button id="showcaseNewComposition" class="wb-contract__button" type="button">新建并去排版</button></div>
+        </header>
+        <div class="showcase-library-search-v5">
+          <label for="showcaseLibrarySearch"><span aria-hidden="true">⌕</span><input id="showcaseLibrarySearch" type="search" autocomplete="off" placeholder="搜索组合标题…" aria-label="搜索组合标题"></label>
+          <button id="showcaseLibrarySearchClear" class="wb-contract__button wb-contract__button--text" type="button" hidden>清空</button>
+          <div id="showcaseLibraryStatus" class="showcase-library-status-v4" role="status"></div>
+        </div>
+        <div class="showcase-folder-bar-v5" aria-label="组合文件夹">
+          <div id="showcaseFolderFilters" class="showcase-folder-filters-v5"></div>
+          <button id="showcaseNewFolder" class="wb-contract__button" type="button">新建文件夹</button>
+        </div>
+        <div id="showcaseCompositionGrid" class="showcase-composition-grid-v4"></div>
+      </section>
+
+      <section id="compositionResearchPane" class="composition-research-pane-v5" hidden>
+        <header class="composition-research-hero-v5 panel">
+          <div class="composition-research-heading-v5"><button id="compositionResearchBack" class="wb-contract__button" type="button">← 返回组合图库</button><div><small>组合研究台</small><h2 id="compositionResearchName">未命名组合</h2><p id="compositionResearchMeta">静态快速浏览；点击交互预览后才加载数据点。</p></div></div>
+          <div class="composition-research-actions-v5"><button id="compositionResearchRefresh" class="wb-contract__button" type="button">重新读取</button><button id="compositionResearchActivateAll" class="wb-contract__button wb-contract__button--primary" type="button">一键交互预览</button><button id="compositionResearchExport" class="wb-contract__button" type="button">去组合排版与导出 →</button></div>
+          <div id="compositionResearchBatchStatus" class="composition-research-batch-v6" role="status" hidden></div>
+          <div id="compositionResearchUpdateNotice" class="composition-research-update-v5" hidden></div>
+        </header>
+        <div class="composition-research-toolbar-v5 panel">
+          <div><button id="compositionResearchAll" class="wb-contract__button wb-contract__button--primary" type="button">全部图片</button><button id="compositionResearchNewer" class="wb-contract__button" type="button">有新版</button></div>
+          <span id="compositionResearchCount">0 张图片</span>
+          <p>图片布局与研究图库一致；文件夹标题和逐图文字只属于当前组合，不覆盖研究图库原始内容。</p>
+        </div>
+        <div id="compositionResearchGrid" class="composition-research-grid-v5"></div>
+      </section>
+    </section>
+
+
+    <section id="my-galleryView" class="view">
+      <div class="gallery-toolbar panel">
+        <input id="myGallerySearch" type="search" placeholder="搜索我的草稿图名或板块…">
+        <select id="myGalleryKind"><option value="">全部图表类型</option><option value="single">单序列</option><option value="dual">双轴图</option><option value="triple">三轴图</option><option value="quad">四轴图</option><option value="multi">多序列单轴</option><option value="seasonal">季节性图</option><option value="seasonal_cny">季节性图（春节对齐）</option></select>
+        <select id="myGalleryDomain"><option value="">全部板块</option></select>
+        <span id="myGalleryCount" class="indicator-meta"></span>
+      </div>
+      <div id="myGalleryGrid" class="gallery-grid"></div>
+      <div id="myGalleryPager" class="gallery-pager"></div>
+    </section>
+    <section id="manualView" class="view customer-manual">
+      <div class="customer-manual-hero"><h2>客户浏览版使用手册</h2><p>公开内容保持只读；您创建的指标、图片、文字和版式只保存在当前浏览器。浏览器存储不是云端，也不能作为永久存储。</p></div>
+      <div class="customer-manual-grid">
+        <article class="customer-manual-card"><h3>浏览与导出</h3><ol><li>在“研究图库（内置）”搜索、筛选并放大图片。</li><li>在“临时试画”调整序列、时间范围、坐标轴和图表类型。</li><li>PNG、PDF、CSV及图文数据包是交付成品，不等于可恢复的完整工作包。</li></ol></article>
+        <article class="customer-manual-card"><h3>草稿指标工厂</h3><ol><li>选择公开指标作为输入，并核对频率、单位和最近5条数据。</li><li>配置日期处理、窗口变形、数值变形、滞后、补值和公式。</li><li>保存后生成本机草稿指标，不会写入公开内容或GitHub。</li></ol></article>
+        <article class="customer-manual-card"><h3>内置图库与我的图库</h3><p><span class="customer-origin-badge built-in">内置内容</span>由网站发布，不能覆盖或删除。编辑内置图片时会另存为<span class="customer-origin-badge local">我的草稿</span>，保存在“我的图库”。</p></article>
+        <article class="customer-manual-card"><h3>如何保存图片</h3><ol><li>在“临时试画”点击“保存为本机草稿”。</li><li>到“我的图库”继续编辑、写说明、放大或加入展示面板。</li><li>刷新或重启后通常仍会保留，但清除网站数据、无痕模式或更换设备会造成丢失。</li></ol></article>
+        <article class="customer-manual-card customer-storage-warning"><h3>避免图片丢失</h3><ul><li>不要在无痕或隐私模式中保存重要草稿。</li><li>不要清除本站网站数据；保持同一浏览器、配置文件和网址。</li><li>关注页面顶部的存储用量、保存失败和最近备份时间。</li><li>浏览器提示空间不足时，不要继续依赖本机草稿。</li></ul></article>
+        <article class="customer-manual-card customer-long-term"><h3>长期保存与换电脑</h3><ol><li>点击“导出完整工作包”，把ZIP保存到电脑并再备份一份。</li><li>在另一台电脑打开相同网址，选择“导入并预览工作包”。</li><li>默认使用“合并恢复”；“清空后恢复”会双重确认。</li><li>只有完整工作包可以恢复编辑状态；单独PNG/PDF不能完整恢复。</li></ol></article>
+      </div>
+    </section>
+    <section id="showcaseView" class="view">
+      <div class="showcase-toolbar panel"><div><strong>组合排版与导出</strong><span id="showcaseSummary">尚未选择图片</span></div><div class="showcase-mode-tabs" role="tablist" aria-label="组合排版与导出模式"><button id="showcaseBrowseTab" class="secondary active" type="button" role="tab" aria-selected="true">选图篮</button><button id="showcaseComposeTab" class="secondary" type="button" role="tab" aria-selected="false">排版工作区</button><button id="showcaseLibraryTab" class="secondary" type="button" role="tab" aria-selected="false">打开组合图库</button><button id="clearShowcase" class="secondary">清空选图篮</button></div></div>
+      <div id="showcaseBrowsePane" class="showcase-layout">
+        <aside class="showcase-sidebar panel showcase-picker-v2 wb-contract" aria-label="展示面板图片选择">
+          <header class="showcase-picker-heading-v2"><div><small>图片选择</small><strong>研究图库</strong></div><button id="showcaseFilterToggle" class="wb-contract__button" type="button" aria-controls="showcaseFilterDrawer" aria-expanded="false">筛选</button></header>
+          <label class="showcase-picker-search-v2" for="showcaseSearch"><span>搜索</span><input id="showcaseSearch" type="search" placeholder="搜索图片名称或分类标签…" autocomplete="off"></label>
+          <div class="showcase-picker-statbar-v2" aria-label="展示面板图片统计"><div><small>全部</small><strong id="showcasePickerTotalCount">0</strong></div><div><small>匹配</small><strong id="showcasePickerResultCount">0</strong></div><div><small>已选</small><strong id="showcasePickerSelectedCount">0</strong></div></div>
+          <div id="showcaseFilterBackdrop" class="gallery-filter-backdrop-v2" hidden></div>
+          <div id="showcaseFilterDrawer" class="gallery-filter-drawer-v2 panel" hidden aria-label="展示面板图片筛选" aria-hidden="true">
+            <div class="gallery-filter-heading-v2"><div><strong>筛选图片</strong><span>与研究图库一致：同维度 OR · 不同维度 AND</span></div><button id="showcaseFilterClose" class="wb-contract__button" type="button" aria-label="关闭筛选">×</button></div>
+            <details class="gallery-dimension-group-v2 gallery-standard-filter-v3" data-showcase-control="showcaseKind"><summary><span>图表类型</span><strong data-showcase-control-summary>全部</strong></summary><div class="gallery-filter-control-actions-v3"><button type="button" class="wb-contract__button" data-showcase-select-all="showcaseKind">全选</button><button type="button" class="wb-contract__button" data-showcase-clear-control="showcaseKind">清空</button></div><div class="gallery-dimension-options-v2" data-showcase-control-options></div></details>
+            <select id="showcaseKind" multiple hidden aria-hidden="true" tabindex="-1"><option value="single">单序列</option><option value="dual">双轴图</option><option value="triple">三轴图</option><option value="quad">四轴图</option><option value="multi">多序列单轴</option><option value="seasonal">季节性图</option><option value="seasonal_cny">季节性图（春节对齐）</option></select>
+            <details class="gallery-dimension-group-v2 gallery-standard-filter-v3" data-showcase-control="showcaseAccess"><summary><span>公开权限</span><strong data-showcase-control-summary>全部</strong></summary><div class="gallery-filter-control-actions-v3"><button type="button" class="wb-contract__button" data-showcase-select-all="showcaseAccess">全选</button><button type="button" class="wb-contract__button" data-showcase-clear-control="showcaseAccess">清空</button></div><div class="gallery-dimension-options-v2" data-showcase-control-options></div></details>
+            <select id="showcaseAccess" multiple hidden aria-hidden="true" tabindex="-1"><option value="public">公开交互及数据</option><option value="chart_only">只公开图表</option><option value="private">仅本地</option><option value="restricted">待确认授权</option><option value="browser_local">当前浏览器草稿</option></select>
+            <select id="showcaseDomain" hidden aria-hidden="true"><option value="">全部板块</option></select>
+            <div id="showcaseDimensionFilters" class="gallery-dimension-filters-v2"></div>
+            <div class="gallery-filter-footer-v2"><span id="showcaseFilterCount" class="sidebar-result-count-v154"></span><button id="showcaseClearFilters" class="wb-contract__button" type="button">清除筛选</button><button id="showcaseFilterApply" class="wb-contract__button wb-contract__button--primary" type="button">查看结果</button></div>
+          </div>
+          <p class="showcase-picker-help-v2">从研究图库搜索并勾选图片；筛选只改变当前显示，不修改图片。</p>
+          <div id="showcasePickerResults" class="showcase-picker-results" aria-live="polite"></div>
+          <details class="showcase-selected-nav-v2" open><summary><span>已选快速定位</span><strong id="showcaseSelectedNavCount">0 张</strong></summary><select id="showcaseJump" hidden aria-hidden="true" tabindex="-1"><option value="">选择图名</option></select><div id="showcaseNavList" class="showcase-nav-list"></div></details>
+        </aside>
+        <div id="showcaseGrid" class="showcase-grid"></div>
+      </div>
+      <section id="showcaseComposerPane" class="showcase-composer" hidden>
+        <aside class="composer-controls panel">
+          <div class="section-heading"><strong>组合排版</strong><span id="composerDraftStatus">临时草稿</span></div>
+          <section class="composer-filebar-v4 wb-contract" aria-label="组合文件操作">
+            <div><small>当前组合</small><strong id="composerCurrentName">临时版式草稿</strong><span id="composerVersionStatus"></span></div>
+            <div><button id="composerOpenLibrary" class="secondary" type="button">打开</button><button id="composerSaveComposition" class="primary" type="button">保存</button><button id="composerSaveAsComposition" class="secondary" type="button">另存为</button></div><button id="composerUpgradeAll" class="secondary" type="button" hidden>升级全部新版图片</button>
+          </section>
+          <label>模板<select id="composerTemplate"></select></label>
+          <div id="composerTemplateMeta" class="composer-template-meta"></div>
+          <section id="composerFlexEditor" class="composer-flex-editor-v154" hidden>
+            <div class="section-heading"><strong>自定义分页</strong><button id="composerAddPage" class="text-button" type="button">＋ 新建页</button></div>
+            <div id="composerPageList" class="composer-page-list-v154"></div>
+            <div class="composer-flex-actions-v154"><button id="composerDuplicatePage" class="secondary" type="button">复制当前页</button><button id="composerDeletePage" class="danger-button" type="button">删除当前页</button></div>
+            <label>本页版式<select id="composerPageLayout"><option value="three_one">3图＋1段文字</option><option value="two_two">2图＋2段文字</option><option value="two_one">2图＋1段通栏文字</option><option value="one_one">1图＋1段文字</option><option value="three_none">3图无正文</option></select></label>
+            <label>标题模式<select id="composerPageTitleMode"><option value="title_subtitle">标题＋小标题</option><option value="title">仅标题</option><option value="none">无标题</option></select></label>
+            <label>本页标题<input id="composerPageTitle" maxlength="120" placeholder="例如：宏观与铜周度跟踪"></label>
+            <label id="composerPageSubtitleWrap">本页小标题<input id="composerPageSubtitle" maxlength="160" placeholder="可选"></label>
+            <label class="composer-check"><input id="composerPageUseShared" type="checkbox" checked><span>本页引用全局共享文字</span></label>
+            <label id="composerPageTextWrap">本页第一段文字<textarea id="composerPageText" maxlength="4000"></textarea></label>
+            <label id="composerPageText2Wrap">本页第二段文字<textarea id="composerPageText2" maxlength="4000"></textarea></label>
+            <label>页下小字附注<textarea id="composerPageFootnote" maxlength="1000" rows="2"></textarea></label>
+            <div><strong class="composer-flex-label-v154">本页选图</strong><span id="composerPageChartCount" class="indicator-meta"></span><div id="composerPageChartPicker" class="composer-page-chart-picker-v154"></div></div>
+          </section>
+          <label>输出内容<select id="composerMode"><option value="image">A. 仅图片</option><option value="text">B. 图片＋文字说明</option><option value="data">C. 图文成品＋数据包 ZIP</option></select></label>
+          <div class="composer-inline-fields"><label>成品格式<select id="composerExportFormat"><option value="pdf">多页 PDF（推荐）</option><option value="png_zip">高清 PNG 图片包 ZIP</option></select></label><label>统一指标图例字号<select id="composerLegendScale"><option value="1">保持规范图 100%</option><option value="1.1">较大 110%</option><option value="1.2">大 120%</option><option value="1.3">特大 130%</option></select></label></div>
+          <label>统一 Y 轴数字字号<select id="composerYAxisScale"><option value="1">保持规范图 100%</option><option value="1.1">较大 110%</option><option value="1.2">大 120%</option><option value="1.3">特大 130%</option></select></label>
+          <label>文字超出处理<select id="composerOverflowPolicy"><option value="paginate">自动换页 / 减少每页图片（推荐）</option><option value="shrink">缩小文字（不低于可读字号）</option></select></label>
+          <label>总标题<input id="composerTitle" maxlength="120" placeholder="可选"></label>
+          <label>日期 / 副标题<input id="composerSubtitle" maxlength="160" placeholder="可选"></label>
+          <label>共享文字<textarea id="composerSharedText" maxlength="8000" placeholder="PPT 第四象限或页面共享文字；导出成品不显示栏目标题"></textarea></label>
+          <label>结尾说明<textarea id="composerFooterText" maxlength="4000" placeholder="手机长图可选"></textarea></label>
+          <details class="composer-export-settings" open><summary>本次导出文字大小</summary><div class="composer-font-grid"><label>总标题<select id="composerTitleFont"><option value="">自动</option><option value="28">28px</option><option value="32">32px</option><option value="36">36px</option><option value="40">40px</option><option value="44">44px</option></select></label><label>日期 / 副标题<select id="composerSubtitleFont"><option value="">自动</option><option value="18">18px</option><option value="20">20px</option><option value="22">22px</option><option value="24">24px</option><option value="26">26px</option></select></label><label>共享文字<select id="composerSharedFont"><option value="">自动</option><option value="24">24px</option><option value="26">26px</option><option value="28">28px</option><option value="30">30px</option><option value="32">32px</option><option value="34">34px</option></select></label><label>结尾说明<select id="composerFooterFont"><option value="">自动</option><option value="24">24px</option><option value="26">26px</option><option value="28">28px</option><option value="30">30px</option><option value="32">32px</option></select></label></div><p>逐图说明、指标图例和 Y 轴数字可在右侧每张图片中单独设置；全部设置只影响本次排版草稿。</p></details>
+          <div class="composer-inline-fields"><label>背景色<input id="composerBackground" type="color" value="#ffffff"></label><label>页边距<select id="composerMargin"><option value="safe">安全</option><option value="wide">宽松</option></select></label></div>
+          <label class="composer-check"><input id="composerPageNumbers" type="checkbox" checked><span>显示页码</span></label>
+          <label>成品清晰度<select id="composerScale"><option value="1" selected>1×</option><option value="2">2× 高清</option></select></label>
+          <div class="composer-actions"><button id="composerUseNotes" class="secondary" type="button">一键使用最新图片说明</button><button id="composerSaveDraft" class="secondary" type="button">保存版式草稿</button></div>
+          <button id="composerPreview" class="primary" type="button">刷新预览与校验</button>
+          <button id="composerExport" class="primary" type="button">导出多页 PDF</button>
+          <button id="composerExportData" class="primary" type="button" hidden>导出图文＋数据 ZIP</button>
+          <button id="composerCancel" class="secondary" type="button" hidden>取消导出</button>
+          <div id="composerProgress" class="composer-progress" role="status" aria-live="polite"></div>
+        </aside>
+        <div class="composer-workspace">
+          <section class="panel composer-order-panel">
+            <div class="section-heading"><strong>图片顺序与逐图文字</strong><span>拖动，或用上移 / 下移兼容触屏</span></div>
+            <div id="composerOrderList" class="composer-order-list"></div>
+          </section>
+          <section class="panel composer-validation-panel"><div class="section-heading"><strong>导出前校验</strong><span id="composerEstimate"></span></div><div id="composerValidation"></div></section>
+          <section class="composer-preview-section"><div class="section-heading"><strong>实时预览</strong><span>预览与导出使用同一排版计算</span></div><div id="composerPreviewPages" class="composer-preview-pages"></div></section>
+        </div>
+      </section>
+    </section>
+
+    <dialog id="compositionSaveDialog" class="wb-contract wb-contract__dialog composition-save-dialog-v4">
+      <form method="dialog" class="wb-contract__dialog-shell">
+        <header class="gallery-dialog-header-v2"><div><small>保存完整排版</small><h2 id="compositionSaveHeading">保存组合</h2></div><button value="cancel" class="wb-contract__button" aria-label="关闭">×</button></header>
+        <div class="composition-save-fields-v4">
+          <label>组合名称<input id="compositionName" maxlength="120" placeholder="例如：8月宏观晨会"></label>
+          <label>保存到文件夹<select id="compositionFolder"><option value="">未归档</option></select></label>
+          <fieldset><legend>组合权限（必须明确选择）</legend><label><input type="radio" name="compositionAccess" value="private" checked><span><strong>仅本地</strong><small>默认；不进入客户公开包</small></span></label><label><input type="radio" name="compositionAccess" value="public"><span><strong>公开</strong><small>全部图片和文字通过门禁后才可进入客户包</small></span></label></fieldset>
+          <label id="compositionPublicConfirmWrap" class="composition-public-confirm-v4" hidden><input id="compositionPublicConfirm" type="checkbox"><span>我已确认总标题、正文、逐图说明和页下注均可公开</span></label>
+          <div id="compositionSaveMessage" class="showcase-library-status-v4" role="status"></div>
+        </div>
+        <footer class="wb-contract__drawer-footer"><button value="cancel" class="wb-contract__button">取消</button><button id="compositionSaveConfirm" value="default" class="wb-contract__button wb-contract__button--primary">保存组合</button></footer>
+      </form>
+    </dialog>
+
+    <dialog id="compositionResearchTextDialog" class="wb-contract wb-contract__dialog composition-research-text-dialog-v5">
+      <form method="dialog" class="wb-contract__dialog-shell">
+        <header class="gallery-dialog-header-v2"><div><small>当前组合专属内容</small><h2 id="compositionResearchTextHeading">编辑文件夹文字</h2></div><button value="cancel" class="wb-contract__button" aria-label="关闭">×</button></header>
+        <div class="composition-research-text-fields-v5">
+          <p>以下标题和文字只用于当前组合中的这张图，不会修改研究图库原始名称或原始说明。</p>
+          <label>文件夹内标题<input id="compositionResearchItemTitle" maxlength="200" placeholder="留空时显示研究图库图片名称"></label>
+          <label>文件夹逐图文字<textarea id="compositionResearchItemNote" maxlength="4000" rows="8" placeholder="记录这张图在当前研究主题中的结论、变化和关注点"></textarea></label>
+          <div class="composition-research-source-note-v5"><div><strong>研究图库原始说明</strong><span>只读参考</span></div><p id="compositionResearchSourceNote">尚未填写原始说明。</p><button id="compositionResearchCopySourceNote" class="wb-contract__button" type="button">复制为文件夹文字</button></div>
+          <div id="compositionResearchTextStatus" class="showcase-library-status-v4" role="status"></div>
+        </div>
+        <footer class="wb-contract__drawer-footer"><button value="cancel" class="wb-contract__button">取消</button><button id="compositionResearchTextSave" value="default" class="wb-contract__button wb-contract__button--primary">保存为组合新版本</button></footer>
+      </form>
+    </dialog>
+
+  </main>
+  <dialog id="chartViewer" class="chart-viewer">
+    <div class="viewer-shell">
+      <header class="viewer-header"><button id="viewerBack" class="secondary">← 返回图库</button><div><strong id="viewerTitle"></strong><span id="viewerMeta"></span></div><button id="viewerEdit" class="secondary">临时试画参数</button><label class="viewer-export-choice">导出内容<select id="viewerExportMode"><option value="image">仅图片</option><option value="note_bottom">图片＋文字（下方）</option><option value="note_right">图片＋文字（右侧）</option></select></label><a id="viewerExport" class="primary" download>导出PNG</a></header>
+      <div class="viewer-range-controls">
+        <label>开始<input id="viewerStart" type="date"></label><label>结束<input id="viewerEnd" type="date"></label>
+        <label>左轴最小<input id="viewerLeftMin" inputmode="decimal" placeholder="自动"></label><label>左轴最大<input id="viewerLeftMax" inputmode="decimal" placeholder="自动"></label>
+        <label>右轴最小<input id="viewerRightMin" inputmode="decimal" placeholder="自动"></label><label>右轴最大<input id="viewerRightMax" inputmode="decimal" placeholder="自动"></label>
+        <label>左二最小<input id="viewerLeft2Min" inputmode="decimal" placeholder="自动"></label><label>左二最大<input id="viewerLeft2Max" inputmode="decimal" placeholder="自动"></label>
+        <label>右二最小<input id="viewerRight2Min" inputmode="decimal" placeholder="自动"></label><label>右二最大<input id="viewerRight2Max" inputmode="decimal" placeholder="自动"></label>
+        <label>日期标注<select id="viewerDateTick"><option value="auto">自动</option><option value="1m">每1个月</option><option value="2m">每2个月</option><option value="3m">每3个月</option><option value="6m">每半年</option><option value="1y">每1年</option><option value="2y">每2年</option><option value="5y">每5年</option></select></label>
+        <label>图例字号<input id="viewerLegendFont" type="number" min="8" max="28" placeholder="自动"></label>
+        <label>轴数字字号<input id="viewerAxisFont" type="number" min="8" max="28" placeholder="自动"></label>
+        <label>日期字号<input id="viewerDateFont" type="number" min="8" max="28" placeholder="自动"></label>
+        <label class="axis-direction-toggle"><input id="viewerLabelLast" type="checkbox"><span>导出标注末值</span></label>
+        <button id="viewerApply" class="primary">应用并保存为默认</button>
+        <span id="viewerStatus" class="viewer-status" role="status" aria-live="polite"></span>
+      </div>
+      <div id="viewerStage" class="viewer-stage">
+        <div id="viewerVisualSlot" class="viewer-visual-slot" data-interactive-state="static">
+          <iframe id="viewerFrame" title="放大交互图表"></iframe>
+          <img id="viewerCanonicalImage" alt="规范静态图" draggable="false">
+          <div class="interactive-activation-panel viewer-activation-panel">
+            <span>双击图表或点击按钮，可加载每个数据点</span>
+            <button id="viewerActivate" class="secondary" type="button">加载交互数据</button>
+          </div>
+        </div>
+        <aside class="viewer-note-panel">
+          <div class="viewer-note-heading">图片说明</div>
+          <textarea id="viewerNoteText" maxlength="4000" placeholder="在这里输入并保存图片说明"></textarea>
+          <footer><span id="viewerNoteStatus">尚未填写说明</span><button id="viewerNoteSave" class="secondary" type="button">保存说明</button></footer>
+        </aside>
+      </div>
+    </div>
+  </dialog>
+  <dialog id="duplicateDialog" class="duplicate-dialog">
+    <div class="duplicate-shell"><h2>这组指标已经存在于研究图库</h2><p id="duplicateText"></p><div class="duplicate-actions"><button id="duplicateCancel" class="secondary">取消保存</button><button id="duplicateUpdate" class="primary">更新已有图</button></div></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="customer_workspace.js?v=fb835ed02243"></script>
+  <script src="bootstrap-data.js?v=beb09733232c"></script>
+  <script src="customer_factory.js?v=4062029e411e"></script>
+  <script src="app.js?v=334469e91108"></script>
+  <script src="customer_portal.js?v=5e08b68379dd"></script>
+  
+  <script src="showcase_composer.js?v=57a1b7279b87"></script>
+  <script src="composition_library.js?v=fe1bd03c942c"></script>
+</body>
+</html>
