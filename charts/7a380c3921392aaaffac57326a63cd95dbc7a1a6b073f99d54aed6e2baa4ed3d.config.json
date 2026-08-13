@@ -1,0 +1,105 @@
+{
+  "chart_id": "PC-5248267CFE672183436F",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1784516049326-65df5e114715e8",
+    "reference_anchor_date": "2010-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-5660FF39E9DFD58ED8CE",
+    "PI-B62431B51906F191DB1B"
+  ],
+  "indicator_combo_signature": "DUAL::PI-5660FF39E9DFD58ED8CE|PI-B62431B51906F191DB1B",
+  "title": "期货收盘价:LME铜(3个月):电子盘 vs 中国:城镇储户问卷调查:占未来房价预期比重:\"上涨\"",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2015-01-01",
+  "base_end_date": "2026-08-07",
+  "start_date": "2015-01-01",
+  "end_date": "2026-08-07",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "S-1784516049326-65df5e114715e8",
+      "series_key": "S-1784516049326-65df5e114715e8",
+      "indicator_id": "PI-B62431B51906F191DB1B",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2025-12-31",
+      "end_mode": "latest",
+      "anchor_date": "2010-01-01",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786353389654-649f010babb7d8",
+      "series_key": "SI-1786353389654-649f010babb7d8",
+      "indicator_id": "PI-5660FF39E9DFD58ED8CE",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2011-07-15",
+      "end_date": "2026-08-07",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}
