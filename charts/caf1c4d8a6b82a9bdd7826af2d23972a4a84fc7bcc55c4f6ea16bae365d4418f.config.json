@@ -1,0 +1,143 @@
+{
+  "chart_id": "PC-73295DBAB74878EBEE0F",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786431862195-46a9eaba2694c",
+    "reference_anchor_date": "1980-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "6m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-8C9B8439718E47ABA6CE",
+    "PI-D73875F75BBFCD713894"
+  ],
+  "indicator_combo_signature": "DUAL::PI-8C9B8439718E47ABA6CE|PI-D73875F75BBFCD713894",
+  "title": "RU天然橡胶趋势 vs 全球制造业PMI",
+  "domain": "橡胶",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2000-01-01",
+  "base_end_date": "2026-08-10",
+  "start_date": "2000-01-01",
+  "end_date": "2026-08-10",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018,
+    2017,
+    2016,
+    2015,
+    2014,
+    2013,
+    2012,
+    2011,
+    2010
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 48,
+    "max": 60,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786431862195-46a9eaba2694c",
+      "series_key": "SI-1786431862195-46a9eaba2694c",
+      "indicator_id": "PI-8C9B8439718E47ABA6CE",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2000-01-01",
+      "end_date": "2026-08-10",
+      "end_mode": "latest",
+      "anchor_date": "1980-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786431964915-3b0316efca1338",
+      "series_key": "SI-1786431964915-3b0316efca1338",
+      "indicator_id": "PI-D73875F75BBFCD713894",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2009-11-27",
+      "end_date": "2026-07-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "橡胶",
+    "商品"
+  ],
+  "display_style": {
+    "legend_font_size": 15,
+    "axis_tick_font_size": 20,
+    "date_tick_font_size": 15
+  }
+}
