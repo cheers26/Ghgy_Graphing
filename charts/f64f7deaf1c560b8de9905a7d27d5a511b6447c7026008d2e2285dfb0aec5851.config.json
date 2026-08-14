@@ -1,0 +1,105 @@
+{
+  "chart_id": "PC-DE4538EFC47E3EF7E503",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786070914621-929d740322dca8",
+    "reference_anchor_date": "1994-08-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "6m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-471E2C0487169EEE6814",
+    "PI-18DD18D0681DC5D9E2A2"
+  ],
+  "indicator_combo_signature": "DUAL::PI-471E2C0487169EEE6814|PI-18DD18D0681DC5D9E2A2",
+  "title": "出口总值(美元计价):当月值（春节平滑处理） vs 出口总值(美元计价):当月同比（春节平滑处理）",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2015-01-01",
+  "base_end_date": "2026-07-31",
+  "start_date": "2015-01-01",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786070914621-929d740322dca8",
+      "series_key": "SI-1786070914621-929d740322dca8",
+      "indicator_id": "PI-471E2C0487169EEE6814",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1994-08-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "1994-08-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786070971613-a73707b5fe79",
+      "series_key": "SI-1786070971613-a73707b5fe79",
+      "indicator_id": "PI-18DD18D0681DC5D9E2A2",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1995-08-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 20,
+    "date_tick_font_size": 18
+  }
+}

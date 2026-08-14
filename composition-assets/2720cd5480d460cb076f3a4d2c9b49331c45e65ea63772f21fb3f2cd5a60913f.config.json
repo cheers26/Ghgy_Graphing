@@ -1,0 +1,86 @@
+{
+  "bar_mode": "group",
+  "base_end_date": "2026-08-13",
+  "base_start_date": "2019-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-08-13",
+  "end_mode": "latest",
+  "indicator_combo_signature": "",
+  "indicator_ids": [
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": 12,
+    "min": -5,
+    "reverse": false
+  },
+  "note_text": "战争期间价差的波动性",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": null,
+    "min": null,
+    "reverse": true
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "2015-11-25",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-13",
+      "end_mode": "latest",
+      "instance_id": "S-36837c83aa484a99901d",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2015-11-25",
+      "indicator_id": "PI-7FFAD6437304E51E470A",
+      "series_key": "S-36837c83aa484a99901d"
+    }
+  ],
+  "start_date": "2019-01-01",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-36837c83aa484a99901d",
+    "reference_anchor_date": "2015-11-25",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "Brent - WTI 价差",
+  "chart_id": "PC-6A1DCC1473FA0C1AA83D"
+}
