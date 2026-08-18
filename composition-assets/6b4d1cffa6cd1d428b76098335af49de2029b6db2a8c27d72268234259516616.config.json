@@ -1,0 +1,106 @@
+{
+  "chart_id": "PC-7D9F684FA054DD2258B9",
+  "chart_mode": "seasonal",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786524960029-1ac2e5bc198658",
+    "reference_anchor_date": "1978-11-15",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-C3CF94327DAEDF28B223"
+  ],
+  "indicator_combo_signature": "PI-C3CF94327DAEDF28B223",
+  "title": "期货收盘价(连续):NYMEX取暖油",
+  "domain": "其他",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-08-17",
+  "start_date": "2010-01-01",
+  "end_date": "2026-08-17",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2021,
+    2020
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2022
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": true,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#1c3cba",
+  "seasonal_max_line_width": 5.0,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5.0,
+  "seasonal_colors": {
+    "2020": "#e377c2",
+    "2021": "#17becf",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#ffc800",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786524960029-1ac2e5bc198658",
+      "series_key": "SI-1786524960029-1ac2e5bc198658",
+      "indicator_id": "PI-C3CF94327DAEDF28B223",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1978-11-15",
+      "end_date": "2026-08-10",
+      "end_mode": "latest",
+      "anchor_date": "1978-11-15",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}
