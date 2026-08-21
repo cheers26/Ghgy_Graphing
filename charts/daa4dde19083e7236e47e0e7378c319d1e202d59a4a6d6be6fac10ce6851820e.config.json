@@ -1,0 +1,108 @@
+{
+  "chart_id": "PC-0E3D2C5317FB74E92671",
+  "chart_mode": "seasonal",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786944689788-30e1c280314368",
+    "reference_anchor_date": "2000-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-6EEFA5B2D96B789EB5A0"
+  ],
+  "indicator_combo_signature": "PI-6EEFA5B2D96B789EB5A0",
+  "title": "RU-NR价差（连续）",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-08-14",
+  "start_date": "2010-01-01",
+  "end_date": "2026-08-14",
+  "end_mode": "latest",
+  "seasonal_style": "band",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5.0,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5.0,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 45,
+    "max": 65,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786944689788-30e1c280314368",
+      "series_key": "SI-1786944689788-30e1c280314368",
+      "indicator_id": "PI-6EEFA5B2D96B789EB5A0",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 8.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2019-08-12",
+      "end_date": "2026-08-14",
+      "end_mode": "latest",
+      "anchor_date": "2000-01-01",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 18,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "date_tick_angle": -45
+}

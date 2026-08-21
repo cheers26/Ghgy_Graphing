@@ -1,0 +1,123 @@
+{
+  "chart_id": "PC-99C4D4BE8FF3C02052AE",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786326641036-00cf5ab51a08f8",
+    "reference_anchor_date": "1980-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "6m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-13572840E21A890CDE9B",
+    "PI-18DD18D0681DC5D9E2A2",
+    "PI-D77CC6B6AC6220A01056"
+  ],
+  "indicator_combo_signature": "PI-13572840E21A890CDE9B|PI-18DD18D0681DC5D9E2A2|PI-D77CC6B6AC6220A01056",
+  "title": "韩国:出口总额:同比 vs 费半同比 vs 出口总值(美元计价):当月同比（春节平滑处理）",
+  "domain": "其他",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-08-06",
+  "start_date": "2010-01-01",
+  "end_date": "2026-08-06",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786326641036-00cf5ab51a08f8",
+      "series_key": "SI-1786326641036-00cf5ab51a08f8",
+      "indicator_id": "PI-D77CC6B6AC6220A01056",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1980-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "1980-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786326740671-475421db52dbd",
+      "series_key": "SI-1786326740671-475421db52dbd",
+      "indicator_id": "PI-13572840E21A890CDE9B",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 4.0,
+      "ma_days": 7,
+      "shift_days": 0,
+      "start_date": "1995-05-03",
+      "end_date": "2026-08-06",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786326876508-510c7bf3ebc578",
+      "series_key": "SI-1786326876508-510c7bf3ebc578",
+      "indicator_id": "PI-18DD18D0681DC5D9E2A2",
+      "axis": "left2",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1995-08-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他",
+    "市场",
+    "宏观"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 20,
+    "date_tick_font_size": 15
+  }
+}
