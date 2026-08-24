@@ -1,0 +1,105 @@
+{
+  "bar_mode": "group",
+  "base_end_date": "2026-08-21",
+  "base_start_date": "2008-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": -30,
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-08-21",
+  "end_mode": "latest",
+  "indicator_combo_signature": "DUAL::PI-A9D1553E500662978C3F|PI-FA1E52F604A01406FB6F",
+  "indicator_ids": [
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": 800,
+    "min": -200,
+    "reverse": false
+  },
+  "note_text": "",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": 20,
+    "min": -50,
+    "reverse": true
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "2005-12-13",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-06",
+      "end_mode": "latest",
+      "instance_id": "S-eac77575deef43b39caf",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2005-12-13",
+      "indicator_id": "PI-FA1E52F604A01406FB6F",
+      "series_key": "S-eac77575deef43b39caf"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-08-06",
+      "end_mode": "latest",
+      "instance_id": "S-2a21618eca33414984d2",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 365,
+      "start_date": "2006-08-24",
+      "indicator_id": "PI-A9D1553E500662978C3F",
+      "series_key": "S-2a21618eca33414984d2"
+    }
+  ],
+  "start_date": "2008-01-01",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-eac77575deef43b39caf",
+    "reference_anchor_date": "2005-12-13",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "美国金融活性指数 vs 欧元兑美元同比",
+  "chart_id": "PC-048CE3D1B42E04D96081"
+}
