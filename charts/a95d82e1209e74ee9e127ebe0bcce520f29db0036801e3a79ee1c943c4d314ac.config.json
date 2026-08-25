@@ -1,0 +1,113 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-06",
+  "base_start_date": "2010-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "seasonal",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 23,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-08-06",
+  "end_mode": "latest",
+  "indicator_combo_signature": "",
+  "indicator_ids": [
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019
+  ],
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022
+  ],
+  "series": [
+    {
+      "anchor_date": "1993-04-30",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-04",
+      "end_mode": "latest",
+      "instance_id": "S-e7b60adf553f4a65b83d",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 2.5,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1993-04-30",
+      "indicator_id": "PI-50EE468F81BE2AF620BC",
+      "series_key": "S-e7b60adf553f4a65b83d"
+    }
+  ],
+  "start_date": "2010-01-01",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-e7b60adf553f4a65b83d",
+    "reference_anchor_date": "1993-04-30",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "COMEX:库存量:铜",
+  "date_tick_angle": -45,
+  "chart_id": "PC-A7ABFC8D344ADEFDFC7C"
+}

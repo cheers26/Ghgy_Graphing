@@ -1,0 +1,196 @@
+{
+  "chart_id": "PC-6F1C0C0B1614F022A04C",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787121254248-e11f45db7f5478",
+    "reference_anchor_date": "2000-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "1m",
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-DE57F2B0F872E22EE5C2",
+    "PI-8E74E447EEF496BCBC7A",
+    "PI-2A4192841F35DE54083B",
+    "PI-5DDAEF88C432114BC40E",
+    "PI-217B4CD382341EE11F23",
+    "PI-EAAE448FA8F4D645F523"
+  ],
+  "indicator_combo_signature": "PI-DE57F2B0F872E22EE5C2|PI-8E74E447EEF496BCBC7A|PI-2A4192841F35DE54083B|PI-5DDAEF88C432114BC40E|PI-217B4CD382341EE11F23|PI-EAAE448FA8F4D645F523",
+  "title": "固定资产投资完成额累计同比",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2024-07-01",
+  "base_end_date": "2026-07-31",
+  "start_date": "2024-07-01",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "band",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787121254248-e11f45db7f5478",
+      "series_key": "SI-1787121254248-e11f45db7f5478",
+      "indicator_id": "PI-DE57F2B0F872E22EE5C2",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1992-02-29",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "2000-01-01",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787121256932-fa86f462c17b5",
+      "series_key": "SI-1787121256932-fa86f462c17b5",
+      "indicator_id": "PI-2A4192841F35DE54083B",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2004-02-29",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787121257998-afdd9dffa78778",
+      "series_key": "SI-1787121257998-afdd9dffa78778",
+      "indicator_id": "PI-5DDAEF88C432114BC40E",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2004-02-29",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787121259011-8a6c2cb84f416",
+      "series_key": "SI-1787121259011-8a6c2cb84f416",
+      "indicator_id": "PI-8E74E447EEF496BCBC7A",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0d0c0d",
+      "line_dash": "dash",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2004-02-29",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787121262894-103162a47b9e68",
+      "series_key": "SI-1787121262894-103162a47b9e68",
+      "indicator_id": "PI-EAAE448FA8F4D645F523",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff7f0e",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2004-02-29",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787121263480-05dd18d75543d",
+      "series_key": "SI-1787121263480-05dd18d75543d",
+      "indicator_id": "PI-217B4CD382341EE11F23",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#17becf",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2004-02-29",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 12,
+    "axis_tick_font_size": 18,
+    "date_tick_font_size": 21
+  },
+  "date_tick_angle": "auto"
+}
