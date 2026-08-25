@@ -1,0 +1,101 @@
+{
+  "chart_id": "PC-2550A654BC764F6AFC00",
+  "chart_mode": "timeseries",
+  "date_tick_interval": "2m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-8420590B7A5337DF1799",
+    "PI-4C64213F4807EC1BE8DF"
+  ],
+  "indicator_combo_signature": "DUAL::PI-8420590B7A5337DF1799|PI-4C64213F4807EC1BE8DF",
+  "title": "期货官方价:LME3个月铜 vs LME铜投资基金多头持仓-空头持仓",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2018-01-01",
+  "base_end_date": "2026-08-04",
+  "start_date": "2018-01-01",
+  "end_date": "2026-08-04",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "series_key": "S-1785332827973-bc98c128cf476",
+      "indicator_id": "PI-4C64213F4807EC1BE8DF",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2026-07-15",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "S-1785332827973-bc98c128cf476",
+      "anchor_date": "2010-01-01"
+    },
+    {
+      "series_key": "S-1785332827974-4077ae4cbd603",
+      "indicator_id": "PI-8420590B7A5337DF1799",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2026-07-10",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "S-1785332827974-4077ae4cbd603"
+    }
+  ],
+  "visual_profile": "research_readable_v1",
+  "visual_profile_version": "V1.55",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "categories": [
+    "其他"
+  ],
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1785332827973-bc98c128cf476",
+    "reference_anchor_date": "2010-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_angle": "auto"
+}

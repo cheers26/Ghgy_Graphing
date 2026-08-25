@@ -1,0 +1,128 @@
+{
+  "chart_id": "PC-5C0EBD5A6E7A5AA290AC",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787101647403-0039408584e01",
+    "reference_anchor_date": "2018-01-02",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "2m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-A8D7BA6EB844AD550DB9",
+    "PI-A4CB83E5EEEF8CBE8AD1"
+  ],
+  "indicator_combo_signature": "DUAL::PI-A8D7BA6EB844AD550DB9|PI-A4CB83E5EEEF8CBE8AD1",
+  "title": "法国:国债收益率:30年 vs 德国:国债收益率:30年",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2023-08-16",
+  "base_end_date": "2026-08-17",
+  "start_date": "2023-08-16",
+  "end_date": "2026-08-17",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": 2,
+    "max": 6,
+    "reverse": false,
+    "display_unit_mode": "hidden",
+    "display_unit_label": ""
+  },
+  "right_axis": {
+    "min": 2,
+    "max": 6,
+    "reverse": false,
+    "display_unit_mode": "hidden",
+    "display_unit_label": ""
+  },
+  "left2_axis": {
+    "min": 2,
+    "max": 6,
+    "reverse": false,
+    "display_unit_mode": "hidden",
+    "display_unit_label": ""
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787101647403-0039408584e01",
+      "series_key": "SI-1787101647403-0039408584e01",
+      "indicator_id": "PI-A4CB83E5EEEF8CBE8AD1",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2018-01-02",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "anchor_date": "2018-01-02",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787101705984-c5ffd2ddc6d878",
+      "series_key": "SI-1787101705984-c5ffd2ddc6d878",
+      "indicator_id": "PI-A8D7BA6EB844AD550DB9",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2000-08-01",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "date_tick_angle": "auto"
+}
