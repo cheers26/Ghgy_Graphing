@@ -1,0 +1,110 @@
+{
+  "chart_id": "PC-FCA065D415C6BCDB37B4",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1785220558978-c4681647f57b",
+    "reference_anchor_date": "2021-10-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "6m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-0CDE5FC691B4080ED328",
+    "PI-2D6F08FAAD941CD4181E"
+  ],
+  "indicator_combo_signature": "DUAL::PI-0CDE5FC691B4080ED328|PI-2D6F08FAAD941CD4181E",
+  "title": "中美同业拆借利差1年期 vs 中美国债利差1年期",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2021-07-16",
+  "base_end_date": "2026-07-17",
+  "start_date": "2021-07-16",
+  "end_date": "2026-07-17",
+  "end_mode": "fixed",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": -1,
+    "max": 5,
+    "reverse": false,
+    "display_unit_mode": "custom",
+    "display_unit_label": "%"
+  },
+  "right_axis": {
+    "min": -1,
+    "max": 5,
+    "reverse": false,
+    "display_unit_mode": "custom",
+    "display_unit_label": "%"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "S-1785220558978-c4681647f57b",
+      "series_key": "S-1785220558978-c4681647f57b",
+      "indicator_id": "PI-0CDE5FC691B4080ED328",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-10-01",
+      "end_date": "2026-07-17",
+      "end_mode": "latest",
+      "anchor_date": "2021-10-01",
+      "label": ""
+    },
+    {
+      "instance_id": "S-1785220558978-c332ab1f71bab8",
+      "series_key": "S-1785220558978-c332ab1f71bab8",
+      "indicator_id": "PI-2D6F08FAAD941CD4181E",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2002-01-04",
+      "end_date": "2026-07-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "date_tick_angle": "auto"
+}
