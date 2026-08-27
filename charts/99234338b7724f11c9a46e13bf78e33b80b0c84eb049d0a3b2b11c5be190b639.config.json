@@ -1,0 +1,106 @@
+{
+  "chart_id": "PC-E32857EBC14F1F4A136D",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787732720379-214045935e5c08",
+    "reference_anchor_date": "2021-08-26",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-E1F1FE14BA137F2D1B49",
+    "PI-8535CF7D4C22E12F8157"
+  ],
+  "indicator_combo_signature": "DUAL::PI-E1F1FE14BA137F2D1B49|PI-8535CF7D4C22E12F8157",
+  "title": "期货收盘价(活跃):COMEX黄金 vs 黄金股票全收益",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2023-08-24",
+  "base_end_date": "2026-08-25",
+  "start_date": "2023-08-24",
+  "end_date": "2026-08-25",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": 1500,
+    "max": 6000,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 1500,
+    "max": 5500,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787732720379-214045935e5c08",
+      "series_key": "SI-1787732720379-214045935e5c08",
+      "indicator_id": "PI-8535CF7D4C22E12F8157",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-08-26",
+      "end_date": "2026-08-25",
+      "end_mode": "latest",
+      "anchor_date": "2021-08-26",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787732826168-6bad470a810be8",
+      "series_key": "SI-1787732826168-6bad470a810be8",
+      "indicator_id": "PI-E1F1FE14BA137F2D1B49",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1990-01-03",
+      "end_date": "2026-08-25",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}
