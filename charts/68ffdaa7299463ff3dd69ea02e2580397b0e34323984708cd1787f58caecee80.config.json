@@ -1,0 +1,123 @@
+{
+  "chart_id": "PC-24230D92DC1A0FC2672C",
+  "chart_mode": "seasonal",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787127790651-d091aacd54bba8",
+    "reference_anchor_date": "2000-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "1m",
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-F4BDFAADD0CED177683A"
+  ],
+  "indicator_combo_signature": "PI-F4BDFAADD0CED177683A",
+  "title": "缩表规模",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2021-07-30",
+  "base_end_date": "2026-07-31",
+  "start_date": "2021-07-30",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018,
+    2017,
+    2016
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5.0,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5.0,
+  "seasonal_colors": {
+    "2008": "#008000",
+    "2009": "#0000ff",
+    "2010": "#ff0000",
+    "2011": "#8c564b",
+    "2012": "#bcbd22",
+    "2013": "#e377c2",
+    "2014": "#17becf",
+    "2015": "#008000",
+    "2016": "#640080",
+    "2017": "#666722",
+    "2018": "#04ff00",
+    "2019": "#8c564b",
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787127790651-d091aacd54bba8",
+      "series_key": "SI-1787127790651-d091aacd54bba8",
+      "indicator_id": "PI-F4BDFAADD0CED177683A",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2003-02-28",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "2000-01-01",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 10,
+    "axis_tick_font_size": 18,
+    "date_tick_font_size": 21
+  },
+  "date_tick_angle": -45
+}

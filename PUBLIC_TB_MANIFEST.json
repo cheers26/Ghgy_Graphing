@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "release_id": "20260828-133033",
+  "generated_at": "2026-08-28T13:30:33+08:00",
+  "document_count": 1,
+  "page_count": 1,
+  "asset_count": 1,
+  "documents": [
+    {
+      "tb_id": "TB-000004",
+      "title": "Copper H1 2026 S&P 铜产量 （测试）",
+      "asset_kind": "screenshot",
+      "publication_status": "published",
+      "access_level": "public",
+      "lifecycle_status": "active",
+      "is_pinned": true,
+      "folder_name": null,
+      "classifications": {
+        "dimension_a": [],
+        "dimension_b": [],
+        "dimension_c": []
+      },
+      "current_version": {
+        "tb_version_id": "TB-000004-V001",
+        "version_no": 1,
+        "content_sha256": "751a04d48331b59182b73e70a7aa7ced9c4f59335f3cd0fe2708e4b56c04320e",
+        "config_sha256": "bfa9ed657dba310342e27f7d9de09a0c54676429a8d85a49bb9b17baeaccfa52",
+        "page_count": 1,
+        "pages": [
+          {
+            "tb_page_id": "TB-000004-V001-P001",
+            "page_no": 1,
+            "asset_url": "media/7189c1166352f29db1747321970e7b5782201de4add807925992e86d726e6728.png",
+            "sha256": "7189c1166352f29db1747321970e7b5782201de4add807925992e86d726e6728",
+            "bytes": 162151,
+            "width": 1550,
+            "height": 700
+          }
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "media/7189c1166352f29db1747321970e7b5782201de4add807925992e86d726e6728.png": {
+      "sha256": "7189c1166352f29db1747321970e7b5782201de4add807925992e86d726e6728",
+      "bytes": 162151,
+      "width": 1550,
+      "height": 700,
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000004",
+          "tb_version_id": "TB-000004-V001",
+          "tb_page_id": "TB-000004-V001-P001"
+        }
+      ]
+    }
+  },
+  "pixel_scan": {
+    "engine": "apple-vision-jxa-v1",
+    "resource_count": 1,
+    "recognized_text_digest": "d275faac063ef3e5d38f5ee6782cdbe8090881f7da7d51f9f805fba5b3787048",
+    "files": {
+      "media/7189c1166352f29db1747321970e7b5782201de4add807925992e86d726e6728.png": "d93d34d9d82901e1745e9da1eeaecae8b600947b826540587f124bd9762e4df1"
+    },
+    "finding_count": 0
+  },
+  "manifest_digest": "6e890f063579e2ff26d09455fd704970ab79f984bbee1cd5cfcd901c0d804e2a"
+}

@@ -1,0 +1,119 @@
+{
+  "chart_id": "PC-EBE7108D96877C134876",
+  "chart_mode": "seasonal",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786934573472-fcd97ca2f442a8",
+    "reference_anchor_date": "2014-01-02",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "1m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-B4B3C12F50A0A98B9B87"
+  ],
+  "indicator_combo_signature": "PI-B4B3C12F50A0A98B9B87",
+  "title": "市场参考价:杯胶:泰国生胶",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-10-31",
+  "start_date": "2010-01-01",
+  "end_date": "2026-10-31",
+  "end_mode": "fixed",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018
+  ],
+  "seasonal_highlight_years": [
+    2024
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5.0,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5.0,
+  "seasonal_colors": {
+    "2018": "#ff0000",
+    "2019": "#8c564b",
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786934573472-fcd97ca2f442a8",
+      "series_key": "SI-1786934573472-fcd97ca2f442a8",
+      "indicator_id": "PI-B4B3C12F50A0A98B9B87",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2014-01-02",
+      "end_date": "2026-08-14",
+      "end_mode": "latest",
+      "anchor_date": "2014-01-02",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "date_tick_angle": -45
+}
