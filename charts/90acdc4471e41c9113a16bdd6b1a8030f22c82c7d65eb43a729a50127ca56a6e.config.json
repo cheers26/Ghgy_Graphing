@@ -1,0 +1,140 @@
+{
+  "chart_id": "PC-FD0E0A2C442923FCA9F9",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787103025993-e588c5b959b2b",
+    "reference_anchor_date": "1985-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "2m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-0277C33B3EC4DE75B922",
+    "PI-A35A89E1525CB61BD1E1",
+    "PI-5007428554516F11413D"
+  ],
+  "indicator_combo_signature": "PI-0277C33B3EC4DE75B922|PI-A35A89E1525CB61BD1E1|PI-5007428554516F11413D",
+  "title": "地缘政治风险指数 vs 地缘政治行为指数 vs 地缘政治威胁指数",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2023-12-30",
+  "base_end_date": "2026-12-31",
+  "start_date": "2023-12-30",
+  "end_date": "2026-12-31",
+  "end_mode": "fixed",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": -3,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787103025993-e588c5b959b2b",
+      "series_key": "SI-1787103025993-e588c5b959b2b",
+      "indicator_id": "PI-0277C33B3EC4DE75B922",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 30,
+      "shift_days": 0,
+      "start_date": "1985-01-01",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "anchor_date": "1985-01-01",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787103027109-964739c5758738",
+      "series_key": "SI-1787103027109-964739c5758738",
+      "indicator_id": "PI-A35A89E1525CB61BD1E1",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 30,
+      "shift_days": 0,
+      "start_date": "1985-01-01",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787103028047-8c67c47d7f9ed8",
+      "series_key": "SI-1787103028047-8c67c47d7f9ed8",
+      "indicator_id": "PI-5007428554516F11413D",
+      "axis": "left2",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 30,
+      "shift_days": 0,
+      "start_date": "1985-01-01",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "date_tick_angle": "auto"
+}

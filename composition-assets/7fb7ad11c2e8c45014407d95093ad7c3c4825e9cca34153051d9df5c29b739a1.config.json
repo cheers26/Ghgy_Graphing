@@ -1,0 +1,123 @@
+{
+  "bar_mode": "group",
+  "base_end_date": "2026-08-28",
+  "base_start_date": "2008-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": -30,
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-11-26",
+  "end_mode": "latest",
+  "indicator_combo_signature": "||",
+  "indicator_ids": [
+    "",
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": 800,
+    "min": -500,
+    "reverse": false
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "2005-12-15",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-19",
+      "end_mode": "latest",
+      "instance_id": "S-b8f4e352482542ee94e4",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2005-12-15",
+      "indicator_id": "PI-82B2459E122697137A4D",
+      "series_key": "S-b8f4e352482542ee94e4"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-08-06",
+      "end_mode": "latest",
+      "instance_id": "S-7fc10936b6da409e8530",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 90,
+      "start_date": "2005-12-13",
+      "indicator_id": "PI-FA1E52F604A01406FB6F",
+      "series_key": "S-7fc10936b6da409e8530"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right2",
+      "chart_type": "line",
+      "color": "#999999",
+      "end_date": "2026-08-06",
+      "end_mode": "latest",
+      "instance_id": "S-67b52ba3a721453a9375",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2008-11-25",
+      "indicator_id": "PI-D02552834A3C4D8AEE21",
+      "series_key": "S-67b52ba3a721453a9375"
+    }
+  ],
+  "start_date": "2008-01-01",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-b8f4e352482542ee94e4",
+    "reference_anchor_date": "2005-12-15",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "纳斯达克指数同比 vs 美国金融活性指数 vs 纳斯达克互联网同比",
+  "chart_id": "PC-0DF4E72770AF90C99A29"
+}
