@@ -1,0 +1,104 @@
+{
+  "chart_id": "PC-EEF244D176A6C95AAEFE",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787724078954-92e9ce4588c75",
+    "reference_anchor_date": "1990-01-03",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": -90,
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-0277C33B3EC4DE75B922",
+    "PI-843F2F1DD8FB6F65BFE3"
+  ],
+  "indicator_combo_signature": "DUAL::PI-0277C33B3EC4DE75B922|PI-843F2F1DD8FB6F65BFE3",
+  "title": "地缘政治风险指数 vs 全球央行:净购入量:黄金",
+  "domain": "宏观",
+  "base_start_date": "2008-01-01",
+  "base_end_date": "2026-08-31",
+  "start_date": "2008-01-01",
+  "end_date": "2026-10-30",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787724078954-92e9ce4588c75",
+      "series_key": "SI-1787724078954-92e9ce4588c75",
+      "indicator_id": "PI-0277C33B3EC4DE75B922",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 60,
+      "shift_days": 60,
+      "start_date": "1985-01-01",
+      "end_date": "2026-08-24",
+      "end_mode": "latest",
+      "anchor_date": "1990-01-03",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787724118657-997a567cc654c8",
+      "series_key": "SI-1787724118657-997a567cc654c8",
+      "indicator_id": "PI-843F2F1DD8FB6F65BFE3",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2003-03-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "宏观"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

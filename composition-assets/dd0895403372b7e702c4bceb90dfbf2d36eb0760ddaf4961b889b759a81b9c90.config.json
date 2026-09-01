@@ -1,0 +1,82 @@
+{
+  "chart_id": "PC-03117A5DD560A9A7A524",
+  "chart_mode": "timeseries",
+  "indicator_ids": [
+    "PI-DFCCD4A11B8A8AE3DF29",
+    "PI-D73875F75BBFCD713894"
+  ],
+  "indicator_combo_signature": "DUAL::PI-DFCCD4A11B8A8AE3DF29|PI-D73875F75BBFCD713894",
+  "title": "全球制造业PMI vs 全球短端利率同差（18国）",
+  "domain": "其他",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-09-01",
+  "start_date": "2010-01-01",
+  "end_date": "2027-09-01",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": 40,
+    "max": 60,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -4,
+    "max": 7,
+    "reverse": true
+  },
+  "series": [
+    {
+      "series_key": "S-1784591710712-de646ab0f50a4",
+      "indicator_id": "PI-D73875F75BBFCD713894",
+      "axis": "left",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2009-01-01",
+      "end_date": "2026-06-29",
+      "end_mode": "latest",
+      "label": "",
+      "line_width": 5.0,
+      "color": "#0000ff",
+      "instance_id": "S-1784591710712-de646ab0f50a4",
+      "anchor_date": "2009-01-01"
+    },
+    {
+      "series_key": "S-1784591719304-9d760028883c38",
+      "indicator_id": "PI-DFCCD4A11B8A8AE3DF29",
+      "axis": "right",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 365,
+      "start_date": "2007-06-22",
+      "end_date": "2026-07-07",
+      "end_mode": "latest",
+      "label": "",
+      "line_width": 5.0,
+      "color": "#ff0000",
+      "instance_id": "S-1784591719304-9d760028883c38"
+    }
+  ],
+  "visual_profile": "research_readable_v1",
+  "visual_profile_version": "V1.55",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "categories": [
+    "其他"
+  ],
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1784591710712-de646ab0f50a4",
+    "reference_anchor_date": "2009-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  }
+}

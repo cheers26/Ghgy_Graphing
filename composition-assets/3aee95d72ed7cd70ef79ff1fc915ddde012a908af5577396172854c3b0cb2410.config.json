@@ -1,0 +1,131 @@
+{
+  "chart_id": "PC-B581527B1A451A93844D",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1785897612745-8df194a60cf74",
+    "reference_anchor_date": "2015-11-25",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "6m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-3847C0EEF7D645497C14",
+    "PI-E3012EC2112657A05AA3",
+    "PI-CC63455ABA16B4285131"
+  ],
+  "indicator_combo_signature": "PI-3847C0EEF7D645497C14|PI-E3012EC2112657A05AA3|PI-CC63455ABA16B4285131",
+  "title": "裂解价差同比 vs 美国:核心CPI(不含食物、能源):季调:当月同比 vs 美国:CPI:当月同比",
+  "domain": "油",
+  "base_start_date": "2016-08-03",
+  "base_end_date": "2026-08-31",
+  "start_date": "2016-08-03",
+  "end_date": "2026-09-30",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": true,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#0000e1",
+  "seasonal_max_line_width": 3.5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#5f074f",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#ee00ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": -80,
+    "max": 180,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 1.5,
+    "max": 6,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": 1.5,
+    "max": 6,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785897612745-8df194a60cf74",
+      "series_key": "SI-1785897612745-8df194a60cf74",
+      "indicator_id": "PI-CC63455ABA16B4285131",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 20,
+      "shift_days": 30,
+      "start_date": "2016-11-25",
+      "end_date": "2026-08-04",
+      "end_mode": "latest",
+      "anchor_date": "2015-11-25",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785897627594-c204d34ccd3b78",
+      "series_key": "SI-1785897627594-c204d34ccd3b78",
+      "indicator_id": "PI-E3012EC2112657A05AA3",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1958-01-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785897634545-f5e4b38d1074f8",
+      "series_key": "SI-1785897634545-f5e4b38d1074f8",
+      "indicator_id": "PI-3847C0EEF7D645497C14",
+      "axis": "right2",
+      "chart_type": "line",
+      "color": "#bc9867",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1914-01-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "visual_profile": "research_readable_v1",
+  "visual_profile_version": "V1.55",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "categories": [
+    "油"
+  ]
+}
