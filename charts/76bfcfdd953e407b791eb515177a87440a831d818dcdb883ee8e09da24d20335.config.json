@@ -1,0 +1,106 @@
+{
+  "chart_id": "PC-91FF2CD251FED020E094",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788148382820-f1c4ca1067d7b8",
+    "reference_anchor_date": "2003-03-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-E2095B8886A9152E10F4",
+    "PI-B75AD8C30AF11EF68B1A"
+  ],
+  "indicator_combo_signature": "DUAL::PI-E2095B8886A9152E10F4|PI-B75AD8C30AF11EF68B1A",
+  "title": "COMEX黄金非商业净多头持仓（等价吨估算） vs 美国:国债实际收益率:10年",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2003-01-01",
+  "base_end_date": "2026-08-27",
+  "start_date": "2003-01-01",
+  "end_date": "2026-08-27",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": true
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788148382820-f1c4ca1067d7b8",
+      "series_key": "SI-1788148382820-f1c4ca1067d7b8",
+      "indicator_id": "PI-E2095B8886A9152E10F4",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1986-01-15",
+      "end_date": "2026-08-25",
+      "end_mode": "latest",
+      "anchor_date": "2003-03-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788148394114-99823e96a385e",
+      "series_key": "SI-1788148394114-99823e96a385e",
+      "indicator_id": "PI-B75AD8C30AF11EF68B1A",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2003-01-02",
+      "end_date": "2026-08-27",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 20,
+    "date_tick_font_size": 20
+  }
+}

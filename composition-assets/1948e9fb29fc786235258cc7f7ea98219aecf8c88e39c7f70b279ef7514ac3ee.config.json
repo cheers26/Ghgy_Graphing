@@ -1,0 +1,104 @@
+{
+  "chart_id": "PC-DD38951BB78838E14ACA",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787560005288-57c76bbfa6ed88",
+    "reference_anchor_date": "1914-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-3847C0EEF7D645497C14",
+    "PI-006052A09EFB8754FE2F"
+  ],
+  "indicator_combo_signature": "DUAL::PI-3847C0EEF7D645497C14|PI-006052A09EFB8754FE2F",
+  "title": "美国:CPI:当月同比 vs 取暖油裂解价差",
+  "domain": "其他",
+  "base_start_date": "2016-08-20",
+  "base_end_date": "2026-09-01",
+  "start_date": "2016-08-20",
+  "end_date": "2026-10-01",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787560005288-57c76bbfa6ed88",
+      "series_key": "SI-1787560005288-57c76bbfa6ed88",
+      "indicator_id": "PI-3847C0EEF7D645497C14",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1914-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "1914-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787560102190-8fac48a4d50bf8",
+      "series_key": "SI-1787560102190-8fac48a4d50bf8",
+      "indicator_id": "PI-006052A09EFB8754FE2F",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 30,
+      "start_date": "2015-11-25",
+      "end_date": "2026-08-21",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}
