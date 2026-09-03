@@ -1,0 +1,105 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-27",
+  "base_start_date": "2021-08-25",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "seasonal_cny",
+  "date_tick_angle": "auto",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-08-27",
+  "end_mode": "latest",
+  "indicator_combo_signature": "",
+  "indicator_ids": [
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_alignment_version": "lunar_year_v2",
+  "seasonal_colors": {
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 1.0,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 1.0,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": false,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023
+  ],
+  "series": [
+    {
+      "anchor_date": "2021-01-07",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-27",
+      "end_mode": "latest",
+      "instance_id": "S-917a9921353643d0ba01",
+      "label": "",
+      "line_dash": "dash",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-07",
+      "indicator_id": "PI-183B272DC25FE15CD980",
+      "series_key": "S-917a9921353643d0ba01"
+    }
+  ],
+  "start_date": "2021-08-25",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-917a9921353643d0ba01",
+    "reference_anchor_date": "2021-01-07",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "铝周度库存变动",
+  "chart_id": "PC-720E41C9E0A2BD645637"
+}

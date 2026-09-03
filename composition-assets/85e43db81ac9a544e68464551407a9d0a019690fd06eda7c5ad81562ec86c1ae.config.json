@@ -1,0 +1,107 @@
+{
+  "chart_id": "PC-0F9C26A8A6C9136AFCF1",
+  "chart_mode": "seasonal",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1785901128255-1e2a41c1b6e708",
+    "reference_anchor_date": "1990-01-05",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-7854058FAE93E782B962"
+  ],
+  "indicator_combo_signature": "PI-7854058FAE93E782B962",
+  "title": "库存:成品汽油",
+  "domain": "油",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-08-21",
+  "start_date": "2010-01-01",
+  "end_date": "2026-08-21",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5.0,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5.0,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785901128255-1e2a41c1b6e708",
+      "series_key": "SI-1785901128255-1e2a41c1b6e708",
+      "indicator_id": "PI-7854058FAE93E782B962",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1990-01-05",
+      "end_date": "2026-07-24",
+      "end_mode": "latest",
+      "anchor_date": "1990-01-05",
+      "label": ""
+    }
+  ],
+  "visual_profile": "research_readable_v1",
+  "visual_profile_version": "V1.55",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "categories": [
+    "油"
+  ]
+}

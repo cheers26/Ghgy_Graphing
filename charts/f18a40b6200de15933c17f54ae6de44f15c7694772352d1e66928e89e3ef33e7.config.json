@@ -1,0 +1,106 @@
+{
+  "chart_id": "PC-FD876E0BBE823DB41AC7",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788415892765-3c67c83fa4572",
+    "reference_anchor_date": "1960-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-26352236C4CD6484465A",
+    "PI-A7AC1855667454A6FD44"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::220bf603467befff40e466e1381251a03010893fcac58e8dd72987f34b130aa6",
+  "title": "美国:PCE物价指数:当月同比 vs 美国:国债收益率:2年",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2022-01-01",
+  "base_end_date": "2026-09-01",
+  "start_date": "2022-01-01",
+  "end_date": "2027-09-01",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": true
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788415892765-3c67c83fa4572",
+      "series_key": "SI-1788415892765-3c67c83fa4572",
+      "indicator_id": "PI-26352236C4CD6484465A",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "1960-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788415921770-33d7018854f39",
+      "series_key": "SI-1788415921770-33d7018854f39",
+      "indicator_id": "PI-A7AC1855667454A6FD44",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 365,
+      "start_date": "1976-06-01",
+      "end_date": "2026-09-01",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

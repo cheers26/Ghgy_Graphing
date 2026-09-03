@@ -1,0 +1,107 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-26",
+  "base_start_date": "2021-08-25",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": "auto",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-10-10",
+  "end_mode": "latest",
+  "indicator_combo_signature": "DUAL::PI-3D91A03B4C1A503F6219|PI-35AD4ACCDC12DED16116",
+  "indicator_ids": [
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "2021-01-04",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-26",
+      "end_mode": "latest",
+      "instance_id": "S-cde20eec7b5b4dcca907",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-04",
+      "indicator_id": "PI-3D91A03B4C1A503F6219",
+      "series_key": "S-cde20eec7b5b4dcca907"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "instance_id": "S-68a2b63b94bf4281b824",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 45,
+      "start_date": "2005-01-31",
+      "indicator_id": "PI-35AD4ACCDC12DED16116",
+      "series_key": "S-68a2b63b94bf4281b824"
+    }
+  ],
+  "start_date": "2021-08-25",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-cde20eec7b5b4dcca907",
+    "reference_anchor_date": "2021-01-04",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "SMM: 电解铝: 沪伦铝比值: 日度 vs 中美PMI差值",
+  "chart_id": "PC-6E8E4B93F40202E27C21"
+}
