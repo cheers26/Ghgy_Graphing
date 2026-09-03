@@ -1,0 +1,124 @@
+{
+  "chart_id": "PC-22FA19E27350C6DBC133",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788416128202-3a96d4639b2c18",
+    "reference_anchor_date": "1998-01-05",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "1m",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-764289A0EC49AF4BFF2C",
+    "PI-B49FC87EC6FE6E345F4D",
+    "PI-4FDABF18CCEFC5F34629"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::b94c9ac4e9a1574af51075048f808a7699a777b42284221b5c5372d2592ad50e",
+  "title": "期货收盘价(活跃):天然橡胶(RU) vs 南华期货:工业品指数 vs 南华期货:农产品指数",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2025-09-01",
+  "base_end_date": "2026-09-02",
+  "start_date": "2025-09-01",
+  "end_date": "2026-09-02",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788416128202-3a96d4639b2c18",
+      "series_key": "SI-1788416128202-3a96d4639b2c18",
+      "indicator_id": "PI-4FDABF18CCEFC5F34629",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1998-01-05",
+      "end_date": "2026-09-02",
+      "end_mode": "latest",
+      "anchor_date": "1998-01-05",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788416136197-ab0c2c0b140e4",
+      "series_key": "SI-1788416136197-ab0c2c0b140e4",
+      "indicator_id": "PI-764289A0EC49AF4BFF2C",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2004-06-01",
+      "end_date": "2026-09-01",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788416140883-cee1abcb3ba078",
+      "series_key": "SI-1788416140883-cee1abcb3ba078",
+      "indicator_id": "PI-B49FC87EC6FE6E345F4D",
+      "axis": "right2",
+      "chart_type": "line",
+      "color": "#3f8d3a",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2004-06-01",
+      "end_date": "2026-09-01",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

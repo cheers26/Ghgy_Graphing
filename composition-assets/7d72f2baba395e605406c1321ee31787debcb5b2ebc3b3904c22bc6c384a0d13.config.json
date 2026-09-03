@@ -1,0 +1,104 @@
+{
+  "chart_id": "PC-741ABA395DF68E6F6357",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1784591719304-9d760028883c38",
+    "reference_anchor_date": "2009-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-DFCCD4A11B8A8AE3DF29",
+    "PI-053055D1FE6A9CCE61E1"
+  ],
+  "indicator_combo_signature": "DUAL::PI-DFCCD4A11B8A8AE3DF29|PI-053055D1FE6A9CCE61E1",
+  "title": "全球制造业PMI vs 全球短端利率同差（18国）",
+  "domain": "其他",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-09-01",
+  "start_date": "2010-01-01",
+  "end_date": "2027-09-01",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": 40,
+    "max": 60,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -4,
+    "max": 7,
+    "reverse": true
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "S-1784591719304-9d760028883c38",
+      "series_key": "S-1784591719304-9d760028883c38",
+      "indicator_id": "PI-DFCCD4A11B8A8AE3DF29",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 365,
+      "start_date": "2007-06-22",
+      "end_date": "2026-07-07",
+      "end_mode": "latest",
+      "anchor_date": "2009-01-01",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788330494199-93b7446aea4638",
+      "series_key": "SI-1788330494199-93b7446aea4638",
+      "indicator_id": "PI-053055D1FE6A9CCE61E1",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2009-10-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 23,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}
