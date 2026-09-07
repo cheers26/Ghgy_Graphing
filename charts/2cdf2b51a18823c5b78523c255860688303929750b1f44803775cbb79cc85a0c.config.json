@@ -1,0 +1,107 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-06",
+  "base_start_date": "2008-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": "auto",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-08-06",
+  "end_mode": "latest",
+  "indicator_combo_signature": "DUAL::PI-F5060D2AEF53B863A5D0|PI-81A238CC7BC2534A857A",
+  "indicator_ids": [
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "欧洲融资铜变迁与欧元指数之间的关系",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "2010-03-24",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-05",
+      "end_mode": "latest",
+      "instance_id": "S-d15c129dcdc34681b90f",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-03-24",
+      "indicator_id": "PI-81A238CC7BC2534A857A",
+      "series_key": "S-d15c129dcdc34681b90f"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-08-06",
+      "end_mode": "latest",
+      "instance_id": "S-e8dce61704084d10ae32",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1975-01-02",
+      "indicator_id": "PI-F5060D2AEF53B863A5D0",
+      "series_key": "S-e8dce61704084d10ae32"
+    }
+  ],
+  "start_date": "2008-01-01",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-d15c129dcdc34681b90f",
+    "reference_anchor_date": "2010-03-24",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "LME:库存量:铜:荷兰:鹿特丹 vs 欧元兑美元",
+  "chart_id": "PC-952AE08A823954B8C268"
+}

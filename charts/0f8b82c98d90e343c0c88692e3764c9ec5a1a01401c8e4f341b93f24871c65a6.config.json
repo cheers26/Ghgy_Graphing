@@ -1,0 +1,124 @@
+{
+  "chart_id": "PC-D9D666F27FD2127C23CD",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787106310122-27f60f141e9e4",
+    "reference_anchor_date": "2000-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "1y",
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-20DD78DDADE3722AB5FA",
+    "PI-6B2E2A3453981161E7C7"
+  ],
+  "indicator_combo_signature": "PI-20DD78DDADE3722AB5FA|PI-6B2E2A3453981161E7C7",
+  "title": "美国名义GDP同比 vs 美国:联邦基金目标利率",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "1980-01-01",
+  "base_end_date": "2026-07-30",
+  "start_date": "1980-01-01",
+  "end_date": "2026-07-30",
+  "end_mode": "latest",
+  "seasonal_style": "band",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -5,
+    "max": 11.5,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787106310122-27f60f141e9e4",
+      "series_key": "SI-1787106310122-27f60f141e9e4",
+      "indicator_id": "PI-20DD78DDADE3722AB5FA",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1948-03-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "2000-01-01",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787106442625-9bad772ae983f8",
+      "series_key": "SI-1787106442625-9bad772ae983f8",
+      "indicator_id": "PI-6B2E2A3453981161E7C7",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1971-01-08",
+      "end_date": "2026-07-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 18,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 21
+  },
+  "date_tick_angle": "auto"
+}

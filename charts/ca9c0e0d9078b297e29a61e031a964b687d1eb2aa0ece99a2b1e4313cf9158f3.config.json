@@ -1,0 +1,107 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-10",
+  "base_start_date": "2008-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": -30,
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2027-04-07",
+  "end_mode": "latest",
+  "indicator_combo_signature": "DUAL::PI-60A674B402487BCB4F66|PI-C276E4D68DB4EE5D410B",
+  "indicator_ids": [
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": true
+  },
+  "left_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": null,
+    "min": null,
+    "reverse": true
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "2005-03-22",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-10",
+      "end_mode": "latest",
+      "instance_id": "S-4c3f98677893426a909c",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2005-03-22",
+      "indicator_id": "PI-60A674B402487BCB4F66",
+      "series_key": "S-4c3f98677893426a909c"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-03-31",
+      "end_mode": "latest",
+      "instance_id": "S-ee0a292ed2be4dd0a228",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 240,
+      "start_date": "2008-09-30",
+      "indicator_id": "PI-C276E4D68DB4EE5D410B",
+      "series_key": "S-ee0a292ed2be4dd0a228"
+    }
+  ],
+  "start_date": "2008-01-01",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-4c3f98677893426a909c",
+    "reference_anchor_date": "2005-03-22",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "沪铜同比 vs 中国:金融机构人民币贷款加权平均利率",
+  "chart_id": "PC-6E9C0083D4D0B79BBE13"
+}

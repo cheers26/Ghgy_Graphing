@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "render_fingerprint": "1cd602915f5a5c5162d780e74ca2c92dc2154b9ca0d5eb7ff3189c4ea55a1d09",
+  "data_snapshot_hash": "980eddc3700ce2c839d9ac556848cb049c57f2ff77b9cab992a0cbb9d0dc9fa4",
+  "renderer_version": "plotly-canonical-v3-adjustable-date-axis",
+  "logical_canvas": {
+    "width": 1550,
+    "height": 700,
+    "ratio": "15.5:7"
+  },
+  "canonical_config_hash": "1a7d117f386a30968b54614160c6a80d17983b65fd5219cd86393d6cba04e036",
+  "data_mode": "latest_at_package_build",
+  "latest_summary": {
+    "PI-A9BD2C4F0C31ED113A73": {
+      "latest_date": "2026-09-04",
+      "latest_value": 2.43
+    },
+    "PI-906727900A9066A0FD91": {
+      "latest_date": "2026-09-04",
+      "latest_value": 4367.4
+    }
+  },
+  "assets": {
+    "html": {
+      "file": "render-1cd602915f5a5c5162d780e74ca2c92dc2154b9ca0d5eb7ff3189c4ea55a1d09.html",
+      "sha256": "11da20b890eb7c03bf2097f67c1b98fc9b06a1ea76b9b9260363fb2dff83f604"
+    },
+    "png": {
+      "file": "1cd602915f5a5c5162d780e74ca2c92dc2154b9ca0d5eb7ff3189c4ea55a1d09.png",
+      "sha256": "221ac336ea50f338d0055bb97c8141044f7564fb7b8aadc1806d4ff8fc05a6fa"
+    },
+    "svg": {
+      "file": "1cd602915f5a5c5162d780e74ca2c92dc2154b9ca0d5eb7ff3189c4ea55a1d09.svg",
+      "sha256": "9724f08411d4eaef5d0b24892569e6e551ebdc8379f9064d2b24ef56f8c8a19a"
+    },
+    "config": {
+      "file": "1cd602915f5a5c5162d780e74ca2c92dc2154b9ca0d5eb7ff3189c4ea55a1d09.config.json",
+      "sha256": "c75f9437af8ae1427b6541e605aa543198d5cabfbe16dcb826aeb6d5e663489e"
+    }
+  }
+}
