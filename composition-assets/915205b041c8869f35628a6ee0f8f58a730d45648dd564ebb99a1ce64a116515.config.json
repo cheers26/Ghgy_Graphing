@@ -1,0 +1,139 @@
+{
+  "chart_id": "PC-96D0C55AB1A0A1EDC006",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787128732373-f442c806fd65f",
+    "reference_anchor_date": "2000-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "1m",
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-F69F92A4A349A231BF10",
+    "PI-BBB8E5D06CE5072F3FA8"
+  ],
+  "indicator_combo_signature": "PI-F69F92A4A349A231BF10|PI-BBB8E5D06CE5072F3FA8",
+  "title": "社会消费品零售总额:当月同比 vs 社零当月同比（实际）",
+  "domain": "其他",
+  "base_start_date": "2024-07-30",
+  "base_end_date": "2026-07-31",
+  "start_date": "2024-07-30",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018,
+    2017,
+    2016
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2008": "#008000",
+    "2009": "#0000ff",
+    "2010": "#ff0000",
+    "2011": "#8c564b",
+    "2012": "#bcbd22",
+    "2013": "#e377c2",
+    "2014": "#17becf",
+    "2015": "#008000",
+    "2016": "#640080",
+    "2017": "#666722",
+    "2018": "#04ff00",
+    "2019": "#8c564b",
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787128732373-f442c806fd65f",
+      "series_key": "SI-1787128732373-f442c806fd65f",
+      "indicator_id": "PI-BBB8E5D06CE5072F3FA8",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1985-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "2000-01-01",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787128734653-6d4cf5002aa58",
+      "series_key": "SI-1787128734653-6d4cf5002aa58",
+      "indicator_id": "PI-F69F92A4A349A231BF10",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1987-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 22,
+    "axis_tick_font_size": 18,
+    "date_tick_font_size": 21
+  },
+  "date_tick_angle": "auto"
+}

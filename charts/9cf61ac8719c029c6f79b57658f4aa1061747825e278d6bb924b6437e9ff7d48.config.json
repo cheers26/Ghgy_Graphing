@@ -1,0 +1,106 @@
+{
+  "chart_id": "PC-AA85473B6E115B167A1C",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788331993564-3903ec7eb0c2c8",
+    "reference_anchor_date": "2009-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-8015FF18E2F2515CDBAB",
+    "PI-5395AB6861C369FC0496"
+  ],
+  "indicator_combo_signature": "DUAL::PI-8015FF18E2F2515CDBAB|PI-5395AB6861C369FC0496",
+  "title": "美国制造业新订单/自有库存 vs 名义中性利率-联邦基金利率",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2015-01-01",
+  "base_end_date": "2026-08-31",
+  "start_date": "2015-01-01",
+  "end_date": "2027-09-01",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": 0.8,
+    "max": 1.4,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -4,
+    "max": 7,
+    "reverse": true
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788331993564-3903ec7eb0c2c8",
+      "series_key": "SI-1788331993564-3903ec7eb0c2c8",
+      "indicator_id": "PI-8015FF18E2F2515CDBAB",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1948-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "2009-01-01",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788332017831-7b5118be63c92",
+      "series_key": "SI-1788332017831-7b5118be63c92",
+      "indicator_id": "PI-5395AB6861C369FC0496",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 366,
+      "start_date": "2015-09-17",
+      "end_date": "2026-06-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 23,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

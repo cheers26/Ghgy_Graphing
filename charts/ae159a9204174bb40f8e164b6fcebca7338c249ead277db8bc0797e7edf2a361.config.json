@@ -1,0 +1,107 @@
+{
+  "chart_id": "PC-C6A185051A05374B95E6",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "reference_overlay_v2",
+    "reference_instance_id": "SI-1785745743234-852fc2b8306378",
+    "reference_anchor_date": "1966-03-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-3847C0EEF7D645497C14"
+  ],
+  "indicator_combo_signature": "DUAL::PI-3847C0EEF7D645497C14|PI-3847C0EEF7D645497C14",
+  "title": "美国:CPI:当月同比历史对比",
+  "domain": "宏观",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "1966-03-31",
+  "base_end_date": "1983-01-01",
+  "start_date": "1966-03-31",
+  "end_date": "1983-01-01",
+  "end_mode": "fixed",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785745743234-852fc2b8306378",
+      "series_key": "SI-1785745743234-852fc2b8306378",
+      "indicator_id": "PI-3847C0EEF7D645497C14",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1966-03-31",
+      "end_date": "1983-01-01",
+      "end_mode": "fixed",
+      "anchor_date": "1966-03-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785745768187-16afdeedbacf98",
+      "series_key": "SI-1785745768187-16afdeedbacf98",
+      "indicator_id": "PI-3847C0EEF7D645497C14",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0033",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2013-09-30",
+      "end_date": "2026-08-03",
+      "end_mode": "fixed",
+      "anchor_date": "2013-09-30",
+      "label": ""
+    }
+  ],
+  "visual_profile": "research_readable_v1",
+  "visual_profile_version": "V1.55",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "categories": [
+    "宏观"
+  ],
+  "date_tick_angle": "auto"
+}
