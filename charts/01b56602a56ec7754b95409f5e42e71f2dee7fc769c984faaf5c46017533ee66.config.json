@@ -1,0 +1,126 @@
+{
+  "chart_id": "PC-C754D7B5B5E54CDCA4BF",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787043194972-f06d26e9408d68",
+    "reference_anchor_date": "2015-11-25",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "6m",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-2B49A60AB2A5A548B343",
+    "PI-FF5C52946D105D419BAA"
+  ],
+  "indicator_combo_signature": "DUAL::PI-2B49A60AB2A5A548B343|PI-FF5C52946D105D419BAA",
+  "title": "美国国债10Y-2Y vs 美国国债30Y-10Y",
+  "domain": "油",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2016-08-03",
+  "base_end_date": "2026-09-17",
+  "start_date": "2016-08-03",
+  "end_date": "2026-09-17",
+  "end_mode": "fixed",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2021
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2022
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": true,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#0000e1",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#5f074f",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#ee00ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": -1,
+    "max": 2,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -1,
+    "max": 2,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": 1.5,
+    "max": 6,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787043194972-f06d26e9408d68",
+      "series_key": "SI-1787043194972-f06d26e9408d68",
+      "indicator_id": "PI-FF5C52946D105D419BAA",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1977-02-15",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "anchor_date": "2015-11-25",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787043592148-c4942d6eb53438",
+      "series_key": "SI-1787043592148-c4942d6eb53438",
+      "indicator_id": "PI-2B49A60AB2A5A548B343",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1976-06-01",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "油"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

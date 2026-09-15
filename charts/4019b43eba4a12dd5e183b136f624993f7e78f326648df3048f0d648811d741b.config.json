@@ -1,0 +1,107 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-06",
+  "base_start_date": "1991-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": "auto",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2027-08-06",
+  "end_mode": "latest",
+  "indicator_combo_signature": "DUAL::PI-424531C8A95245F4AFBF|PI-50EE468F81BE2AF620BC",
+  "indicator_ids": [
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "美国融资铜变迁与美元指数之间的关系",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "1993-04-30",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-06",
+      "end_mode": "latest",
+      "instance_id": "S-7b17997fd330468fa015",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1993-04-30",
+      "indicator_id": "PI-50EE468F81BE2AF620BC",
+      "series_key": "S-7b17997fd330468fa015"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-08-06",
+      "end_mode": "latest",
+      "instance_id": "S-aeed97196a4f4ffa8b30",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 365,
+      "start_date": "1971-01-04",
+      "indicator_id": "PI-424531C8A95245F4AFBF",
+      "series_key": "S-aeed97196a4f4ffa8b30"
+    }
+  ],
+  "start_date": "1991-01-01",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-7b17997fd330468fa015",
+    "reference_anchor_date": "1993-04-30",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "COMEX:库存量:铜 vs 美元指数",
+  "chart_id": "PC-9348C5E211CADC0C0C6D"
+}

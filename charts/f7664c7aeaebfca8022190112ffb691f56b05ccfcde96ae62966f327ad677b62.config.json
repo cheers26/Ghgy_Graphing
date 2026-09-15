@@ -1,0 +1,101 @@
+{
+  "chart_id": "PC-3F126A0C67D2DEC8908B",
+  "chart_mode": "timeseries",
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-E08BAC22BC543427362D",
+    "PI-A830ECC4EE4119B50091"
+  ],
+  "indicator_combo_signature": "DUAL::PI-E08BAC22BC543427362D|PI-A830ECC4EE4119B50091",
+  "title": "预期GDP增速-供应所需GDP vs 碳酸锂前十席位多空比",
+  "domain": "碳酸锂",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2023-12-30",
+  "base_end_date": "2028-12-31",
+  "start_date": "2023-12-30",
+  "end_date": "2028-12-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "series_key": "S-1785381592993-6cb8671a9caa78",
+      "indicator_id": "PI-E08BAC22BC543427362D",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-01",
+      "end_date": "2028-12-31",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "S-1785381592993-6cb8671a9caa78",
+      "anchor_date": "2021-01-01"
+    },
+    {
+      "series_key": "S-1785381606637-6ac51af166e4f",
+      "indicator_id": "PI-A830ECC4EE4119B50091",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2023-11-10",
+      "end_date": "2026-07-27",
+      "end_mode": "latest",
+      "label": "",
+      "instance_id": "S-1785381606637-6ac51af166e4f"
+    }
+  ],
+  "visual_profile": "research_readable_v1",
+  "visual_profile_version": "V1.55",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "categories": [
+    "碳酸锂"
+  ],
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1785381592993-6cb8671a9caa78",
+    "reference_anchor_date": "2021-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_angle": "auto"
+}

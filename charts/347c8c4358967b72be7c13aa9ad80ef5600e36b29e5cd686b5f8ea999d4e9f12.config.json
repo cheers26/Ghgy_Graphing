@@ -1,0 +1,126 @@
+{
+  "chart_id": "PC-2F0712E76853019ADEA7",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1785915758002-46e4a43eff78c",
+    "reference_anchor_date": "1967-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-CE07E92FA82E49D3AF29",
+    "PI-2B91E54714C8AFAB2F9D",
+    "PI-C5A4853F8DDEA18131D9"
+  ],
+  "indicator_combo_signature": "PI-CE07E92FA82E49D3AF29|PI-2B91E54714C8AFAB2F9D|PI-C5A4853F8DDEA18131D9",
+  "title": "美国:工业生产指数(NAICS):计算机、通信设备和半导体(/202301) vs 美国:工业生产指数:制造业(剔除计算机、通信设备和半导体)（/202301） vs 美国工业生产指数（/202301）",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2023-01-01",
+  "base_end_date": "2026-06-30",
+  "start_date": "2023-01-01",
+  "end_date": "2026-06-30",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": 0.95,
+    "max": 1.5,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 0.95,
+    "max": 1.5,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": 0.95,
+    "max": 1.5,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": 0.95,
+    "max": 1.5,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785915758002-46e4a43eff78c",
+      "series_key": "SI-1785915758002-46e4a43eff78c",
+      "indicator_id": "PI-2B91E54714C8AFAB2F9D",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1967-01-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "1967-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785915762661-b3b2b4a3f11c58",
+      "series_key": "SI-1785915762661-b3b2b4a3f11c58",
+      "indicator_id": "PI-C5A4853F8DDEA18131D9",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1967-01-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785915894198-8d673b985ed778",
+      "series_key": "SI-1785915894198-8d673b985ed778",
+      "indicator_id": "PI-CE07E92FA82E49D3AF29",
+      "axis": "right2",
+      "chart_type": "line",
+      "color": "#68bc67",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1919-01-31",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "visual_profile": "research_readable_v1",
+  "visual_profile_version": "V1.55",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "categories": [
+    "其他"
+  ],
+  "date_tick_angle": "auto"
+}

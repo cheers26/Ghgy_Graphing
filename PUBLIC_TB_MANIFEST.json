@@ -1,0 +1,526 @@
+{
+  "schema_version": 2,
+  "release_id": "20260915-095946",
+  "generated_at": "2026-09-15T09:59:46+08:00",
+  "document_count": 7,
+  "page_count": 7,
+  "asset_count": 13,
+  "documents": [
+    {
+      "tb_id": "TB-000004",
+      "title": "Copper H1 2026 S&P 铜产量 （测试）",
+      "asset_kind": "screenshot",
+      "publication_status": "published",
+      "access_level": "public",
+      "lifecycle_status": "active",
+      "is_pinned": true,
+      "folder_name": null,
+      "classifications": {
+        "dimension_a": [],
+        "dimension_b": [],
+        "dimension_c": []
+      },
+      "current_version": {
+        "tb_version_id": "TB-000004-V001",
+        "version_no": 1,
+        "content_sha256": "751a04d48331b59182b73e70a7aa7ced9c4f59335f3cd0fe2708e4b56c04320e",
+        "config_sha256": "bfa9ed657dba310342e27f7d9de09a0c54676429a8d85a49bb9b17baeaccfa52",
+        "page_count": 1,
+        "pages": [
+          {
+            "tb_page_id": "TB-000004-V001-P001",
+            "page_no": 1,
+            "asset_url": "media/7189c1166352f29db1747321970e7b5782201de4add807925992e86d726e6728.png",
+            "sha256": "7189c1166352f29db1747321970e7b5782201de4add807925992e86d726e6728",
+            "bytes": 162151,
+            "width": 1550,
+            "height": 700
+          }
+        ]
+      }
+    },
+    {
+      "tb_id": "TB-000005",
+      "title": "01_半钢胎_2026年1-7月单月Top10折线图",
+      "asset_kind": "screenshot",
+      "publication_status": "published",
+      "access_level": "public",
+      "lifecycle_status": "active",
+      "is_pinned": false,
+      "folder_name": null,
+      "classifications": {
+        "dimension_a": [
+          {
+            "term_id": "PT-19BBC55C4F6A8E7EA3D7",
+            "term_name": "橡胶",
+            "sort_order": 0
+          }
+        ],
+        "dimension_b": [],
+        "dimension_c": []
+      },
+      "current_version": {
+        "tb_version_id": "TB-000005-V004",
+        "version_no": 4,
+        "content_sha256": "01d6357099643f1005b4d20a2a59b494681bd0617026af9844b81970e99eb514",
+        "config_sha256": "59605442bde31545c942bf1f692020530e7855b991a73751dc7a0270b94fff18",
+        "page_count": 1,
+        "pages": [
+          {
+            "tb_page_id": "TB-000005-V004-P001",
+            "page_no": 1,
+            "asset_url": "media/197732e151e38fe80369aa222613b3b949d5815e2b8d30825ce2423b6a2e1814.png",
+            "sha256": "197732e151e38fe80369aa222613b3b949d5815e2b8d30825ce2423b6a2e1814",
+            "bytes": 186511,
+            "width": 1550,
+            "height": 700,
+            "hd_asset_url": "media/09471574020fc09d6265a704a8473f551d3727ae61fa8c6e53738c6e5a9b5d58.png",
+            "hd_sha256": "09471574020fc09d6265a704a8473f551d3727ae61fa8c6e53738c6e5a9b5d58",
+            "hd_bytes": 479886,
+            "hd_width": 3100,
+            "hd_height": 1400
+          }
+        ]
+      }
+    },
+    {
+      "tb_id": "TB-000006",
+      "title": "02_半钢胎_2026年1-7月累计Top10",
+      "asset_kind": "screenshot",
+      "publication_status": "published",
+      "access_level": "public",
+      "lifecycle_status": "active",
+      "is_pinned": false,
+      "folder_name": null,
+      "classifications": {
+        "dimension_a": [
+          {
+            "term_id": "PT-19BBC55C4F6A8E7EA3D7",
+            "term_name": "橡胶",
+            "sort_order": 0
+          }
+        ],
+        "dimension_b": [],
+        "dimension_c": []
+      },
+      "current_version": {
+        "tb_version_id": "TB-000006-V004",
+        "version_no": 4,
+        "content_sha256": "08e53c0fadd0d8e978fd69fefb2804a68e13c87e59922b13b2caa7ab423daf5d",
+        "config_sha256": "a3d76108d1ba96a8f889368c1dedd3dec949d3906fce47c98e46682b7109b03c",
+        "page_count": 1,
+        "pages": [
+          {
+            "tb_page_id": "TB-000006-V004-P001",
+            "page_no": 1,
+            "asset_url": "media/6adaef89fa9d846d0ac744044ce5ec5f41194cb30e96723d28dbfaa70ee815b4.png",
+            "sha256": "6adaef89fa9d846d0ac744044ce5ec5f41194cb30e96723d28dbfaa70ee815b4",
+            "bytes": 113852,
+            "width": 1550,
+            "height": 700,
+            "hd_asset_url": "media/1489b57c18485853de758eed1c949b22f4caf96b5f9b8434ee2beafe52304107.png",
+            "hd_sha256": "1489b57c18485853de758eed1c949b22f4caf96b5f9b8434ee2beafe52304107",
+            "hd_bytes": 277714,
+            "hd_width": 3100,
+            "hd_height": 1400
+          }
+        ]
+      }
+    },
+    {
+      "tb_id": "TB-000007",
+      "title": "03_半钢胎_2025年全年累计Top10",
+      "asset_kind": "screenshot",
+      "publication_status": "published",
+      "access_level": "public",
+      "lifecycle_status": "active",
+      "is_pinned": false,
+      "folder_name": null,
+      "classifications": {
+        "dimension_a": [
+          {
+            "term_id": "PT-19BBC55C4F6A8E7EA3D7",
+            "term_name": "橡胶",
+            "sort_order": 0
+          }
+        ],
+        "dimension_b": [],
+        "dimension_c": []
+      },
+      "current_version": {
+        "tb_version_id": "TB-000007-V004",
+        "version_no": 4,
+        "content_sha256": "0e99e4b4b9aaf0a2fd16a44e92e18f0593189aa136b44eb839a4b4610b4a4a1c",
+        "config_sha256": "0ec2e12f3b18410496193258fdb899120d2153374d174608662708a26c48bbef",
+        "page_count": 1,
+        "pages": [
+          {
+            "tb_page_id": "TB-000007-V004-P001",
+            "page_no": 1,
+            "asset_url": "media/19b9f44f16abf7275a43bbf42aa0d900f5827f17547260b117eabc93b5c2dded.png",
+            "sha256": "19b9f44f16abf7275a43bbf42aa0d900f5827f17547260b117eabc93b5c2dded",
+            "bytes": 109612,
+            "width": 1550,
+            "height": 700,
+            "hd_asset_url": "media/e0f35f9b755ec267d7f2106bf067fc9fba37b4ab33f0223fc72625e1218936a2.png",
+            "hd_sha256": "e0f35f9b755ec267d7f2106bf067fc9fba37b4ab33f0223fc72625e1218936a2",
+            "hd_bytes": 268109,
+            "hd_width": 3100,
+            "hd_height": 1400
+          }
+        ]
+      }
+    },
+    {
+      "tb_id": "TB-000008",
+      "title": "04_全钢胎_2026年1-7月单月Top10折线图",
+      "asset_kind": "screenshot",
+      "publication_status": "published",
+      "access_level": "public",
+      "lifecycle_status": "active",
+      "is_pinned": false,
+      "folder_name": null,
+      "classifications": {
+        "dimension_a": [
+          {
+            "term_id": "PT-19BBC55C4F6A8E7EA3D7",
+            "term_name": "橡胶",
+            "sort_order": 0
+          }
+        ],
+        "dimension_b": [],
+        "dimension_c": []
+      },
+      "current_version": {
+        "tb_version_id": "TB-000008-V004",
+        "version_no": 4,
+        "content_sha256": "15b9805e59d1397757955e565dca5d12aa74db15ff19b2203fadf98783324083",
+        "config_sha256": "12b3cd603b3701c384bcb1ae5f9ef5c65ab4b6687e612532ab327ba889b7c1ff",
+        "page_count": 1,
+        "pages": [
+          {
+            "tb_page_id": "TB-000008-V004-P001",
+            "page_no": 1,
+            "asset_url": "media/53a25686bbcdf9f70f685f1e70c6f81bb5906488d423114dab8ff005a030f23d.png",
+            "sha256": "53a25686bbcdf9f70f685f1e70c6f81bb5906488d423114dab8ff005a030f23d",
+            "bytes": 204884,
+            "width": 1550,
+            "height": 700,
+            "hd_asset_url": "media/109c2efe39b869bc2ae6ebe04d986ac1a150fa8a31c5b70340532e1b04802915.png",
+            "hd_sha256": "109c2efe39b869bc2ae6ebe04d986ac1a150fa8a31c5b70340532e1b04802915",
+            "hd_bytes": 533375,
+            "hd_width": 3100,
+            "hd_height": 1400
+          }
+        ]
+      }
+    },
+    {
+      "tb_id": "TB-000009",
+      "title": "05_全钢胎_2026年1-7月累计Top10",
+      "asset_kind": "screenshot",
+      "publication_status": "published",
+      "access_level": "public",
+      "lifecycle_status": "active",
+      "is_pinned": false,
+      "folder_name": null,
+      "classifications": {
+        "dimension_a": [
+          {
+            "term_id": "PT-19BBC55C4F6A8E7EA3D7",
+            "term_name": "橡胶",
+            "sort_order": 0
+          }
+        ],
+        "dimension_b": [],
+        "dimension_c": []
+      },
+      "current_version": {
+        "tb_version_id": "TB-000009-V004",
+        "version_no": 4,
+        "content_sha256": "9ec933fe4065dc66cbff21d613add086569db924623a324b89199734f2164883",
+        "config_sha256": "40eda1999e481dec72c82c6ca7b6b6ae2fdfeed869cd170c0f409be6f276d127",
+        "page_count": 1,
+        "pages": [
+          {
+            "tb_page_id": "TB-000009-V004-P001",
+            "page_no": 1,
+            "asset_url": "media/c31a146ce3baf74306c191186e1281ea0a43268b28cc42c1ca6283a3996f76fb.png",
+            "sha256": "c31a146ce3baf74306c191186e1281ea0a43268b28cc42c1ca6283a3996f76fb",
+            "bytes": 115352,
+            "width": 1550,
+            "height": 700,
+            "hd_asset_url": "media/b4326f60b7bb6dc6e665ff7a49a8e314af424815c0f20d138a2b7aa6227666b2.png",
+            "hd_sha256": "b4326f60b7bb6dc6e665ff7a49a8e314af424815c0f20d138a2b7aa6227666b2",
+            "hd_bytes": 281402,
+            "hd_width": 3100,
+            "hd_height": 1400
+          }
+        ]
+      }
+    },
+    {
+      "tb_id": "TB-000010",
+      "title": "06_全钢胎_2025年全年累计Top10",
+      "asset_kind": "screenshot",
+      "publication_status": "published",
+      "access_level": "public",
+      "lifecycle_status": "active",
+      "is_pinned": false,
+      "folder_name": null,
+      "classifications": {
+        "dimension_a": [
+          {
+            "term_id": "PT-19BBC55C4F6A8E7EA3D7",
+            "term_name": "橡胶",
+            "sort_order": 0
+          }
+        ],
+        "dimension_b": [],
+        "dimension_c": []
+      },
+      "current_version": {
+        "tb_version_id": "TB-000010-V004",
+        "version_no": 4,
+        "content_sha256": "36321e119b3436b58ff7d8f436031105eb639260c3c2b6d041d4d67ed96e8a59",
+        "config_sha256": "2464b2b5d7eeea9e134a5eb3d9a25f741d201cd1695ca32f5f577bdb11de2394",
+        "page_count": 1,
+        "pages": [
+          {
+            "tb_page_id": "TB-000010-V004-P001",
+            "page_no": 1,
+            "asset_url": "media/7c725dd11486095c950f9177cf7d569d5d118ee273de6f06488bdf8bc09ae4e5.png",
+            "sha256": "7c725dd11486095c950f9177cf7d569d5d118ee273de6f06488bdf8bc09ae4e5",
+            "bytes": 115033,
+            "width": 1550,
+            "height": 700,
+            "hd_asset_url": "media/6297224413e2aa35915757c16cf41c460ddfebc3b0ea12938ad90abea31d45cf.png",
+            "hd_sha256": "6297224413e2aa35915757c16cf41c460ddfebc3b0ea12938ad90abea31d45cf",
+            "hd_bytes": 282432,
+            "hd_width": 3100,
+            "hd_height": 1400
+          }
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "media/09471574020fc09d6265a704a8473f551d3727ae61fa8c6e53738c6e5a9b5d58.png": {
+      "sha256": "09471574020fc09d6265a704a8473f551d3727ae61fa8c6e53738c6e5a9b5d58",
+      "bytes": 479886,
+      "width": 3100,
+      "height": 1400,
+      "rendition": "hd_2x",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000005",
+          "tb_version_id": "TB-000005-V004",
+          "tb_page_id": "TB-000005-V004-P001"
+        }
+      ]
+    },
+    "media/109c2efe39b869bc2ae6ebe04d986ac1a150fa8a31c5b70340532e1b04802915.png": {
+      "sha256": "109c2efe39b869bc2ae6ebe04d986ac1a150fa8a31c5b70340532e1b04802915",
+      "bytes": 533375,
+      "width": 3100,
+      "height": 1400,
+      "rendition": "hd_2x",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000008",
+          "tb_version_id": "TB-000008-V004",
+          "tb_page_id": "TB-000008-V004-P001"
+        }
+      ]
+    },
+    "media/1489b57c18485853de758eed1c949b22f4caf96b5f9b8434ee2beafe52304107.png": {
+      "sha256": "1489b57c18485853de758eed1c949b22f4caf96b5f9b8434ee2beafe52304107",
+      "bytes": 277714,
+      "width": 3100,
+      "height": 1400,
+      "rendition": "hd_2x",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000006",
+          "tb_version_id": "TB-000006-V004",
+          "tb_page_id": "TB-000006-V004-P001"
+        }
+      ]
+    },
+    "media/197732e151e38fe80369aa222613b3b949d5815e2b8d30825ce2423b6a2e1814.png": {
+      "sha256": "197732e151e38fe80369aa222613b3b949d5815e2b8d30825ce2423b6a2e1814",
+      "bytes": 186511,
+      "width": 1550,
+      "height": 700,
+      "rendition": "standard",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000005",
+          "tb_version_id": "TB-000005-V004",
+          "tb_page_id": "TB-000005-V004-P001"
+        }
+      ]
+    },
+    "media/19b9f44f16abf7275a43bbf42aa0d900f5827f17547260b117eabc93b5c2dded.png": {
+      "sha256": "19b9f44f16abf7275a43bbf42aa0d900f5827f17547260b117eabc93b5c2dded",
+      "bytes": 109612,
+      "width": 1550,
+      "height": 700,
+      "rendition": "standard",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000007",
+          "tb_version_id": "TB-000007-V004",
+          "tb_page_id": "TB-000007-V004-P001"
+        }
+      ]
+    },
+    "media/53a25686bbcdf9f70f685f1e70c6f81bb5906488d423114dab8ff005a030f23d.png": {
+      "sha256": "53a25686bbcdf9f70f685f1e70c6f81bb5906488d423114dab8ff005a030f23d",
+      "bytes": 204884,
+      "width": 1550,
+      "height": 700,
+      "rendition": "standard",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000008",
+          "tb_version_id": "TB-000008-V004",
+          "tb_page_id": "TB-000008-V004-P001"
+        }
+      ]
+    },
+    "media/6297224413e2aa35915757c16cf41c460ddfebc3b0ea12938ad90abea31d45cf.png": {
+      "sha256": "6297224413e2aa35915757c16cf41c460ddfebc3b0ea12938ad90abea31d45cf",
+      "bytes": 282432,
+      "width": 3100,
+      "height": 1400,
+      "rendition": "hd_2x",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000010",
+          "tb_version_id": "TB-000010-V004",
+          "tb_page_id": "TB-000010-V004-P001"
+        }
+      ]
+    },
+    "media/6adaef89fa9d846d0ac744044ce5ec5f41194cb30e96723d28dbfaa70ee815b4.png": {
+      "sha256": "6adaef89fa9d846d0ac744044ce5ec5f41194cb30e96723d28dbfaa70ee815b4",
+      "bytes": 113852,
+      "width": 1550,
+      "height": 700,
+      "rendition": "standard",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000006",
+          "tb_version_id": "TB-000006-V004",
+          "tb_page_id": "TB-000006-V004-P001"
+        }
+      ]
+    },
+    "media/7189c1166352f29db1747321970e7b5782201de4add807925992e86d726e6728.png": {
+      "sha256": "7189c1166352f29db1747321970e7b5782201de4add807925992e86d726e6728",
+      "bytes": 162151,
+      "width": 1550,
+      "height": 700,
+      "rendition": "standard",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000004",
+          "tb_version_id": "TB-000004-V001",
+          "tb_page_id": "TB-000004-V001-P001"
+        }
+      ]
+    },
+    "media/7c725dd11486095c950f9177cf7d569d5d118ee273de6f06488bdf8bc09ae4e5.png": {
+      "sha256": "7c725dd11486095c950f9177cf7d569d5d118ee273de6f06488bdf8bc09ae4e5",
+      "bytes": 115033,
+      "width": 1550,
+      "height": 700,
+      "rendition": "standard",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000010",
+          "tb_version_id": "TB-000010-V004",
+          "tb_page_id": "TB-000010-V004-P001"
+        }
+      ]
+    },
+    "media/b4326f60b7bb6dc6e665ff7a49a8e314af424815c0f20d138a2b7aa6227666b2.png": {
+      "sha256": "b4326f60b7bb6dc6e665ff7a49a8e314af424815c0f20d138a2b7aa6227666b2",
+      "bytes": 281402,
+      "width": 3100,
+      "height": 1400,
+      "rendition": "hd_2x",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000009",
+          "tb_version_id": "TB-000009-V004",
+          "tb_page_id": "TB-000009-V004-P001"
+        }
+      ]
+    },
+    "media/c31a146ce3baf74306c191186e1281ea0a43268b28cc42c1ca6283a3996f76fb.png": {
+      "sha256": "c31a146ce3baf74306c191186e1281ea0a43268b28cc42c1ca6283a3996f76fb",
+      "bytes": 115352,
+      "width": 1550,
+      "height": 700,
+      "rendition": "standard",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000009",
+          "tb_version_id": "TB-000009-V004",
+          "tb_page_id": "TB-000009-V004-P001"
+        }
+      ]
+    },
+    "media/e0f35f9b755ec267d7f2106bf067fc9fba37b4ab33f0223fc72625e1218936a2.png": {
+      "sha256": "e0f35f9b755ec267d7f2106bf067fc9fba37b4ab33f0223fc72625e1218936a2",
+      "bytes": 268109,
+      "width": 3100,
+      "height": 1400,
+      "rendition": "hd_2x",
+      "page_refs": [
+        {
+          "usage": "library",
+          "tb_id": "TB-000007",
+          "tb_version_id": "TB-000007-V004",
+          "tb_page_id": "TB-000007-V004-P001"
+        }
+      ]
+    }
+  },
+  "pixel_scan": {
+    "engine": "apple-vision-jxa-v1",
+    "resource_count": 13,
+    "recognized_text_digest": "2ba1bfa45fd32e0e3fc600e6818a1d53743672829fce3c6c816cfe5146af9026",
+    "files": {
+      "media/09471574020fc09d6265a704a8473f551d3727ae61fa8c6e53738c6e5a9b5d58.png": "b4d98c3d46a8289c5173de503a6f3169ff3c3ca1001fe09ef389e44de1a0d98d",
+      "media/109c2efe39b869bc2ae6ebe04d986ac1a150fa8a31c5b70340532e1b04802915.png": "ab55fda54c01f6549f7f5fc7214fc2989ed58d21d6375979a11796fd91b3c37e",
+      "media/1489b57c18485853de758eed1c949b22f4caf96b5f9b8434ee2beafe52304107.png": "6b62c547d2b4cda3b83760303892a835cd6f3acb4f9c531bfa606f50382337a3",
+      "media/197732e151e38fe80369aa222613b3b949d5815e2b8d30825ce2423b6a2e1814.png": "d4ec11faa6da99542d9a7ce31888c25a1d0aa603353a7dce7182a252cf5e466b",
+      "media/19b9f44f16abf7275a43bbf42aa0d900f5827f17547260b117eabc93b5c2dded.png": "c75598527f0d70c4b016cd558e27fce190d359b5e3c3335b85aff4dac0ac3925",
+      "media/53a25686bbcdf9f70f685f1e70c6f81bb5906488d423114dab8ff005a030f23d.png": "34fc185ffb0c2ee9d30bd8e8ee54cee5ffa70d0591ed321b1b36d3fd5ef55e8d",
+      "media/6297224413e2aa35915757c16cf41c460ddfebc3b0ea12938ad90abea31d45cf.png": "d176cf8ea868fbba5f2112c8cbcc2a3577ca5def5f7ce2414deb125ba8882a3d",
+      "media/6adaef89fa9d846d0ac744044ce5ec5f41194cb30e96723d28dbfaa70ee815b4.png": "f2d01480745f8e779cb54e8b52cad58ebb36fa360d5c8711daf2eb258c5cd106",
+      "media/7189c1166352f29db1747321970e7b5782201de4add807925992e86d726e6728.png": "d93d34d9d82901e1745e9da1eeaecae8b600947b826540587f124bd9762e4df1",
+      "media/7c725dd11486095c950f9177cf7d569d5d118ee273de6f06488bdf8bc09ae4e5.png": "19abe9c59b2de80c8775d01661e71abc187006f3c750f8d851611867fc726029",
+      "media/b4326f60b7bb6dc6e665ff7a49a8e314af424815c0f20d138a2b7aa6227666b2.png": "f7f7bd86d2103cf7958b87f04a6c6ed428925fe1c2239a1e96be6edba26ab987",
+      "media/c31a146ce3baf74306c191186e1281ea0a43268b28cc42c1ca6283a3996f76fb.png": "c0f4f6b854c5464ce4787dfd033ff90a99893c26e03268e9024117293631cd7b",
+      "media/e0f35f9b755ec267d7f2106bf067fc9fba37b4ab33f0223fc72625e1218936a2.png": "1944f1662107ec581bdae9353eba375f82409f6cc9770d3517bcd4dbc0ecaf5e"
+    },
+    "finding_count": 0
+  },
+  "manifest_digest": "e9a6d1a894113952065b0a1abf5b1b8757aa6ca6be91e7f40f4356697693ee39"
+}
