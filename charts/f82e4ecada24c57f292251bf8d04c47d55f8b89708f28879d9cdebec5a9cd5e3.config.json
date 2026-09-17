@@ -1,0 +1,85 @@
+{
+  "chart_id": "PC-96C4ADD3A41728286B06",
+  "chart_mode": "timeseries",
+  "indicator_ids": [
+    "PI-F197D24A65563EED797F",
+    "PI-4E3709D30E6FB43271B4"
+  ],
+  "indicator_combo_signature": "DUAL::PI-F197D24A65563EED797F|PI-4E3709D30E6FB43271B4",
+  "title": "美国铝和有色金属新订单同比vs中国出口金额同比",
+  "domain": "商品",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2010-01-01",
+  "base_end_date": "2026-06-30",
+  "start_date": "2010-01-01",
+  "end_date": "2026-08-29",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": -30,
+    "max": 50,
+    "reverse": false
+  },
+  "series": [
+    {
+      "series_key": "S-1784193841628-883b10c3246748",
+      "indicator_id": "PI-F197D24A65563EED797F",
+      "axis": "left",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 60,
+      "start_date": "2010-01-01",
+      "end_date": "2026-05-31",
+      "end_mode": "latest",
+      "label": "",
+      "line_width": 5.0,
+      "color": "#0000ff",
+      "instance_id": "S-1784193841628-883b10c3246748",
+      "anchor_date": "2010-01-01"
+    },
+    {
+      "series_key": "S-1784193841629-372be06b24723",
+      "indicator_id": "PI-4E3709D30E6FB43271B4",
+      "axis": "right",
+      "chart_type": "line",
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2010-01-01",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "label": "",
+      "line_width": 5.0,
+      "color": "#ff0000",
+      "instance_id": "S-1784193841629-372be06b24723"
+    }
+  ],
+  "visual_profile": "research_readable_v1",
+  "visual_profile_version": "V1.55",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "categories": [
+    "商品"
+  ],
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1784193841628-883b10c3246748",
+    "reference_anchor_date": "2010-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_angle": "auto"
+}

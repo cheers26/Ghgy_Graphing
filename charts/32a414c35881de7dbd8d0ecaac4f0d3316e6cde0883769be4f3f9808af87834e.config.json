@@ -1,0 +1,132 @@
+{
+  "chart_id": "PC-5194ABBB4A9A57EADBFF",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788852706530-088236c1c897f",
+    "reference_anchor_date": "1960-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "5y",
+  "date_tick_angle": -90,
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-3847C0EEF7D645497C14",
+    "PI-CFF4EB1971762C42B195"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::ea920c2485f73db12fd600094569c55ef0be7eb48fb67c38cf29246b1fd14de3",
+  "title": "M2调整铜价同比 vs 美国:CPI:当月同比",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2000-01-31",
+  "base_end_date": "2026-07-31",
+  "start_date": "2000-01-31",
+  "end_date": "2027-01-27",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2023,
+    2022,
+    2021,
+    2020,
+    2019
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788852706530-088236c1c897f",
+      "series_key": "SI-1788852706530-088236c1c897f",
+      "indicator_id": "PI-CFF4EB1971762C42B195",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 180,
+      "start_date": "1961-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "1960-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788852716462-165964e6da399",
+      "series_key": "SI-1788852716462-165964e6da399",
+      "indicator_id": "PI-3847C0EEF7D645497C14",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1914-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

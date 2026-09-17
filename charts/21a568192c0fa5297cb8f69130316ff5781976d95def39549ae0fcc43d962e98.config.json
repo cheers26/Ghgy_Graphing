@@ -1,0 +1,140 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-27",
+  "base_start_date": "2021-01-04",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": "auto",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-08-27",
+  "end_mode": "latest",
+  "indicator_combo_signature": "||",
+  "indicator_ids": [
+    "",
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 1,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 1,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": false,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023
+  ],
+  "series": [
+    {
+      "anchor_date": "2021-01-04",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-27",
+      "end_mode": "latest",
+      "instance_id": "S-1637510217ca412db478",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-04",
+      "indicator_id": "PI-D26983CA9DC646C41EB1",
+      "series_key": "S-1637510217ca412db478"
+    },
+    {
+      "anchor_date": "",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-08-21",
+      "end_mode": "latest",
+      "instance_id": "S-e9a12c31615f4cfd9dee",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-07",
+      "indicator_id": "PI-5EF357D1F8873A2D5E00",
+      "series_key": "S-e9a12c31615f4cfd9dee"
+    },
+    {
+      "anchor_date": "",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#c7c7c7",
+      "end_date": "2026-08-21",
+      "end_mode": "latest",
+      "instance_id": "S-e5e56530670341bcab31",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-07",
+      "indicator_id": "PI-895CA1FA996B00C318FF",
+      "series_key": "S-e5e56530670341bcab31"
+    }
+  ],
+  "start_date": "2021-01-04",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-1637510217ca412db478",
+    "reference_anchor_date": "2021-01-04",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "SMM: 电解铝成本利润模型: 利润: 日度 + 铝利润估值上沿 + 铝利润估值下沿",
+  "chart_id": "PC-965461BD4B9BA5EB3BBC"
+}

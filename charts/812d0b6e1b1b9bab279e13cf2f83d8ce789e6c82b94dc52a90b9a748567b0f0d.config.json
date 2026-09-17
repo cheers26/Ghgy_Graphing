@@ -1,0 +1,110 @@
+{
+  "chart_id": "PC-93F77AB57527CCF7F0B3",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788920166464-677ae7bb1e1ab",
+    "reference_anchor_date": "2021-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "3m",
+  "date_tick_angle": -30,
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-F794ABA37F4BE11925F5",
+    "PI-DFCDC1593FF0BF9B9DE7"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::4868ee0c92abe8132bc949d4d33d8a5812b5e4b0dbce34dd9e163193a3e641e5",
+  "title": "中国海关: 电解铜进口量: 月度 vs 中国海关: 电解铜进口量: 累计同比: 月度",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2023-05-30",
+  "base_end_date": "2026-07-31",
+  "start_date": "2023-05-30",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "ten_thousand"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788920166464-677ae7bb1e1ab",
+      "series_key": "SI-1788920166464-677ae7bb1e1ab",
+      "indicator_id": "PI-DFCDC1593FF0BF9B9DE7",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "2021-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788920171256-5d768286c80168",
+      "series_key": "SI-1788920171256-5d768286c80168",
+      "indicator_id": "PI-F794ABA37F4BE11925F5",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 20,
+    "date_tick_font_size": 24
+  }
+}

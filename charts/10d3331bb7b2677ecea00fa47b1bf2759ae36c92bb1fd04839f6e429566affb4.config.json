@@ -1,0 +1,128 @@
+{
+  "chart_id": "PC-D932BB54EDE03B60F7D2",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788917454475-ef947696e2d488",
+    "reference_anchor_date": "1998-01-05",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": -30,
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-3BC5CC137810BC80B75C",
+    "PI-44707A517F83173326B0",
+    "PI-BEE0F9B64D3E622F908D"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::c613653d7cd27d885c78f7a0e48153f30a54f5975126ae9828d145877cf03145",
+  "title": "LME:库存量:铜:欧洲 vs LME:库存量:铜:亚洲 vs LME:库存量:铜:北美洲",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2021-09-03",
+  "base_end_date": "2026-09-04",
+  "start_date": "2021-09-03",
+  "end_date": "2026-09-04",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "ten_thousand"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "ten_thousand"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "ten_thousand"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788917454475-ef947696e2d488",
+      "series_key": "SI-1788917454475-ef947696e2d488",
+      "indicator_id": "PI-3BC5CC137810BC80B75C",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1998-01-05",
+      "end_date": "2026-09-04",
+      "end_mode": "latest",
+      "anchor_date": "1998-01-05",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788917456005-0409fbeca9214",
+      "series_key": "SI-1788917456005-0409fbeca9214",
+      "indicator_id": "PI-44707A517F83173326B0",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1998-01-05",
+      "end_date": "2026-09-04",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788917457714-4f9cb02923a9",
+      "series_key": "SI-1788917457714-4f9cb02923a9",
+      "indicator_id": "PI-BEE0F9B64D3E622F908D",
+      "axis": "left2",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1998-01-05",
+      "end_date": "2026-09-04",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 20,
+    "date_tick_font_size": 24
+  }
+}

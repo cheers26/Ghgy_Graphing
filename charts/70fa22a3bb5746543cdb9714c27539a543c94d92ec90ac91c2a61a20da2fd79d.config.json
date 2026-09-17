@@ -1,0 +1,98 @@
+{
+  "chart_id": "PC-EAA5D5425D97A9FBF644",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787043312439-f3575f3d09b478",
+    "reference_anchor_date": "1976-06-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": -30,
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-42477D8249359198FC65"
+  ],
+  "indicator_combo_signature": "PI-42477D8249359198FC65",
+  "title": "美国:国债收益率:30年",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2024-08-03",
+  "base_end_date": "2026-09-30",
+  "start_date": "2024-08-03",
+  "end_date": "2026-09-30",
+  "end_mode": "fixed",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2021
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787043312439-f3575f3d09b478",
+      "series_key": "SI-1787043312439-f3575f3d09b478",
+      "indicator_id": "PI-42477D8249359198FC65",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1977-02-15",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "anchor_date": "1976-06-01",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

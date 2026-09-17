@@ -1,0 +1,117 @@
+{
+  "chart_id": "PC-0B655C2109222EC2F4B8",
+  "chart_mode": "seasonal",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1789540485700-2b11b8a5706c4",
+    "reference_anchor_date": "1968-01-02",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-E4694AC8EC1084BED5B4"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::023768442268844919f785e2c5dbf699ac5fa48a390445ee7e393d85a847a8e8",
+  "title": "天然橡胶：胶水：原料：市场价：西双版纳州（日）",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2019-01-01",
+  "base_end_date": "2026-09-15",
+  "start_date": "2019-01-01",
+  "end_date": "2026-09-15",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2021,
+    2020,
+    2019
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5.0,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5.0,
+  "seasonal_colors": {
+    "2019": "#8c564b",
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1789540485700-2b11b8a5706c4",
+      "series_key": "SI-1789540485700-2b11b8a5706c4",
+      "indicator_id": "PI-E4694AC8EC1084BED5B4",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2014-03-20",
+      "end_date": "2026-09-15",
+      "end_mode": "latest",
+      "anchor_date": "1968-01-02",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23,
+    "seasonal_title_font_size": 22,
+    "seasonal_legend_font_size": 22,
+    "seasonal_sample_font_size": 16
+  }
+}

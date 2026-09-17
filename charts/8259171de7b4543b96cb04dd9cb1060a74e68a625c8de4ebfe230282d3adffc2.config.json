@@ -1,0 +1,121 @@
+{
+  "chart_id": "PC-00D14CF7BF5D8645518C",
+  "chart_mode": "seasonal",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1789540186812-305faed3bd6d88",
+    "reference_anchor_date": "1968-01-02",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-814B1566A373CE9F78B1"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::336c70f3dbd391c6dfa298526367559163c7e9c079ed6bc7724fd8668150d2b3",
+  "title": "钢联杯水价差（胶水-杯胶）",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2015-01-01",
+  "base_end_date": "2026-09-15",
+  "start_date": "2015-01-01",
+  "end_date": "2026-09-15",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2021,
+    2020,
+    2019,
+    2018,
+    2017,
+    2016,
+    2015
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5.0,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5.0,
+  "seasonal_colors": {
+    "2019": "#8c564b",
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1789540186812-305faed3bd6d88",
+      "series_key": "SI-1789540186812-305faed3bd6d88",
+      "indicator_id": "PI-814B1566A373CE9F78B1",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2014-02-11",
+      "end_date": "2026-09-15",
+      "end_mode": "latest",
+      "anchor_date": "1968-01-02",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23,
+    "seasonal_title_font_size": 22,
+    "seasonal_legend_font_size": 22,
+    "seasonal_sample_font_size": 16
+  }
+}

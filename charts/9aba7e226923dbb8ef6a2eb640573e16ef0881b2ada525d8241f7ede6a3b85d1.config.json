@@ -1,0 +1,151 @@
+{
+  "chart_id": "PC-0554168E74FA1C458E1F",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1786935497988-9d9c47a616ba48",
+    "reference_anchor_date": "2000-01-04",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "1m",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-501A5FFF84CB47F06DBF",
+    "PI-782BE5D8797368FE7B1A",
+    "PI-99B41D0D14CF1376CB67"
+  ],
+  "indicator_combo_signature": "PI-501A5FFF84CB47F06DBF|PI-782BE5D8797368FE7B1A|PI-99B41D0D14CF1376CB67",
+  "title": "申万行业指数:三级行业:市盈率:轮胎轮毂 vs 申万行业市值:三级行业:轮胎轮毂 vs 申万行业指数:三级行业:市净率:轮胎轮毂",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2021-10-30",
+  "base_end_date": "2026-10-31",
+  "start_date": "2021-10-30",
+  "end_date": "2026-10-31",
+  "end_mode": "fixed",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020
+  ],
+  "seasonal_highlight_years": [
+    2026
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2018": "#ff0000",
+    "2019": "#8c564b",
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1786935497988-9d9c47a616ba48",
+      "series_key": "SI-1786935497988-9d9c47a616ba48",
+      "indicator_id": "PI-99B41D0D14CF1376CB67",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2000-01-04",
+      "end_date": "2026-08-14",
+      "end_mode": "latest",
+      "anchor_date": "2000-01-04",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786935520406-bfce445ca228b",
+      "series_key": "SI-1786935520406-bfce445ca228b",
+      "indicator_id": "PI-782BE5D8797368FE7B1A",
+      "axis": "left2",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-12-13",
+      "end_date": "2026-08-14",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1786935562592-a58be8de7984a",
+      "series_key": "SI-1786935562592-a58be8de7984a",
+      "indicator_id": "PI-501A5FFF84CB47F06DBF",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2000-01-04",
+      "end_date": "2026-08-14",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 15,
+    "date_tick_font_size": 23
+  },
+  "date_tick_angle": "auto"
+}

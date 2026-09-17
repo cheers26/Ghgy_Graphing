@@ -1,0 +1,124 @@
+{
+  "chart_id": "PC-5C7A279AB28C42C6A8B1",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787192018324-4c53aafb7c4e68",
+    "reference_anchor_date": "2003-01-02",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": -30,
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-DBB9B0978E38C27047F7",
+    "PI-C3CF94327DAEDF28B223",
+    "PI-30E69EF0202B4AD9FC29"
+  ],
+  "indicator_combo_signature": "PI-DBB9B0978E38C27047F7|PI-C3CF94327DAEDF28B223|PI-30E69EF0202B4AD9FC29",
+  "title": "美国:5年期盈亏平衡通胀率 vs 期货收盘价(连续):WTI原油:NYMEX vs 期货收盘价(连续):NYMEX取暖油",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2021-08-17",
+  "base_end_date": "2026-08-18",
+  "start_date": "2021-08-17",
+  "end_date": "2026-08-18",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": 1.5,
+    "max": 3.8,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 20,
+    "max": 160,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787192018324-4c53aafb7c4e68",
+      "series_key": "SI-1787192018324-4c53aafb7c4e68",
+      "indicator_id": "PI-30E69EF0202B4AD9FC29",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2003-01-02",
+      "end_date": "2026-08-18",
+      "end_mode": "latest",
+      "anchor_date": "2003-01-02",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787192265614-a5a880f2d6bdb8",
+      "series_key": "SI-1787192265614-a5a880f2d6bdb8",
+      "indicator_id": "PI-C3CF94327DAEDF28B223",
+      "axis": "right2",
+      "chart_type": "line",
+      "color": "#1b7932",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1978-11-15",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787192321594-37e52d8772d388",
+      "series_key": "SI-1787192321594-37e52d8772d388",
+      "indicator_id": "PI-DBB9B0978E38C27047F7",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2015-11-25",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "chart_id": "PC-0635F1543B322FE130F9",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1785980280061-e701c8b25669e8",
+    "reference_anchor_date": "1976-06-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-504296121E630BD7FA37",
+    "PI-797D0BDDF566EB51FCF1"
+  ],
+  "indicator_combo_signature": "DUAL::PI-504296121E630BD7FA37|PI-797D0BDDF566EB51FCF1",
+  "title": "美国隐含远期1年期-国债1年期 vs 美国:美元指数",
+  "domain": "黄金",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2021-08-03",
+  "base_end_date": "2026-08-12",
+  "start_date": "2021-08-03",
+  "end_date": "2026-08-12",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 2.2,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 2.2,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": -1.5,
+    "max": 1,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": 95,
+    "max": 115,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1785980280061-e701c8b25669e8",
+      "series_key": "SI-1785980280061-e701c8b25669e8",
+      "indicator_id": "PI-504296121E630BD7FA37",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1976-06-01",
+      "end_date": "2026-08-03",
+      "end_mode": "latest",
+      "anchor_date": "1976-06-01",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1785980302252-e182c796fcb198",
+      "series_key": "SI-1785980302252-e182c796fcb198",
+      "indicator_id": "PI-797D0BDDF566EB51FCF1",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1971-06-01",
+      "end_date": "2026-08-04",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "黄金"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "date_tick_angle": "auto"
+}

@@ -1,0 +1,124 @@
+{
+  "access_level": "public",
+  "bar_mode": "shared",
+  "base_end_date": "2026-09-16",
+  "base_start_date": "2016-06-16",
+  "categories": [
+    "其他"
+  ],
+  "chart_id": "PC-58E6220425E6163169AA",
+  "chart_mode": "timeseries",
+  "date_tick_angle": -90,
+  "date_tick_interval": "3m",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-09-16",
+  "end_mode": "latest",
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::50e647961d027415ae0e5e14c0c0ee1dce37e16966527831cfb8ec5f2c7ae8a4",
+  "indicator_ids": [
+    "PI-F26F89A0D92237B9ADDC",
+    "PI-8D4EE26F633AC25E4FA4",
+    "PI-E3486E8BC545DBB5F78C"
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "2015-09-17",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-09-16",
+      "end_mode": "latest",
+      "indicator_id": "PI-F26F89A0D92237B9ADDC",
+      "instance_id": "SI-1787196031851-2af42056ee75b8",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "series_key": "SI-1787196031851-2af42056ee75b8",
+      "shift_days": 0,
+      "start_date": "2015-09-17"
+    },
+    {
+      "anchor_date": "",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-09-16",
+      "end_mode": "latest",
+      "indicator_id": "PI-8D4EE26F633AC25E4FA4",
+      "instance_id": "SI-1787196061988-d90466d46980e8",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "series_key": "SI-1787196061988-d90466d46980e8",
+      "shift_days": 0,
+      "start_date": "2015-09-17"
+    },
+    {
+      "anchor_date": "",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#008000",
+      "end_date": "2026-09-16",
+      "end_mode": "latest",
+      "indicator_id": "PI-E3486E8BC545DBB5F78C",
+      "instance_id": "SI-1787196211883-714f87a30c1ef",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "series_key": "SI-1787196211883-714f87a30c1ef",
+      "shift_days": 0,
+      "start_date": "2015-09-17"
+    }
+  ],
+  "start_date": "2016-06-16",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787196031851-2af42056ee75b8",
+    "reference_anchor_date": "2015-09-17",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "美国自然利率估计值（%） + 当年PCE预测中位数（%） + 名义中性利率（%）"
+}

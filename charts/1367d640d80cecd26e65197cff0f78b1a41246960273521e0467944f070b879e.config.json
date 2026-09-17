@@ -1,0 +1,106 @@
+{
+  "chart_id": "PC-25F35CB7C7EF7597BDE3",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788655940414-71c5a8cb4ab63",
+    "reference_anchor_date": "1997-07-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": -90,
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-3847C0EEF7D645497C14",
+    "PI-575F44F4789EEF7D1CD4"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::fae568ec1be77e1b21dfc4cbc33b03e595bba05f646e3e90bdf5fe5dc02c5684",
+  "title": "美国:ISM:服务业PMI:物价 vs 美国:CPI:当月同比",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2000-08-30",
+  "base_end_date": "2026-08-31",
+  "start_date": "2000-08-30",
+  "end_date": "2027-02-27",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788655940414-71c5a8cb4ab63",
+      "series_key": "SI-1788655940414-71c5a8cb4ab63",
+      "indicator_id": "PI-575F44F4789EEF7D1CD4",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 180,
+      "start_date": "1997-07-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "1997-07-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788655949040-b8760c92c4d1d",
+      "series_key": "SI-1788655949040-b8760c92c4d1d",
+      "indicator_id": "PI-3847C0EEF7D645497C14",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1914-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

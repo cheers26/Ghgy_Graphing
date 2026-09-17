@@ -1,0 +1,107 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-17",
+  "base_start_date": "2021-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": "auto",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-08-17",
+  "end_mode": "latest",
+  "indicator_combo_signature": "DUAL::PI-D73F78C7428343CC1E97|PI-2EEBC99A06C871646E0C",
+  "indicator_ids": [
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "中国融资铜变迁与人民币指数之间的关系",
+  "right2_axis": {
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "max": null,
+    "min": null,
+    "reverse": true
+  },
+  "seasonal_colors": {},
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "2021-01-08",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-13",
+      "end_mode": "latest",
+      "instance_id": "S-6142d28521424294a43c",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-08",
+      "indicator_id": "PI-2EEBC99A06C871646E0C",
+      "series_key": "S-6142d28521424294a43c"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-08-17",
+      "end_mode": "latest",
+      "instance_id": "S-079e000b41904dd2bf39",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2011-06-27",
+      "indicator_id": "PI-D73F78C7428343CC1E97",
+      "series_key": "S-079e000b41904dd2bf39"
+    }
+  ],
+  "start_date": "2021-01-01",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-6142d28521424294a43c",
+    "reference_anchor_date": "2021-01-08",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "SMM: 电解铜社会库存: 保税区库存: 周度 vs 人民币即期汇率:离岸价",
+  "chart_id": "PC-259143A022429642B728"
+}

@@ -1,0 +1,113 @@
+{
+  "chart_id": "PC-F724765D9E224AB6D55C",
+  "chart_mode": "seasonal",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1789543066587-5d47216428517",
+    "reference_anchor_date": "1968-01-02",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-49A2395199855B0F3B00"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::af312adbceb06b2fa99c94f6be0fb2315470b66530151791e8e66880d8a75505",
+  "title": "全钢轮胎：产量：山东（周）",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2021-09-13",
+  "base_end_date": "2026-09-11",
+  "start_date": "2021-09-13",
+  "end_date": "2026-09-11",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021
+  ],
+  "seasonal_highlight_years": [
+    2026
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5.0,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5.0,
+  "seasonal_colors": {
+    "2019": "#8c564b",
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1789543066587-5d47216428517",
+      "series_key": "SI-1789543066587-5d47216428517",
+      "indicator_id": "PI-49A2395199855B0F3B00",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-10-01",
+      "end_date": "2026-09-11",
+      "end_mode": "latest",
+      "anchor_date": "1968-01-02",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23,
+    "seasonal_title_font_size": 22,
+    "seasonal_legend_font_size": 22,
+    "seasonal_sample_font_size": 16
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "chart_id": "PC-B5955788956973878682",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1787196353867-3f5fb27ac29b48",
+    "reference_anchor_date": "2015-09-17",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "3m",
+  "date_tick_angle": -90,
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-E3486E8BC545DBB5F78C",
+    "PI-03C2EBB3FE6B353FAF64",
+    "PI-A05090887031687FA5D9"
+  ],
+  "indicator_combo_signature": "PI-E3486E8BC545DBB5F78C|PI-03C2EBB3FE6B353FAF64|PI-A05090887031687FA5D9",
+  "title": "名义中性利率（%） vs 联邦基金利率目标下限（%） vs SEP年末联邦基金利率预测中位数（%）",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2015-12-01",
+  "base_end_date": "2026-06-17",
+  "start_date": "2015-12-01",
+  "end_date": "2026-06-17",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1787196353867-3f5fb27ac29b48",
+      "series_key": "SI-1787196353867-3f5fb27ac29b48",
+      "indicator_id": "PI-E3486E8BC545DBB5F78C",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2015-09-17",
+      "end_date": "2026-06-17",
+      "end_mode": "latest",
+      "anchor_date": "2015-09-17",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787196358066-3ab80d9f50a7c8",
+      "series_key": "SI-1787196358066-3ab80d9f50a7c8",
+      "indicator_id": "PI-03C2EBB3FE6B353FAF64",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2015-09-17",
+      "end_date": "2026-06-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787196373539-857946f92512a8",
+      "series_key": "SI-1787196373539-857946f92512a8",
+      "indicator_id": "PI-A05090887031687FA5D9",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2015-09-17",
+      "end_date": "2026-06-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

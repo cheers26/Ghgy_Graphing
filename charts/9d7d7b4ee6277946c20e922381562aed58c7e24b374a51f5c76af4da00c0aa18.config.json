@@ -1,0 +1,88 @@
+{
+  "chart_id": "PC-CB83512598D1A442C221",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788148001736-3c2f56484976d",
+    "reference_anchor_date": "1986-01-15",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-7A6AB85C4342AB99159E"
+  ],
+  "indicator_combo_signature": "PI-7A6AB85C4342AB99159E",
+  "title": "COMEX:黄金:期货(旧版):非商业多头持仓:持仓数量",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2016-08-24",
+  "base_end_date": "2026-09-30",
+  "start_date": "2016-08-24",
+  "end_date": "2026-09-30",
+  "end_mode": "fixed",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788148001736-3c2f56484976d",
+      "series_key": "SI-1788148001736-3c2f56484976d",
+      "indicator_id": "PI-7A6AB85C4342AB99159E",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1986-01-15",
+      "end_date": "2026-08-25",
+      "end_mode": "latest",
+      "anchor_date": "1986-01-15",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

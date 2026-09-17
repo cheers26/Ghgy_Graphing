@@ -1,0 +1,144 @@
+{
+  "chart_id": "PC-1ABCE6EA315E23F715D6",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1789534150331-df77afa6ae84",
+    "reference_anchor_date": "1968-01-02",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-50C8CE53A6F27E6D232E",
+    "PI-A04AD85ECDEEE3BCB41D"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::7f6bcb412309c497df5c5ff384f2bb092fe4d416fc51d387af7f0a23118229b6",
+  "title": "伦敦现货价:黄金:下午:美元 vs TPU Index + TPU Index + TPU Index",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2015-01-01",
+  "base_end_date": "2026-09-15",
+  "start_date": "2015-01-01",
+  "end_date": "2026-09-15",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1789534150331-df77afa6ae84",
+      "series_key": "SI-1789534150331-df77afa6ae84",
+      "indicator_id": "PI-A04AD85ECDEEE3BCB41D",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 4.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1968-01-02",
+      "end_date": "2026-09-15",
+      "end_mode": "latest",
+      "anchor_date": "1968-01-02",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1789534190373-d0669e95a787c8",
+      "series_key": "SI-1789534190373-d0669e95a787c8",
+      "indicator_id": "PI-50C8CE53A6F27E6D232E",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2015-01-01",
+      "end_date": "2026-09-14",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1789536881136-27ba49e59c2278",
+      "series_key": "SI-1789536881136-27ba49e59c2278",
+      "indicator_id": "PI-50C8CE53A6F27E6D232E",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#6f6767",
+      "line_dash": "solid",
+      "line_width": 4.0,
+      "ma_days": 30,
+      "shift_days": 0,
+      "start_date": "2015-01-01",
+      "end_date": "2026-09-14",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1789536917732-d11cc6f664b87",
+      "series_key": "SI-1789536917732-d11cc6f664b87",
+      "indicator_id": "PI-50C8CE53A6F27E6D232E",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#4d783a",
+      "line_dash": "dash",
+      "line_width": 7.0,
+      "ma_days": 365,
+      "shift_days": 0,
+      "start_date": "2015-01-01",
+      "end_date": "2026-09-14",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

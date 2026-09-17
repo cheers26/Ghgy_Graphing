@@ -1,0 +1,168 @@
+{
+  "chart_id": "PC-17F2B9B59833F59F64AE",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788850170600-077a9ebbec4e",
+    "reference_anchor_date": "1960-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "5y",
+  "date_tick_angle": -90,
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-C7A86F4CBFBC3D4242DA",
+    "PI-80C2A449E7EDA7C0229D",
+    "PI-1D427738FB891873151E",
+    "PI-E22CBEDEEDC33396BD68"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::ab3602bfecd0a8689fcd33fabe7d99ef8bc9cf478549f001eaf65a2b08cdc5ab",
+  "title": "M2调整铜价 + 25% + 50% + 75%",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "1959-01-31",
+  "base_end_date": "2026-08-31",
+  "start_date": "1959-01-31",
+  "end_date": "2026-08-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2023,
+    2022,
+    2021,
+    2020,
+    2019
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": 0,
+    "max": 100000,
+    "reverse": false,
+    "display_scale_mode": "ten_thousand"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788850170600-077a9ebbec4e",
+      "series_key": "SI-1788850170600-077a9ebbec4e",
+      "indicator_id": "PI-C7A86F4CBFBC3D4242DA",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "1960-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1788850894352-3fc1add0dbca98",
+      "series_key": "SI-1788850894352-3fc1add0dbca98",
+      "indicator_id": "PI-E22CBEDEEDC33396BD68",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff9500",
+      "line_dash": "dash",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1959-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "25%"
+    },
+    {
+      "instance_id": "SI-1788850986512-f1a29eeeb9bc48",
+      "series_key": "SI-1788850986512-f1a29eeeb9bc48",
+      "indicator_id": "PI-1D427738FB891873151E",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "dash",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1959-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "50%"
+    },
+    {
+      "instance_id": "SI-1788850987540-62973d3371dd1",
+      "series_key": "SI-1788850987540-62973d3371dd1",
+      "indicator_id": "PI-80C2A449E7EDA7C0229D",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#9467bd",
+      "line_dash": "dash",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1959-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "75%"
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

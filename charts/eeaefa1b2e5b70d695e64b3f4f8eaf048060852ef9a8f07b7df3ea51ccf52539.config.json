@@ -1,0 +1,106 @@
+{
+  "chart_id": "PC-C2DB96C22A44D842CAB7",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-a300465c537b46939ad0",
+    "reference_anchor_date": "1992-02-29",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-7D3EA393C777A4113222",
+    "PI-3FF5C374B912BEBE5386"
+  ],
+  "indicator_combo_signature": "DUAL::PI-7D3EA393C777A4113222|PI-3FF5C374B912BEBE5386",
+  "title": "中国:商品房销售面积:累计同比 vs 居民购买力指数",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2005-01-01",
+  "base_end_date": "2026-07-31",
+  "start_date": "2005-01-01",
+  "end_date": "2027-02-26",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false
+  },
+  "series": [
+    {
+      "instance_id": "S-a300465c537b46939ad0",
+      "series_key": "S-a300465c537b46939ad0",
+      "indicator_id": "PI-3FF5C374B912BEBE5386",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1992-02-29",
+      "end_date": "2026-06-30",
+      "end_mode": "latest",
+      "anchor_date": "1992-02-29",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1787880161418-484e781dedc9",
+      "series_key": "SI-1787880161418-484e781dedc9",
+      "indicator_id": "PI-7D3EA393C777A4113222",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 210,
+      "start_date": "2007-04-30",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}
