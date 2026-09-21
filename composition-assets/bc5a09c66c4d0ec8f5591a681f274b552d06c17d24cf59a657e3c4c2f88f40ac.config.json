@@ -1,0 +1,166 @@
+{
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-IF006-942da7df4fbb569a80ee",
+    "reference_anchor_date": "1960-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "5y",
+  "date_tick_angle": -90,
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-F76A1807CF3F8AF79F5D",
+    "PI-2EA2D473F836D95E301F",
+    "PI-83AC06452FC2DD0ED1AC",
+    "PI-4A0401F858E04796BAA5"
+  ],
+  "title": "M2调整铁矿石价 + 25% + 50% + 75%",
+  "domain": "其他",
+  "base_start_date": "1960-01-31",
+  "base_end_date": "2026-07-31",
+  "start_date": "1960-01-31",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2023,
+    2022,
+    2021,
+    2020,
+    2019
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": 0,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-IF006-942da7df4fbb569a80ee",
+      "series_key": "SI-IF006-942da7df4fbb569a80ee",
+      "indicator_id": "PI-F76A1807CF3F8AF79F5D",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "1960-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-IF006-c11c2e3078085f32a01d",
+      "series_key": "SI-IF006-c11c2e3078085f32a01d",
+      "indicator_id": "PI-4A0401F858E04796BAA5",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff9500",
+      "line_dash": "dash",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "25%"
+    },
+    {
+      "instance_id": "SI-IF006-9dac1c1b71b95819b57a",
+      "series_key": "SI-IF006-9dac1c1b71b95819b57a",
+      "indicator_id": "PI-83AC06452FC2DD0ED1AC",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "dash",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "50%"
+    },
+    {
+      "instance_id": "SI-IF006-f9f38ca42b3355789ad5",
+      "series_key": "SI-IF006-f9f38ca42b3355789ad5",
+      "indicator_id": "PI-2EA2D473F836D95E301F",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#9467bd",
+      "line_dash": "dash",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "75%"
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::851523690a983fa464e67206de716b1c410ffb734a91d865b8afdb368e9a0f28",
+  "chart_id": "PC-9148C17AA9193162DBE6"
+}
