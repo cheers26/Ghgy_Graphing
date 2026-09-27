@@ -1,0 +1,131 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-31",
+  "base_start_date": "2010-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "seasonal",
+  "date_tick_angle": "auto",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23,
+    "seasonal_title_font_size": 22,
+    "seasonal_legend_font_size": 22,
+    "seasonal_sample_font_size": 16
+  },
+  "domain": "其他",
+  "end_date": "2026-08-31",
+  "end_mode": "latest",
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::e6cf41238e10b414526d4b5e24929b421dd49d3b8b88906e19a2cb07938e5869",
+  "indicator_ids": [
+    ""
+  ],
+  "left2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "display_scale_mode": "original",
+    "max": 100,
+    "min": 0,
+    "reverse": false
+  },
+  "note_text": "",
+  "right2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {
+    "2023": "#67bc68",
+    "2024": "#75d912",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "seasonal_highlight_years": [
+    2026
+  ],
+  "seasonal_max_color": "#bfbfbf",
+  "seasonal_max_line_width": 5.0,
+  "seasonal_min_color": "#bfbfbf",
+  "seasonal_min_line_width": 5.0,
+  "seasonal_show_average": false,
+  "seasonal_show_max": false,
+  "seasonal_show_median": false,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "series": [
+    {
+      "anchor_date": "2023-09-30",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "instance_id": "S-b4915c84890a463495ae",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2023-09-30",
+      "indicator_id": "PI-60424FBC5729AA09540D",
+      "series_key": "S-b4915c84890a463495ae"
+    }
+  ],
+  "start_date": "2010-01-01",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-b4915c84890a463495ae",
+    "reference_anchor_date": "2023-09-30",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "中国储能电池销量:当月值",
+  "seasonal_months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "seasonal_year_order": "newest_first",
+  "seasonal_show_cumulative_growth": false,
+  "seasonal_show_monthly_yoy": false,
+  "seasonal_monthly_yoy_color": "#f59e0b",
+  "seasonal_cumulative_growth_color": "#dc2626",
+  "seasonal_growth_show_labels": true,
+  "seasonal_growth_label_size": 12,
+  "seasonal_growth_label_weight": "bold",
+  "period_axis_mode": "calendar",
+  "bar_layout": "group",
+  "chart_id": "PC-3BFEADA223EF9C6C3489"
+}
