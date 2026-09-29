@@ -1,0 +1,130 @@
+{
+  "chart_id": "PC-C1C9D5B522B6EA431DEA",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1789451500153-48e0356a56ad88",
+    "reference_anchor_date": "1986-01-15",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "3m",
+  "date_tick_angle": -90,
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-34B859476B062622EB24",
+    "PI-A3F89269EF718A816CDA",
+    "PI-263C01F2D814D1D88AE1"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::75c9be0b13d18f482898d5b435f27115e78413e974cf5d761c177e695d6f726d",
+  "title": "美国10年实际收益率（左） + 美国10年盈亏平衡通胀（左） vs 美国10年期国债收益率（右）",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2025-09-03",
+  "base_end_date": "2026-09-15",
+  "start_date": "2025-09-03",
+  "end_date": "2026-09-15",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": 1.5,
+    "max": 3,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1789451500153-48e0356a56ad88",
+      "series_key": "SI-1789451500153-48e0356a56ad88",
+      "indicator_id": "PI-A3F89269EF718A816CDA",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2003-01-02",
+      "end_date": "2026-09-14",
+      "end_mode": "latest",
+      "anchor_date": "1986-01-15",
+      "label": "美国10年实际收益率（左）"
+    },
+    {
+      "instance_id": "SI-1789451508486-fa6b9673caca38",
+      "series_key": "SI-1789451508486-fa6b9673caca38",
+      "indicator_id": "PI-263C01F2D814D1D88AE1",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#4a8136",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2003-01-02",
+      "end_date": "2026-09-14",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "美国10年盈亏平衡通胀（左）"
+    },
+    {
+      "instance_id": "SI-1789451535616-a0c8932525dd48",
+      "series_key": "SI-1789451535616-a0c8932525dd48",
+      "indicator_id": "PI-34B859476B062622EB24",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1962-01-02",
+      "end_date": "2026-09-15",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "美国10年期国债收益率（右）"
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 20,
+    "date_tick_font_size": 20
+  },
+  "period_axis_mode": "calendar",
+  "bar_layout": "group"
+}
