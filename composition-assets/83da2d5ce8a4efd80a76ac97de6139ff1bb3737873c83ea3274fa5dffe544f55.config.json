@@ -1,0 +1,151 @@
+{
+  "chart_id": "PC-80885A19DF7C4F263430",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1792052113960-447f702d7bb04",
+    "reference_anchor_date": "2005-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "period_axis_mode": "calendar",
+  "date_tick_interval": "auto",
+  "date_tick_angle": -90,
+  "bar_mode": "group",
+  "bar_layout": "group",
+  "indicator_ids": [
+    "PI-B3175D6E816935953E68",
+    "PI-4E3709D30E6FB43271B4",
+    "PI-EBB640F426A74F304C33"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::c594ff599724d1843d5eb258fd15e83dfe196da3e54b9eb829bd3655db107bed",
+  "title": "中国:制造业PMI vs 房地产开发投资完成额:建筑工程:累计同比 vs 中国:出口金额:当月同比",
+  "domain": "其他",
+  "base_start_date": "2000-01-08",
+  "base_end_date": "2026-09-30",
+  "start_date": "2000-01-08",
+  "end_date": "2026-09-30",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "seasonal_years": [],
+  "seasonal_year_order": "newest_first",
+  "seasonal_show_monthly_yoy": false,
+  "seasonal_monthly_yoy_color": "#f59e0b",
+  "seasonal_show_cumulative_growth": false,
+  "seasonal_cumulative_growth_color": "#dc2626",
+  "seasonal_growth_show_labels": true,
+  "seasonal_growth_label_size": 12,
+  "seasonal_growth_label_weight": "bold",
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": 45,
+    "max": 58,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": -20,
+    "max": 50,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1792052113960-447f702d7bb04",
+      "series_key": "SI-1792052113960-447f702d7bb04",
+      "indicator_id": "PI-EBB640F426A74F304C33",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2005-01-31",
+      "end_date": "2026-09-30",
+      "end_mode": "latest",
+      "anchor_date": "2005-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1792052156306-1e549ae8c16b38",
+      "series_key": "SI-1792052156306-1e549ae8c16b38",
+      "indicator_id": "PI-B3175D6E816935953E68",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2002-02-28",
+      "end_date": "2025-12-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1792052288203-c01d1f179ffc98",
+      "series_key": "SI-1792052288203-c01d1f179ffc98",
+      "indicator_id": "PI-4E3709D30E6FB43271B4",
+      "axis": "right2",
+      "chart_type": "line",
+      "color": "#9467bd",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 3,
+      "shift_days": 0,
+      "start_date": "1995-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 21,
+    "date_tick_font_size": 20,
+    "point_label_font_size": 24.0
+  }
+}
