@@ -1,0 +1,181 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-31",
+  "base_start_date": "2025-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": -90,
+  "date_tick_interval": "1m",
+  "display_style": {
+    "legend_font_size": 28,
+    "axis_tick_font_size": 24,
+    "date_tick_font_size": 28
+  },
+  "domain": "其他",
+  "end_date": "2026-08-31",
+  "end_mode": "latest",
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::f219e15778805fe32d447c5830dba7021e24c947121c2e59e8ade2c51a0c2dca",
+  "indicator_ids": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "",
+  "right2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "series": [
+    {
+      "anchor_date": "2021-01-31",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "instance_id": "S-2d95eb1b92924bb098a8",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-31",
+      "indicator_id": "PI-43FA2402FFDC80D1A248",
+      "series_key": "S-2d95eb1b92924bb098a8"
+    },
+    {
+      "anchor_date": "",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#bfbfbf",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "instance_id": "S-8e580275c08c4e3798db",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2023-06-30",
+      "indicator_id": "PI-329D3F89A1048B81ADDE",
+      "series_key": "S-8e580275c08c4e3798db"
+    },
+    {
+      "anchor_date": "",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#00b0f0",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "instance_id": "S-3aab0f74ff6d4628831c",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2023-01-31",
+      "indicator_id": "PI-4546197F10652B2F6F01",
+      "series_key": "S-3aab0f74ff6d4628831c"
+    },
+    {
+      "anchor_date": "",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "instance_id": "S-27ff6b29b13440038e04",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2023-01-31",
+      "indicator_id": "PI-1879345412DC4B7F907A",
+      "series_key": "S-27ff6b29b13440038e04"
+    },
+    {
+      "anchor_date": "",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#008000",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "instance_id": "S-e9f69f8942fc4084bb8d",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2023-01-31",
+      "indicator_id": "PI-3853E4C1F78F345624EC",
+      "series_key": "S-e9f69f8942fc4084bb8d"
+    }
+  ],
+  "start_date": "2025-01-01",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-2d95eb1b92924bb098a8",
+    "reference_anchor_date": "2021-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "碳酸锂开工率",
+  "period_axis_mode": "calendar",
+  "bar_layout": "group",
+  "chart_id": "PC-2ACE7B4E5B548388D1F5"
+}
