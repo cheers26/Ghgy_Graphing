@@ -1,0 +1,170 @@
+{
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-IF006-0ea381902a8d5b6cbc67",
+    "reference_anchor_date": "1960-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "5y",
+  "date_tick_angle": -90,
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-D633EE26D4A417351023",
+    "PI-ADE872DF30D592D9164C",
+    "PI-7AF45DEB5E8BB54D6E9B",
+    "PI-2B1054510DD73399A2B0"
+  ],
+  "title": "M2调整锡价 + 25% + 50% + 75%",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "1960-01-31",
+  "base_end_date": "2026-07-31",
+  "start_date": "1960-01-31",
+  "end_date": "2026-07-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023
+  ],
+  "seasonal_highlight_years": [
+    2026,
+    2025
+  ],
+  "seasonal_stat_mode": "custom",
+  "seasonal_stat_years": [
+    2023,
+    2022,
+    2021,
+    2020,
+    2019
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": 0,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "ten_thousand"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-IF006-0ea381902a8d5b6cbc67",
+      "series_key": "SI-IF006-0ea381902a8d5b6cbc67",
+      "indicator_id": "PI-D633EE26D4A417351023",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "1960-01-31",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-IF006-f00151fc635a53fd810b",
+      "series_key": "SI-IF006-f00151fc635a53fd810b",
+      "indicator_id": "PI-2B1054510DD73399A2B0",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff9500",
+      "line_dash": "dash",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "25%"
+    },
+    {
+      "instance_id": "SI-IF006-f66f57fdd112541e86bf",
+      "series_key": "SI-IF006-f66f57fdd112541e86bf",
+      "indicator_id": "PI-7AF45DEB5E8BB54D6E9B",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "dash",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "50%"
+    },
+    {
+      "instance_id": "SI-IF006-1bdf5dc3c2d25ef39426",
+      "series_key": "SI-IF006-1bdf5dc3c2d25ef39426",
+      "indicator_id": "PI-ADE872DF30D592D9164C",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#9467bd",
+      "line_dash": "dash",
+      "line_width": 1.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1960-01-31",
+      "end_date": "2026-07-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "75%"
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::55610df0ca925c198e3e672ef1d25ed6144c27c11033528367f4cd682aef37b6",
+  "chart_id": "PC-DAC2241E1F78C05A7767",
+  "period_axis_mode": "calendar",
+  "bar_layout": "group"
+}

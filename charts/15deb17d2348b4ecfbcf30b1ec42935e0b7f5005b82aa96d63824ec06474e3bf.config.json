@@ -1,0 +1,152 @@
+{
+  "chart_id": "PC-2A8447371DA8C8C9702D",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1791340213557-5e614c4725dad",
+    "reference_anchor_date": "2009-01-01",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "period_axis_mode": "calendar",
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "group",
+  "bar_layout": "group",
+  "indicator_ids": [
+    "PI-C24F6384DC15C1B32ADC",
+    "PI-75F8E021AFEFC5B40D52",
+    "PI-FF8D533EDBF04885971E"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::2c67de763b098b98ce25ac1ebb88260c65316501f0a8c953178b019edb51a206",
+  "title": "期货结算价(连续):WTI原油:NYMEX:STL固定季节1年:趋势项 vs 美国:ISM:制造业PMI vs 美国:ISM:服务业PMI",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2009-01-01",
+  "base_end_date": "2026-09-24",
+  "start_date": "2009-01-01",
+  "end_date": "2026-09-24",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "seasonal_years": [],
+  "seasonal_year_order": "newest_first",
+  "seasonal_show_monthly_yoy": false,
+  "seasonal_monthly_yoy_color": "#f59e0b",
+  "seasonal_show_cumulative_growth": false,
+  "seasonal_cumulative_growth_color": "#dc2626",
+  "seasonal_growth_show_labels": true,
+  "seasonal_growth_label_size": 12,
+  "seasonal_growth_label_weight": "bold",
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": 45,
+    "max": 62,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": 45,
+    "max": 62,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1791340213557-5e614c4725dad",
+      "series_key": "SI-1791340213557-5e614c4725dad",
+      "indicator_id": "PI-75F8E021AFEFC5B40D52",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1990-01-02",
+      "end_date": "2026-09-24",
+      "end_mode": "latest",
+      "anchor_date": "2009-01-01",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1791340227118-777636f4208f9",
+      "series_key": "SI-1791340227118-777636f4208f9",
+      "indicator_id": "PI-FF8D533EDBF04885971E",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "1948-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1791340228190-23ee84c45f4d5",
+      "series_key": "SI-1791340228190-23ee84c45f4d5",
+      "indicator_id": "PI-C24F6384DC15C1B32ADC",
+      "axis": "right2",
+      "chart_type": "line",
+      "color": "#865f5f",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2008-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 23,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  }
+}

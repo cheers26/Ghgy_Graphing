@@ -1,0 +1,127 @@
+{
+  "access_level": "public",
+  "bar_mode": "group",
+  "base_end_date": "2026-08-31",
+  "base_start_date": "2025-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": -90,
+  "date_tick_interval": "1m",
+  "display_style": {
+    "legend_font_size": 28,
+    "axis_tick_font_size": 24,
+    "date_tick_font_size": 28
+  },
+  "domain": "其他",
+  "end_date": "2026-08-31",
+  "end_mode": "latest",
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::94477a22b81f6e23294da2dc52f47620d2d38e6a42ccc8ede270ba6194710a41",
+  "indicator_ids": [
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "",
+  "right2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_show_average": true,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "series": [
+    {
+      "anchor_date": "2025-07-31",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "instance_id": "S-dfde92ece49c4738b49c",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2025-07-31",
+      "indicator_id": "PI-448BB94F228C46B98BAD",
+      "series_key": "S-dfde92ece49c4738b49c"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "instance_id": "S-fd8cf9d0ea2949b59b55",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2024-07-31",
+      "indicator_id": "PI-9FDEDEC8EA433178F4A4",
+      "series_key": "S-fd8cf9d0ea2949b59b55"
+    }
+  ],
+  "start_date": "2025-01-01",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-dfde92ece49c4738b49c",
+    "reference_anchor_date": "2025-07-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "锂矿样本库存:矿山和锂盐厂:月度",
+  "period_axis_mode": "calendar",
+  "bar_layout": "group",
+  "chart_id": "PC-E94019C6B21D87EC90DC"
+}

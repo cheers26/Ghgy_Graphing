@@ -1,0 +1,149 @@
+{
+  "access_level": "public",
+  "bar_layout": "group",
+  "bar_mode": "group",
+  "base_end_date": "2026-09-21",
+  "base_start_date": "2024-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": "auto",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "domain": "其他",
+  "end_date": "2026-09-21",
+  "end_mode": "latest",
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::0fbf4eb54f29f232a2bce35a2edc4204b618a78113dd94fb141b80842fb9a605",
+  "indicator_ids": [
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": true
+  },
+  "note_text": "",
+  "period_axis_mode": "calendar",
+  "right2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "seasonal_cumulative_growth_color": "#dc2626",
+  "seasonal_growth_label_size": 12,
+  "seasonal_growth_label_weight": "bold",
+  "seasonal_growth_show_labels": true,
+  "seasonal_highlight_years": [
+    2026,
+    2025,
+    2024
+  ],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_monthly_yoy_color": "#f59e0b",
+  "seasonal_months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "seasonal_show_average": false,
+  "seasonal_show_cumulative_growth": false,
+  "seasonal_show_max": false,
+  "seasonal_show_median": false,
+  "seasonal_show_min": false,
+  "seasonal_show_monthly_yoy": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_year_order": "newest_first",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023
+  ],
+  "series": [
+    {
+      "anchor_date": "2023-12-06",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-09-21",
+      "end_mode": "latest",
+      "instance_id": "S-ebcd7299f4a24062986f",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2023-12-06",
+      "indicator_id": "PI-38967F80216DC0542819",
+      "series_key": "S-ebcd7299f4a24062986f"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-09-21",
+      "end_mode": "latest",
+      "instance_id": "S-feb2c32ab3014a7fbf9e",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": -10,
+      "start_date": "2023-07-21",
+      "indicator_id": "PI-5A225BF30955ABA0A1CF",
+      "series_key": "S-feb2c32ab3014a7fbf9e"
+    }
+  ],
+  "start_date": "2023-12-22",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-ebcd7299f4a24062986f",
+    "reference_anchor_date": "2023-12-06",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "碳酸锂仓单 vs GFEX: 碳酸锂: 主力合约: 收盘价: 日度",
+  "chart_id": "PC-998B6EF1C557DE7B7234"
+}

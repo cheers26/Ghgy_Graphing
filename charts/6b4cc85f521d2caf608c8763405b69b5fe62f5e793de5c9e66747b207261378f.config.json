@@ -1,0 +1,147 @@
+{
+  "chart_id": "PC-37DE2F7E013DC370F1A9",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1789543635089-3005db47dec44",
+    "reference_anchor_date": "1968-01-02",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": "auto",
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-F741CD046DD878271105",
+    "PI-13D50EB37929EF3599D1",
+    "PI-8F754B69710A24847FB8"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::bd0935e3c90845f65699e8614aebb106c8fdeb21643ade1b572892e78035a52b",
+  "title": "干胶：STR20：生产毛利：泰国：元/吨（日） vs 干胶：RSS3：生产毛利：泰国（日） vs 天然胶乳：生产毛利：泰国（日）",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2023-09-14",
+  "base_end_date": "2026-09-15",
+  "start_date": "2023-09-14",
+  "end_date": "2026-09-15",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022
+  ],
+  "seasonal_highlight_years": [
+    2026
+  ],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": false,
+  "seasonal_show_median": false,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {
+    "2019": "#8c564b",
+    "2020": "#bcbd22",
+    "2021": "#e377c2",
+    "2022": "#17becf",
+    "2023": "#9467bd",
+    "2024": "#008000",
+    "2025": "#0000ff",
+    "2026": "#ff0000"
+  },
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1789543635089-3005db47dec44",
+      "series_key": "SI-1789543635089-3005db47dec44",
+      "indicator_id": "PI-F741CD046DD878271105",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 7,
+      "shift_days": 0,
+      "start_date": "2014-02-10",
+      "end_date": "2026-09-15",
+      "end_mode": "latest",
+      "anchor_date": "1968-01-02",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1789543686103-e770bca8f58a9",
+      "series_key": "SI-1789543686103-e770bca8f58a9",
+      "indicator_id": "PI-13D50EB37929EF3599D1",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 7,
+      "shift_days": 0,
+      "start_date": "2015-01-01",
+      "end_date": "2026-09-15",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1789543707606-66364ff9eee818",
+      "series_key": "SI-1789543707606-66364ff9eee818",
+      "indicator_id": "PI-8F754B69710A24847FB8",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 7,
+      "shift_days": 0,
+      "start_date": "2018-04-02",
+      "end_date": "2026-09-15",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "period_axis_mode": "calendar",
+  "bar_layout": "group"
+}
