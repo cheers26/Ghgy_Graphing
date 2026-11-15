@@ -1,0 +1,148 @@
+{
+  "chart_id": "PC-5AC673147C980FECCA35",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1789627931208-dfb10f67a8f5b8",
+    "reference_anchor_date": "2015-09-17",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "3m",
+  "date_tick_angle": -90,
+  "bar_mode": "shared",
+  "indicator_ids": [
+    "PI-E3486E8BC545DBB5F78C",
+    "PI-A05090887031687FA5D9",
+    "PI-826F33AD66598107E2FC",
+    "PI-9F8E97F314B7D82233E5"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::2d7331928416d46813b038fe9a0be1b67067fd716228cf2a7da8d3124878931f",
+  "title": "名义中性利率（%） vs 美国:联邦基金目标利率:上限 vs 美国:联邦基金目标利率:下限 vs SEP年末联邦基金利率预测中位数（%）",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2015-12-01",
+  "base_end_date": "2026-09-17",
+  "start_date": "2015-12-01",
+  "end_date": "2026-09-17",
+  "end_mode": "fixed",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1789627931208-dfb10f67a8f5b8",
+      "series_key": "SI-1789627931208-dfb10f67a8f5b8",
+      "indicator_id": "PI-E3486E8BC545DBB5F78C",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2015-09-17",
+      "end_date": "2026-09-16",
+      "end_mode": "latest",
+      "anchor_date": "2015-09-17",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1789628024107-5f1a3b95f8b74",
+      "series_key": "SI-1789628024107-5f1a3b95f8b74",
+      "indicator_id": "PI-826F33AD66598107E2FC",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#4f7b3d",
+      "line_dash": "solid",
+      "line_width": 2.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2008-12-17",
+      "end_date": "2026-09-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1789628025144-779df860201f8",
+      "series_key": "SI-1789628025144-779df860201f8",
+      "indicator_id": "PI-9F8E97F314B7D82233E5",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#1d8b1d",
+      "line_dash": "solid",
+      "line_width": 2.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2008-12-17",
+      "end_date": "2026-09-17",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    },
+    {
+      "instance_id": "SI-1789628026569-5b87aa58edcd88",
+      "series_key": "SI-1789628026569-5b87aa58edcd88",
+      "indicator_id": "PI-A05090887031687FA5D9",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 2.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2015-09-17",
+      "end_date": "2026-09-16",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": ""
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 20,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23
+  },
+  "period_axis_mode": "calendar",
+  "bar_layout": "group"
+}

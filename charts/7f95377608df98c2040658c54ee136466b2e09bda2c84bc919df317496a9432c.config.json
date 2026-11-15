@@ -1,0 +1,148 @@
+{
+  "chart_id": "PC-E7343F30EC5814728196",
+  "chart_mode": "timeseries",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "SI-1788918606030-98e076d028372",
+    "reference_anchor_date": "2024-01-31",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "date_tick_interval": "auto",
+  "date_tick_angle": -30,
+  "bar_mode": "group",
+  "indicator_ids": [
+    "PI-E997387B74500FAA2F31",
+    "PI-7FA6221F596564092CEB",
+    "PI-7B596F17DD05870A4978",
+    "PI-E6FD23A7ED79FAB1DDF4"
+  ],
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::9ddedc408e91f44dd22b998d1cbec3ef6c04468590232a8cbebc21cebdc62cd6",
+  "title": "SMM铜箔:原料库存天数 vs SMM铜管:原料库存天数 vs SMM铜板带企业原料库存天数 vs SMM电解铜制杆原料库存天数",
+  "domain": "其他",
+  "status": "published",
+  "access_level": "public",
+  "base_start_date": "2021-08-30",
+  "base_end_date": "2026-08-31",
+  "start_date": "2021-08-30",
+  "end_date": "2026-08-31",
+  "end_mode": "latest",
+  "seasonal_style": "lines",
+  "seasonal_years": [],
+  "seasonal_highlight_years": [],
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_show_average": true,
+  "seasonal_show_median": true,
+  "seasonal_show_max": false,
+  "seasonal_show_min": false,
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_colors": {},
+  "left_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "left2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "right2_axis": {
+    "min": null,
+    "max": null,
+    "reverse": false,
+    "display_scale_mode": "original"
+  },
+  "series": [
+    {
+      "instance_id": "SI-1788918606030-98e076d028372",
+      "series_key": "SI-1788918606030-98e076d028372",
+      "indicator_id": "PI-E6FD23A7ED79FAB1DDF4",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2024-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "2024-01-31",
+      "label": "SMM铜箔:原料库存天数"
+    },
+    {
+      "instance_id": "SI-1788918606995-ce8c6487a39f6",
+      "series_key": "SI-1788918606995-ce8c6487a39f6",
+      "indicator_id": "PI-7B596F17DD05870A4978",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "SMM铜管:原料库存天数"
+    },
+    {
+      "instance_id": "SI-1788918607970-01eee9b7c5f858",
+      "series_key": "SI-1788918607970-01eee9b7c5f858",
+      "indicator_id": "PI-7FA6221F596564092CEB",
+      "axis": "left2",
+      "chart_type": "line",
+      "color": "#008000",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "SMM铜板带企业原料库存天数"
+    },
+    {
+      "instance_id": "SI-1788918614098-be499c33fea828",
+      "series_key": "SI-1788918614098-be499c33fea828",
+      "indicator_id": "PI-E997387B74500FAA2F31",
+      "axis": "right2",
+      "chart_type": "line",
+      "color": "#9467bd",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2021-01-31",
+      "end_date": "2026-08-31",
+      "end_mode": "latest",
+      "anchor_date": "",
+      "label": "SMM电解铜制杆原料库存天数"
+    }
+  ],
+  "categories": [
+    "其他"
+  ],
+  "display_style": {
+    "legend_font_size": 18,
+    "axis_tick_font_size": 20,
+    "date_tick_font_size": 24
+  },
+  "period_axis_mode": "calendar",
+  "bar_layout": "group"
+}

@@ -1,0 +1,136 @@
+{
+  "access_level": "public",
+  "bar_layout": "group",
+  "bar_mode": "group",
+  "base_end_date": "2026-09-24",
+  "base_start_date": "2020-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": "auto",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23,
+    "point_label_font_size": 24.0
+  },
+  "domain": "其他",
+  "end_date": "2026-09-24",
+  "end_mode": "latest",
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::424e9b2a44aebbedd41c11a120d48c5b111964e2a72aa31cae894681ce58368b",
+  "indicator_ids": [
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "260928小结：目前看六氟磷酸锂不是一个好指标，与碳酸锂价格的关系比较混乱，且缺少前瞻性。深入研究六氟磷酸锂产业，应该会对碳酸锂价格运行产生洞见，但单看价格关系本身得不出有效结论。（1）",
+  "period_axis_mode": "calendar",
+  "right2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {},
+  "seasonal_cumulative_growth_color": "#dc2626",
+  "seasonal_growth_label_size": 12,
+  "seasonal_growth_label_weight": "bold",
+  "seasonal_growth_show_labels": true,
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_monthly_yoy_color": "#f59e0b",
+  "seasonal_months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "seasonal_show_average": true,
+  "seasonal_show_cumulative_growth": false,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_show_monthly_yoy": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_year_order": "newest_first",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "2016-04-19",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-09-21",
+      "end_mode": "latest",
+      "instance_id": "S-287d2c2ad9f943dd949b",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2016-04-19",
+      "indicator_id": "PI-4D1582E2A6ED640A9804",
+      "series_key": "S-287d2c2ad9f943dd949b"
+    },
+    {
+      "anchor_date": "",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-09-24",
+      "end_mode": "latest",
+      "instance_id": "S-9e98edca889845d197cb",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2006-12-25",
+      "indicator_id": "PI-84B1AD1C91FC24D1D18D",
+      "series_key": "S-9e98edca889845d197cb"
+    }
+  ],
+  "start_date": "2020-01-01",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-287d2c2ad9f943dd949b",
+    "reference_anchor_date": "2016-04-19",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "碳酸锂价格:自然日:拼接LC01和比例缩放的现货价格 vs 中国:价格:六氟磷酸锂",
+  "chart_id": "PC-A28D61F02A31318FBC3D"
+}

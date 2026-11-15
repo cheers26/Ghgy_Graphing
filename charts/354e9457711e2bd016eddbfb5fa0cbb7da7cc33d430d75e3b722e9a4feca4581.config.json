@@ -1,0 +1,136 @@
+{
+  "access_level": "public",
+  "bar_layout": "group",
+  "bar_mode": "group",
+  "base_end_date": "2026-09-28",
+  "base_start_date": "2014-01-01",
+  "categories": [
+    "其他"
+  ],
+  "chart_mode": "timeseries",
+  "date_tick_angle": "auto",
+  "date_tick_interval": "auto",
+  "display_style": {
+    "legend_font_size": 26,
+    "axis_tick_font_size": 23,
+    "date_tick_font_size": 23,
+    "point_label_font_size": 24.0
+  },
+  "domain": "其他",
+  "end_date": "2026-09-28",
+  "end_mode": "latest",
+  "indicator_combo_signature": "COMBINATION::chart-view-v1::ceea87a1a0d523003e5bf104bf35f2bd47c73939038d4ec38dfaf2c5c9a4765c",
+  "indicator_ids": [
+    "",
+    ""
+  ],
+  "left2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "left_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "note_text": "",
+  "period_axis_mode": "calendar",
+  "right2_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "right_axis": {
+    "display_scale_mode": "original",
+    "max": null,
+    "min": null,
+    "reverse": false
+  },
+  "seasonal_colors": {},
+  "seasonal_cumulative_growth_color": "#dc2626",
+  "seasonal_growth_label_size": 12,
+  "seasonal_growth_label_weight": "bold",
+  "seasonal_growth_show_labels": true,
+  "seasonal_highlight_years": [],
+  "seasonal_max_color": "#b91c1c",
+  "seasonal_max_line_width": 5,
+  "seasonal_min_color": "#1d4ed8",
+  "seasonal_min_line_width": 5,
+  "seasonal_monthly_yoy_color": "#f59e0b",
+  "seasonal_months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "seasonal_show_average": true,
+  "seasonal_show_cumulative_growth": false,
+  "seasonal_show_max": false,
+  "seasonal_show_median": true,
+  "seasonal_show_min": false,
+  "seasonal_show_monthly_yoy": false,
+  "seasonal_stat_mode": "auto",
+  "seasonal_stat_years": [],
+  "seasonal_style": "lines",
+  "seasonal_year_order": "newest_first",
+  "seasonal_years": [],
+  "series": [
+    {
+      "anchor_date": "2006-12-25",
+      "axis": "left",
+      "chart_type": "line",
+      "color": "#0000ff",
+      "end_date": "2026-09-24",
+      "end_mode": "latest",
+      "instance_id": "S-3bfcd4b3437c490b9799",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 5.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2006-12-25",
+      "indicator_id": "PI-3E383109ABEC1CE6A571",
+      "series_key": "S-3bfcd4b3437c490b9799"
+    },
+    {
+      "anchor_date": "",
+      "axis": "right",
+      "chart_type": "line",
+      "color": "#ff0000",
+      "end_date": "2026-09-28",
+      "end_mode": "latest",
+      "instance_id": "S-90c64865f2514bc09ca3",
+      "label": "",
+      "line_dash": "solid",
+      "line_width": 3.0,
+      "ma_days": 1,
+      "shift_days": 0,
+      "start_date": "2016-11-25",
+      "indicator_id": "PI-CC63455ABA16B4285131",
+      "series_key": "S-90c64865f2514bc09ca3"
+    }
+  ],
+  "start_date": "2014-01-01",
+  "status": "published",
+  "time_alignment": {
+    "mode": "calendar",
+    "reference_instance_id": "S-3bfcd4b3437c490b9799",
+    "reference_anchor_date": "2006-12-25",
+    "granularity": "auto",
+    "month_day_rule": "month_end_or_clamp"
+  },
+  "title": "碳酸锂残差项:自然日:log处理 vs 裂解价差同比",
+  "chart_id": "PC-41AE1655717C3F86D179"
+}
